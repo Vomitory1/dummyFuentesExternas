@@ -37,7 +37,7 @@ import com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasex
 @javax.jws.WebService(endpointInterface = "com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.enlace.v1.ConsultaFuentesPublicasExternas", targetNamespace = "http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/Enlace/V1.0", serviceName = "ConsultaFuentesPublicasExternas", portName = "ConsultaFuentesPublicasExternasHttpPort")
 public class ConsultaFuentesPublicasExternasHttpBindingImpl {
 	
-	private static File fileCreater;
+	private static File file;
 
 	public void consultarFuentesExternas(Identificacion identificacion, String placaVehiculo, List<String> fuente,
 			Holder<Bdua> bdua, Holder<Ruaf> ruaf, Holder<Persona> nombreCompleto, Holder<Procuraduria> procuraduria,
@@ -50,11 +50,9 @@ public class ConsultaFuentesPublicasExternasHttpBindingImpl {
 			Holder<RuntPlaca> runtPlaca, Holder<AfiliadosCompensados> afiliadosCompensados) throws SystemExceptionMsg {
 
 		try {
-			fileCreater = new File("/dummyFuentesExternas/1040745452.xml");
-			fileCreater.mkdirs();
+			file = new File("/dummyFuentesExternas");
+			file.mkdirs();
 			
-			
-			File file = new File("C:\\dummyFuentesExternas\\1040745452.xml");
 			JAXBContext jaxbContext;
 			jaxbContext = JAXBContext.newInstance(ConsultarFuentesExternasResponse.class);
 			Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
