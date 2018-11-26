@@ -50,7 +50,7 @@ public class ConsultaFuentesPublicasExternasHttpBindingImpl {
 			Holder<RuntPlaca> runtPlaca, Holder<AfiliadosCompensados> afiliadosCompensados) throws SystemExceptionMsg {
 
 		try {
-			fileCreater = new File("/dummyFuentesExternas/1040745452.xml");
+			fileCreater = new File("/dummyFuentesExternas");
 			fileCreater.mkdirs();
 			
 			
