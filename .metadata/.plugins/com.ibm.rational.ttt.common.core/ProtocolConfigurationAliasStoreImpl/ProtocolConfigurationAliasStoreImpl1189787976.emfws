@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rational.test.lt.models.wscore.protocol:ProtocolConfigurationAliasStore xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rational.test.lt.models.wscore.protocol="http:///com/ibm/rational/test/lt/models/wscore/protocol.ecore" xmlns:com.ibm.rational.test.lt.models.wscore.protocol.dotnet="http:///com/ibm/rational/test/lt/models/wscore/protocol/dotnet.ecore" aliasName="ConsultaFuentesPublicasExternasHttpPort">
+  <configuration xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.dotnet:DotNetProtocolConfiguration">
+    <SimpleProperty value="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0/consultarFuentesExternas" name="Method@0@Action"/>
+    <SimpleProperty value="&quot;http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0/consultarFuentesExternas&quot;" name="Method@0@SOAPAction"/>
+    <SimpleProperty value="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0/ConsultaFuentesPublicasExternas/consultarFuentesExternasResponse" name="Method@0@Return-Action"/>
+    <UserName/>
+    <Password/>
+    <endPointProtectionLevel/>
+  </configuration>
+</com.ibm.rational.test.lt.models.wscore.protocol:ProtocolConfigurationAliasStore>

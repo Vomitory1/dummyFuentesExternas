@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="false" key="J2EE_EXPORT_OVERWRITE"/>
+	<item value="false" key="J2EE_EXPORT_SOURCE"/>
+	<item value="DummyFuentesExternasEAR" key="LASTEARNAME_"/>
+	<list key="J2EE_EXPORT_JST_EAR">
+		<item value="D:\Users\jocastro\Documents\dummy\DummyFuentesExternasEAR.ear"/>
+	</list>
+	<list key="MRU_RUNTIME_STORE">
+		<item value="WebSphere Application Server traditional V8.5 (2)"/>
+	</list>
+	<list key="J2EE_EXPORT_JST_WEB">
+		<item value="D:\Users\jocastro\Documents\dummy\DummyFuentesExternas.war"/>
+	</list>
+</section>

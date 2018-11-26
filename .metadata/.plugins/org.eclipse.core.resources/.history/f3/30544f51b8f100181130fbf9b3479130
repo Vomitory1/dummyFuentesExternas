@@ -1,0 +1,7 @@
+package com.grupobancolombia.fileUpload;
+
+import java.io.Serializable;
+
+public class FileUploadView implements Serializable {
+
+}

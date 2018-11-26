@@ -1,0 +1,44 @@
+package com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.enlace.v1;
+
+import java.math.BigDecimal;
+
+
+import javax.xml.bind.annotation.*;
+
+import com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Bdua;
+import com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Ruaf;
+
+
+@XmlRootElement(name = "ConsultarFuentesExternasResponse")
+public class ConsultarFuentesExternasResponse {
+
+
+	
+	 @XmlElement(name = "bdua")
+	  private Bdua bdua;
+	 @XmlElement(name = "ruaf")
+	  private Ruaf riaf;
+	 
+	    
+	    
+	    
+//	    public Product(){}
+//	    public Product(String productId, String description, String imageUrl,
+//	                   BigDecimal price, User createdBy) {
+//	        this.productId = productId;
+//	        this.description = description;
+//	        this.imageUrl = imageUrl;
+//	        this.price = price;
+//	        this.createdBy = createdBy;
+//	    }
+//	    @Override
+//	    public String toString() {
+//	        return "Product{" +
+//	                "\n productId='" + productId + '\'' +
+//	                ",\n description='" + description + '\'' +
+//	                ",\n imageUrl='" + imageUrl + '\'' +
+//	                ",\n price=" + price +
+//	                ",\n createdBy=" + createdBy +"\n"+
+//	                '}';
+//	    }
+}

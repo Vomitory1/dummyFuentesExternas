@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rational.test.lt.models.wscore.protocol:ProtocolConfigurationAliasStore xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rational.test.lt.models.wscore.protocol="http:///com/ibm/rational/test/lt/models/wscore/protocol.ecore" xmlns:com.ibm.rational.test.lt.models.wscore.protocol.jms="http:///com/ibm/rational/test/lt/models/wscore/protocol/jms.ecore" aliasName="XdefaultjmsX">
+  <configuration xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.jms:JMSProtocolConfiguration">
+    <BasicAuthentification userName="" password=""/>
+  </configuration>
+</com.ibm.rational.test.lt.models.wscore.protocol:ProtocolConfigurationAliasStore>

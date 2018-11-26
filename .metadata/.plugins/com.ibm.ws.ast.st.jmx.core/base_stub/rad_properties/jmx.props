@@ -1,0 +1,2 @@
+always.use.jre.trust.key.stores.nonibm=true
+jre.home.path.nonibm=C:/Program Files/Java/jdk1.8.0_171/jre

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.jst.j2ee.commonarchivecore.looseconfig:LooseArchive xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.jst.j2ee.commonarchivecore.looseconfig="commonarchive.looseconfig.xmi" uri="D:\workspaces\dummyTest\EjemploNewEAR" binariesPath="D:\workspaces\dummyTest\EjemploNewEAR" resourcesPath="D:\workspaces\dummyTest\EjemploNewEAR" archiveType="EAR">
+  <looseChildren uri="EjemploNew.war" binariesPath="D:\workspaces\dummyTest\EjemploNew\WebContent" resourcesPath="D:\workspaces\dummyTest\EjemploNew\WebContent" archiveType="WAR"/>
+</org.eclipse.jst.j2ee.commonarchivecore.looseconfig:LooseArchive>

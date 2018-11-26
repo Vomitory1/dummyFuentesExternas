@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:tns="http://grupobancolombia.com/ents/SOI/CoreExtensions/V2.1" elementFormDefault="unqualified" targetNamespace="http://grupobancolombia.com/ents/SOI/CoreExtensions/V2.1" version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+  <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+  <xsd:complexType name="Property">
+    <xsd:sequence>
+      <xsd:element name="key" type="xsd:string" />
+      <xsd:element name="value" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="MessageContext">
+    <xsd:sequence>
+      <xsd:element minOccurs="1" maxOccurs="unbounded" name="property" type="tns:Property" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="SystemException">
+    <xsd:sequence>
+      <xsd:element name="faultcode" type="xsd:QName" />
+      <xsd:element name="faultstring" type="xsd:string" />
+      <xsd:element minOccurs="0" name="faultactor" type="xsd:anyURI" />
+      <xsd:element minOccurs="0" name="detail" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:simpleType name="StatusCode">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Success" />
+      <xsd:enumeration value="BusinessException" />
+      <xsd:enumeration value="ProviderException" />
+      <xsd:enumeration value="SystemException" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:complexType name="ResponseStatus">
+    <xsd:sequence>
+      <xsd:element minOccurs="1" default="Success" name="statusCode" type="tns:StatusCode" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="UsernameToken">
+    <xsd:sequence>
+      <xsd:element minOccurs="1" name="userName" type="xsd:string" />
+      <xsd:element minOccurs="0" name="userToken" type="xsd:anyType" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="Destination">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="1" name="name" type="xsd:string" />
+      <xsd:element minOccurs="0" maxOccurs="1" name="namespace" type="xsd:anyURI" />
+      <xsd:element minOccurs="0" name="operation" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="Classifications">
+    <xsd:sequence>
+      <xsd:element minOccurs="1" maxOccurs="unbounded" name="classification" type="xsd:anyURI" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="GenericException">
+    <xsd:sequence>
+      <xsd:element name="code" type="xsd:string" />
+      <xsd:element name="description" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

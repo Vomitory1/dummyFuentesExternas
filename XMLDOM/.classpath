@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/plugins/com.ibm.ws.runtime.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/plugins/com.ibm.ws.jpa.jar"/>
+	<classpathentry kind="lib" path="D:/Users/jocastro/Downloads/org.eclipse.persistence.core-2.5.1-rc1-sources.jar/org.eclipse.persistence.core-2.5.1-rc1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.jaxws.thinclient_8.5.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

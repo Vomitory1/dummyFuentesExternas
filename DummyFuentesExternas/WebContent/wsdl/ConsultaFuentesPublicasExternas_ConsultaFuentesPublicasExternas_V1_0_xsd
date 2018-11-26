@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:bons0="http://grupobancolombia.com/ents/common/GenericException/V2.0" xmlns:tns="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="ConsultaFuentesPublicasExternas_commoncoreGenericExceptionV2_xsd" namespace="http://grupobancolombia.com/ents/common/GenericException/V2.0" />
+  <xs:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+  <xs:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+  <xs:element name="consultarFuentesExternas" type="tns:ConsultarFuentesExternas" />
+  <xs:element name="consultarFuentesExternasResponse" type="tns:ConsultarFuentesExternasResponse" />
+  <xs:element name="systemException" type="tns:SystemException" />
+  <xs:complexType name="ConsultarFuentesExternas">
+    <xs:sequence>
+      <xs:element minOccurs="1" name="identificacion" type="tns:Identificacion" />
+      <xs:element minOccurs="0" name="placaVehiculo" type="tns:StringMax10" />
+      <xs:element minOccurs="1" maxOccurs="unbounded" name="fuente" type="tns:Fuente" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ConsultarFuentesExternasResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="bdua" type="tns:Bdua" />
+      <xs:element minOccurs="0" name="ruaf" type="tns:Ruaf" />
+      <xs:element minOccurs="0" name="nombreCompleto" type="tns:Persona" />
+      <xs:element minOccurs="0" name="procuraduria" type="tns:Procuraduria" />
+      <xs:element minOccurs="0" name="sisbenPuntaje" type="tns:SisbenPuntaje" />
+      <xs:element minOccurs="0" name="dianRut" type="tns:DianRut" />
+      <xs:element minOccurs="0" name="puestoVotacion" type="tns:PuestoVotacion" />
+      <xs:element minOccurs="0" name="contraloria" type="tns:Contraloria" />
+      <xs:element minOccurs="0" name="copnia" type="tns:Copnia" />
+      <xs:element minOccurs="0" name="asopagos" type="tns:Asopagos" />
+      <xs:element minOccurs="0" name="ramaJudicial" type="tns:RamaJudicial" />
+      <xs:element minOccurs="0" name="tramiteCedula" type="tns:TramiteCedula" />
+      <xs:element minOccurs="0" name="infraccionesTransitoSimit" type="tns:InfraccionesTransito" />
+      <xs:element minOccurs="0" name="cpae" type="tns:Cpae" />
+      <xs:element minOccurs="0" name="consejoProfesional" type="tns:ConsejoProfesional" />
+      <xs:element minOccurs="0" name="cpnaa" type="tns:Cpnaa" />
+      <xs:element minOccurs="0" name="anec" type="tns:Anec" />
+      <xs:element minOccurs="0" name="cpip" type="tns:Cpip" />
+      <xs:element minOccurs="0" name="icetex" type="tns:Icetex" />
+      <xs:element minOccurs="0" name="cpnt" type="tns:Cpnt" />
+      <xs:element minOccurs="0" name="ruesCamaras" type="tns:RuesCamaras" />
+      <xs:element minOccurs="0" name="runt" type="tns:Runt" />
+      <xs:element minOccurs="0" name="runtPlaca" type="tns:RuntPlaca" />
+      <xs:element minOccurs="0" name="afiliadosCompensados" type="tns:AfiliadosCompensados" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SystemException">
+    <xs:sequence>
+      <xs:element name="genericException" type="bons0:GenericException" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Identificacion">
+    <xs:sequence>
+      <xs:element minOccurs="1" name="tipoDocumento">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="6" />
+            <xs:minLength value="1" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element minOccurs="1" name="numeroDocumento">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="60" />
+            <xs:minLength value="1" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Bdua">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="exitoso" type="xs:string" />
+      <xs:element minOccurs="0" name="ubicacionFuente" type="tns:Ubicacion" />
+      <xs:element minOccurs="0" name="nombrePersona" type="tns:Persona" />
+      <xs:element minOccurs="0" name="entidad" type="xs:string" />
+      <xs:element minOccurs="0" name="regimen" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaAfiliacion" type="xs:date" />
+      <xs:element minOccurs="0" name="ubicacionAfiliado" type="tns:Ubicacion" />
+      <xs:element minOccurs="0" name="tipoAfiliado" type="xs:string" />
+      <xs:element minOccurs="0" name="estadoAfiliacion" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Ruaf">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="exitoso" type="xs:string" />
+      <xs:element minOccurs="0" name="ubicacionFuente" type="tns:Ubicacion" />
+      <xs:element minOccurs="0" name="nombrePersona" type="tns:Persona" />
+      <xs:element minOccurs="0" name="sexo" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="salud" type="tns:Salud" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="pension" type="tns:Pension" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="riesgosProfesionales" type="tns:RiesgosProfesionales" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="compensacionFamiliar" type="tns:CompensacionFamiliar" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="cesantias" type="tns:Cesantias" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="asistenciaSocial" type="tns:AsistenciaSocial" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="pensionado" type="tns:Pensionado" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Procuraduria">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="exitoso" type="xs:string" />
+      <xs:element minOccurs="0" name="ubicacionFuente" type="tns:Ubicacion" />
+      <xs:element minOccurs="0" name="nombrePersona" type="tns:Persona" />
+      <xs:element minOccurs="0" name="estado" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SisbenPuntaje">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="exitoso" type="xs:string" />
+      <xs:element minOccurs="0" name="ubicacionFuente" type="tns:Ubicacion" />
+      <xs:element minOccurs="0" name="nombrePersona" type="tns:Persona" />
+      <xs:element minOccurs="0" name="ubicacionUsuario" type="tns:Ubicacion" />
+      <xs:element minOccurs="0" name="area" type="xs:string" />
+      <xs:element minOccurs="0" name="ficha" type="xs:string" />
+      <xs:element minOccurs="0" name="puntaje" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaModificacionPersona" type="xs:date" />
+      <xs:element minOccurs="0" name="fechaModificacionEncuesta" type="xs:date" />
+      <xs:element minOccurs="0" name="estadoUsuario" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="DianRut">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="exitoso" type="xs:string" />
+      <xs:element minOccurs="0" name="ubicacionFuente" type="tns:Ubicacion" />
+      <xs:element minOccurs="0" name="nombrePersona" type="tns:Persona" />
+      <xs:element minOccurs="0" name="digitoVerificacion" type="xs:string" />
+      <xs:element minOccurs="0" name="estadoRegistro" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PuestoVotacion">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="exitoso" type="xs:string" />
+      <xs:element minOccurs="0" name="estado" type="xs:string" />
+      <xs:element minOccurs="0" name="ubicacionVotacion" type="tns:Ubicacion" />
+      <xs:element minOccurs="0" name="puestoVotacion" type="xs:string" />
+      <xs:element minOccurs="0" name="direccionPuesto" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaInscripcion" type="xs:date" />
+      <xs:element minOccurs="0" name="mesa" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Contraloria">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="exitoso" type="xs:string" />
+      <xs:element minOccurs="0" name="ubicacionFuente" type="tns:Ubicacion" />
+      <xs:element minOccurs="0" name="nombrePersona" type="tns:Persona" />
+      <xs:element minOccurs="0" name="entidadAfectada" type="xs:string" />
+      <xs:element minOccurs="0" name="numeroFallos" type="xs:string" />
+      <xs:element minOccurs="0" name="tipoResponsabilidad" type="xs:string" />
+      <xs:element minOccurs="0" name="reportadoPor" type="xs:string" />
+      <xs:element minOccurs="0" name="ubicacionReporte" type="tns:Ubicacion" />
+      <xs:element minOccurs="0" name="estado" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Copnia">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="exitoso" type="xs:string" />
+      <xs:element minOccurs="0" name="ubicacionFuente" type="tns:Ubicacion" />
+      <xs:element minOccurs="0" name="nombrePersona" type="tns:Persona" />
+      <xs:element minOccurs="0" name="estado" type="xs:string" />
+      <xs:element minOccurs="0" name="profesion" type="xs:string" />
+      <xs:element minOccurs="0" name="matricula" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Asopagos">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="exitoso" type="xs:string" />
+      <xs:element minOccurs="0" name="ubicacionFuente" type="tns:Ubicacion" />
+      <xs:element minOccurs="0" name="nombrePersona" type="tns:Persona" />
+      <xs:element minOccurs="0" name="numeroPlanilla" type="xs:string" />
+      <xs:element minOccurs="0" name="tipoPlanilla" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaPago" type="xs:date" />
+      <xs:element minOccurs="0" name="tarifaRiesgos" type="xs:string" />
+      <xs:element minOccurs="0" name="estado" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="administradoraCubierta" type="tns:Administradora" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RamaJudicial">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="exitoso" type="xs:string" />
+      <xs:element minOccurs="0" name="ubicacionFuente" type="tns:Ubicacion" />
+      <xs:element minOccurs="0" name="nombrePersona" type="tns:Persona" />
+      <xs:element minOccurs="0" name="numeroCertificado" type="xs:string" />
+      <xs:element minOccurs="0" name="numeroTarjetaAbogado" type="xs:string" />
+      <xs:element minOccurs="0" name="estado" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="TramiteCedula">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="exitoso" type="xs:string" />
+      <xs:element minOccurs="0" name="numeroRegistroTramite" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaTramite" type="xs:date" />
+      <xs:element minOccurs="0" name="numeroDocumento">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="60" />
+            <xs:minLength value="0" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element minOccurs="0" name="ubicacionTramite" type="tns:Ubicacion" />
+      <xs:element minOccurs="0" name="respuestaSolicitud" type="xs:string" />
+      <xs:element minOccurs="0" name="estadoTramite" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="InfraccionesTransito">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="exitoso" type="xs:string" />
+      <xs:element minOccurs="0" name="suspensionLicencia" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="infraccion" type="tns:Infraccion" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="comparendo" type="tns:Comparendo" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="acuerdoPago" type="tns:AcuerdoPago" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ConsejoProfesional">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="exitoso" type="xs:string" />
+      <xs:element minOccurs="0" name="ubicacionFuente" type="tns:Ubicacion" />
+      <xs:element minOccurs="0" name="nombrePersona" type="tns:Persona" />
+      <xs:element minOccurs="0" name="especialidad" type="xs:string" />
+      <xs:element minOccurs="0" name="matricula" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaExpedicionMatricula" type="xs:date" />
+      <xs:element minOccurs="0" name="poseeSanciones" type="xs:string" />
+      <xs:element minOccurs="0" name="estadoPersona" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Cpae">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="exitoso" type="xs:string" />
+      <xs:element minOccurs="0" name="ubicacionFuente" type="tns:Ubicacion" />
+      <xs:element minOccurs="0" name="nombrePersona" type="tns:Persona" />
+      <xs:element minOccurs="0" name="registroPersona" type="xs:string" />
+      <xs:element minOccurs="0" name="estadoPersona" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Cpnaa">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="exitoso" type="xs:string" />
+      <xs:element minOccurs="0" name="ubicacionFuente" type="tns:Ubicacion" />
+      <xs:element minOccurs="0" name="nombrePersona" type="tns:Persona" />
+      <xs:element minOccurs="0" name="estadoPersona" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Anec">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="exitoso" type="xs:string" />
+      <xs:element minOccurs="0" name="ubicacionFuente" type="tns:Ubicacion" />
+      <xs:element minOccurs="0" name="nombrePersona" type="tns:Persona" />
+      <xs:element minOccurs="0" name="seccional" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaActualizacionRegistro" type="xs:date" />
+      <xs:element minOccurs="0" name="datosRegistro" type="xs:string" />
+      <xs:element minOccurs="0" name="estadoPersona" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Cpip">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="exitoso" type="xs:string" />
+      <xs:element minOccurs="0" name="tipoMatricula" type="xs:string" />
+      <xs:element minOccurs="0" name="numeroMatricula" type="xs:string" />
+      <xs:element minOccurs="0" name="datosRegistro" type="xs:string" />
+      <xs:element minOccurs="0" name="estadoPersona" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Icetex">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="exitoso" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="credito" type="tns:Credito" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Cpnt">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="exitoso" type="xs:string" />
+      <xs:element minOccurs="0" name="ubicacionFuente" type="tns:Ubicacion" />
+      <xs:element minOccurs="0" name="nombrePersona" type="tns:Persona" />
+      <xs:element minOccurs="0" name="numeroMatricula" type="xs:string" />
+      <xs:element minOccurs="0" name="titulo" type="xs:string" />
+      <xs:element minOccurs="0" name="institucion" type="xs:string" />
+      <xs:element minOccurs="0" name="estadoPersona" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RuesCamaras">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="exitoso" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="detalleCamara" type="tns:Camara" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Runt">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="exitoso" type="xs:string" />
+      <xs:element minOccurs="0" name="ubicacionFuente" type="tns:Ubicacion" />
+      <xs:element minOccurs="0" name="nombrePersona" type="tns:Persona" />
+      <xs:element minOccurs="0" name="numeroInscripcion" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaInscripcion" type="xs:date" />
+      <xs:element minOccurs="0" name="estadoConductor" type="xs:string" />
+      <xs:element minOccurs="0" name="estadoPersona" type="xs:string" />
+      <xs:element minOccurs="0" name="indicadorMultas" type="xs:string" />
+      <xs:element minOccurs="0" name="numeroPazySalvo" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="licenciaConduccion" type="tns:LicenciaConduccion" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="certificadoConduccion" type="tns:CertificadoConduccion" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="solicitud" type="tns:Solicitud" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RuntPlaca">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="exitoso" type="xs:string" />
+      <xs:element minOccurs="0" name="ubicacionFuente" type="tns:Ubicacion" />
+      <xs:element minOccurs="0" name="nombrePersona" type="tns:Persona" />
+      <xs:element minOccurs="0" name="estadoPersona" type="xs:string" />
+      <xs:element minOccurs="0" name="placaVehiculo" type="xs:string" />
+      <xs:element minOccurs="0" name="numeroLicenciaTransito" type="xs:string" />
+      <xs:element minOccurs="0" name="estadoVehiculo" type="xs:string" />
+      <xs:element minOccurs="0" name="tipoServicio" type="xs:string" />
+      <xs:element minOccurs="0" name="claseVehiculo" type="xs:string" />
+      <xs:element minOccurs="0" name="informacionGeneralVehiculo" type="tns:InformacionGeneralVehiculo" />
+      <xs:element minOccurs="0" name="datosTecnicosVehiculo" type="tns:DatosTecnicosVehiculo" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="polizaSoat" type="tns:PolizaSoat" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="certificadoTecnicoMecanicoGases" type="tns:CertificadoTecnicoMecanicoGases" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="solicitudes" type="tns:Solicitud" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="limitacionesPropiedad" type="tns:LimitacionesPropiedad" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AfiliadosCompensados">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="exitoso" type="xs:string" />
+      <xs:element minOccurs="0" name="ubicacionFuente" type="tns:Ubicacion" />
+      <xs:element minOccurs="0" name="nombrePersona" type="tns:Persona" />
+      <xs:element minOccurs="0" name="reporteAfiliado" type="tns:Afiliado" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="periodosCompensados" type="tns:Periodos" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Persona">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="primerNombre" type="xs:string" />
+      <xs:element minOccurs="0" name="segundoNombre" type="xs:string" />
+      <xs:element minOccurs="0" name="primerApellido" type="xs:string" />
+      <xs:element minOccurs="0" name="segundoApellido" type="xs:string" />
+      <xs:element minOccurs="0" name="tipoNombre" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Ubicacion">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="pais" type="xs:string" />
+      <xs:element minOccurs="0" name="departamento" type="xs:string" />
+      <xs:element minOccurs="0" name="municipio" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Salud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="regimen" type="xs:string" />
+      <xs:element minOccurs="0" name="administradora" type="xs:string" />
+      <xs:element minOccurs="0" name="afiliacion" type="tns:Afiliacion" />
+      <xs:element minOccurs="0" name="tipoAfiliado" type="xs:string" />
+      <xs:element minOccurs="0" name="ubicacionAfiliacion" type="tns:Ubicacion" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Pension">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="regimen" type="xs:string" />
+      <xs:element minOccurs="0" name="administradora" type="xs:string" />
+      <xs:element minOccurs="0" name="afiliacion" type="tns:Afiliacion" />
+      <xs:element minOccurs="0" name="afiliacionSubsidiada" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RiesgosProfesionales">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="regimen" type="xs:string" />
+      <xs:element minOccurs="0" name="administradora" type="xs:string" />
+      <xs:element minOccurs="0" name="afiliacion" type="tns:Afiliacion" />
+      <xs:element minOccurs="0" name="actividadEconomicaRiesgo" type="xs:string" />
+      <xs:element minOccurs="0" name="ubicacionLaboral" type="tns:Ubicacion" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CompensacionFamiliar">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="tipoAfiliado" type="xs:string" />
+      <xs:element minOccurs="0" name="ubicacionLaboral" type="tns:Ubicacion" />
+      <xs:element minOccurs="0" name="afiliacion" type="tns:Afiliacion" />
+      <xs:element minOccurs="0" name="administradora" type="xs:string" />
+      <xs:element minOccurs="0" name="tipoMiembroCompensacionCubierta" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Cesantias">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="regimen" type="xs:string" />
+      <xs:element minOccurs="0" name="administradora" type="xs:string" />
+      <xs:element minOccurs="0" name="afiliacion" type="tns:Afiliacion" />
+      <xs:element minOccurs="0" name="ubicacionLaboral" type="tns:Ubicacion" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AsistenciaSocial">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="fechaEntregaUltBeneficio" type="xs:date" />
+      <xs:element minOccurs="0" name="ubicacionEntregaBeneficio" type="tns:Ubicacion" />
+      <xs:element minOccurs="0" name="valorBeneficio" type="xs:double" />
+      <xs:element minOccurs="0" name="tipoSubsidio" type="xs:string" />
+      <xs:element minOccurs="0" name="estadoBeneficio" type="xs:string" />
+      <xs:element minOccurs="0" name="tipoBeneficio" type="xs:string" />
+      <xs:element minOccurs="0" name="administradora" type="xs:string" />
+      <xs:element minOccurs="0" name="programa" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaVinculacion" type="xs:date" />
+      <xs:element minOccurs="0" name="estadoVinculacion" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Pensionado">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="numeroResolucionPension" type="xs:string" />
+      <xs:element minOccurs="0" name="pensionCompartida" type="xs:string" />
+      <xs:element minOccurs="0" name="estadoPension" type="xs:string" />
+      <xs:element minOccurs="0" name="tipoPension" type="xs:string" />
+      <xs:element minOccurs="0" name="tipoPensionado" type="xs:string" />
+      <xs:element minOccurs="0" name="pagador" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaResolucion" type="xs:date" />
+      <xs:element minOccurs="0" name="modalidadPension" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Afiliacion">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="fechaAfiliacion" type="xs:date" />
+      <xs:element minOccurs="0" name="estadoAfiliacion" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Administradora">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="tipo" type="xs:string" />
+      <xs:element minOccurs="0" name="nit" type="xs:string" />
+      <xs:element minOccurs="0" name="codigo" type="xs:string" />
+      <xs:element minOccurs="0" name="nombre" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Infraccion">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="numeroResolucion" type="xs:string" />
+      <xs:element minOccurs="0" name="comparendo" type="tns:Comparendo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AcuerdoPago">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="fechaResolucion" type="xs:date" />
+      <xs:element minOccurs="0" name="permitePago" type="xs:string" />
+      <xs:element minOccurs="0" name="comparendo" type="tns:Comparendo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Comparendo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ubicacionFuente" type="tns:Ubicacion" />
+      <xs:element minOccurs="0" name="nombrePersona" type="tns:Persona" />
+      <xs:element minOccurs="0" name="estado" type="xs:string" />
+      <xs:element minOccurs="0" name="numeroComparendo" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaComparendo" type="xs:date" />
+      <xs:element minOccurs="0" name="secretariaTransito" type="xs:string" />
+      <xs:element minOccurs="0" name="valorMulta" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Credito">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="fechaSolicitud" type="xs:date" />
+      <xs:element minOccurs="0" name="resultadoSolicitud" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaPublicacionResultado" type="xs:date" />
+      <xs:element minOccurs="0" name="estadoSolicitud" type="xs:string" />
+      <xs:element minOccurs="0" name="observaciones" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Camara">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ubicacionFuente" type="tns:Ubicacion" />
+      <xs:element minOccurs="0" name="nombrePersona" type="tns:Persona" />
+      <xs:element minOccurs="0" name="categoriaPersona" type="xs:string" />
+      <xs:element minOccurs="0" name="camaraComercio" type="xs:string" />
+      <xs:element minOccurs="0" name="razonSocialEstablecimiento" type="xs:string" />
+      <xs:element minOccurs="0" name="siglaEstablecimiento" type="xs:string" />
+      <xs:element minOccurs="0" name="numeroMatricula" type="xs:string" />
+      <xs:element minOccurs="0" name="estadoMatricula" type="xs:string" />
+      <xs:element minOccurs="0" name="annoUltimaRenovacion" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaMatricula" type="xs:date" />
+      <xs:element minOccurs="0" name="fechaCancelacion" type="xs:date" />
+      <xs:element minOccurs="0" name="categoriaMatricula" type="xs:string" />
+      <xs:element minOccurs="0" name="tipoSociedad" type="xs:string" />
+      <xs:element minOccurs="0" name="tipoOrganizacionEstablecimiento" type="xs:string" />
+      <xs:element minOccurs="0" name="numEmpleados" type="xs:string" />
+      <xs:element minOccurs="0" name="esAfiliado" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="actividadEconomica" type="tns:ActividadEconomica" />
+      <xs:element minOccurs="0" name="representanteLegal" type="tns:RepresentanteLegal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ActividadEconomica">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="codigoCiuu" type="xs:string" />
+      <xs:element minOccurs="0" name="descripcion" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RepresentanteLegal">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="textoCompleto" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LicenciaConduccion">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="numeroLicencia" type="xs:string" />
+      <xs:element minOccurs="0" name="organismoTransitoExpide" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaExpedicion" type="xs:date" />
+      <xs:element minOccurs="0" name="estadoLicencia" type="xs:string" />
+      <xs:element minOccurs="0" name="restricciones" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="detalleLicencia" type="tns:DetalleLicencia" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="DetalleLicencia">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="categoria" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaExpedicion" type="xs:date" />
+      <xs:element minOccurs="0" name="fechaVencimiento" type="xs:date" />
+      <xs:element minOccurs="0" name="fechaVencimientoExamen" type="xs:date" />
+      <xs:element minOccurs="0" name="categoriaAntigua" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CertificadoConduccion">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="numeroCertificado" type="xs:string" />
+      <xs:element minOccurs="0" name="centroEnsenanza" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaExpedicion" type="xs:date" />
+      <xs:element minOccurs="0" name="categoria" type="xs:string" />
+      <xs:element minOccurs="0" name="tipo" type="xs:string" />
+      <xs:element minOccurs="0" name="estado" type="xs:string" />
+      <xs:element minOccurs="0" name="numeroSolicitud" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaSolicitud" type="xs:date" />
+      <xs:element minOccurs="0" name="numeroFormularioUnicoPago" type="xs:string" />
+      <xs:element minOccurs="0" name="tramiteSolicitado" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Solicitud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="numeroSolicitud" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaSolicitud" type="xs:date" />
+      <xs:element minOccurs="0" name="identificacion" type="xs:string" />
+      <xs:element minOccurs="0" name="estado" type="xs:string" />
+      <xs:element minOccurs="0" name="tramiteRealizado" type="xs:string" />
+      <xs:element minOccurs="0" name="entidad" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="InformacionGeneralVehiculo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="marca" type="xs:string" />
+      <xs:element minOccurs="0" name="linea" type="xs:string" />
+      <xs:element minOccurs="0" name="modelo" type="xs:string" />
+      <xs:element minOccurs="0" name="color" type="xs:string" />
+      <xs:element minOccurs="0" name="numeroSerie" type="xs:string" />
+      <xs:element minOccurs="0" name="numeroMotor" type="xs:string" />
+      <xs:element minOccurs="0" name="numeroChasis" type="xs:string" />
+      <xs:element minOccurs="0" name="numeroVin" type="xs:string" />
+      <xs:element minOccurs="0" name="cilindraje" type="xs:string" />
+      <xs:element minOccurs="0" name="tipoCarroceria" type="xs:string" />
+      <xs:element minOccurs="0" name="tipoCombustible" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaMatriculaInicial" type="xs:date" />
+      <xs:element minOccurs="0" name="autoridadTransito" type="xs:string" />
+      <xs:element minOccurs="0" name="gravamenesPropiedad" type="xs:string" />
+      <xs:element minOccurs="0" name="clasicoAntiguo" type="xs:string" />
+      <xs:element minOccurs="0" name="repotenciado" type="xs:string" />
+      <xs:element minOccurs="0" name="regrabacionMotor" type="xs:string" />
+      <xs:element minOccurs="0" name="numeroRegrabacionMotor" type="xs:string" />
+      <xs:element minOccurs="0" name="regrabacionChasis" type="xs:string" />
+      <xs:element minOccurs="0" name="numeroRegrabacionChasis" type="xs:string" />
+      <xs:element minOccurs="0" name="regrabacionSerie" type="xs:string" />
+      <xs:element minOccurs="0" name="numeroRegrabacionSerie" type="xs:string" />
+      <xs:element minOccurs="0" name="regrabacionVin" type="xs:string" />
+      <xs:element minOccurs="0" name="numeroRegrabacionVin" type="xs:string" />
+      <xs:element minOccurs="0" name="vehiculoEnsenanza" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="DatosTecnicosVehiculo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="capacidadCarga" type="xs:string" />
+      <xs:element minOccurs="0" name="pesoBrutoVehicular" type="xs:string" />
+      <xs:element minOccurs="0" name="capacidadPasajeros" type="xs:string" />
+      <xs:element minOccurs="0" name="capacidadPasajerosSentados" type="xs:string" />
+      <xs:element minOccurs="0" name="numeroEjes" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PolizaSoat">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="numeroPoliza" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaExpedicion" type="xs:date" />
+      <xs:element minOccurs="0" name="fechaInicioVigencia" type="xs:date" />
+      <xs:element minOccurs="0" name="fechaFinVigencia" type="xs:date" />
+      <xs:element minOccurs="0" name="entidadSoat" type="xs:string" />
+      <xs:element minOccurs="0" name="estado" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CertificadoTecnicoMecanicoGases">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="tipoRevision" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaExpedicion" type="xs:date" />
+      <xs:element minOccurs="0" name="fechaVigencia" type="xs:date" />
+      <xs:element minOccurs="0" name="cdaExpide" type="xs:string" />
+      <xs:element minOccurs="0" name="vigente" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LimitacionesPropiedad">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="tipoLimitacion" type="xs:string" />
+      <xs:element minOccurs="0" name="numeroDocumento" type="xs:string" />
+      <xs:element minOccurs="0" name="entidadJuridica" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaExpedicion" type="xs:date" />
+      <xs:element minOccurs="0" name="fechaRadicacion" type="xs:date" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Afiliado">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="resolucion2309" type="tns:Resolucion" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="resolucion2280" type="tns:Resolucion" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="resolucion4023" type="tns:Resolucion" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Resolucion">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="tipoIdentificacion" type="xs:string" />
+      <xs:element minOccurs="0" name="numeroDocumento" type="xs:string" />
+      <xs:element minOccurs="0" name="primerApellido" type="xs:string" />
+      <xs:element minOccurs="0" name="segundoApellido" type="xs:string" />
+      <xs:element minOccurs="0" name="primerNombre" type="xs:string" />
+      <xs:element minOccurs="0" name="segundoNombre" type="xs:string" />
+      <xs:element minOccurs="0" name="ultimoPeriodoCompensado" type="xs:string" />
+      <xs:element minOccurs="0" name="eps_eoc" type="xs:string" />
+      <xs:element minOccurs="0" name="tipoAfiliacion" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Periodos">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="eps_eoc" type="xs:string" />
+      <xs:element minOccurs="0" name="periodosCompensados" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaAfiliacion" type="xs:date" />
+      <xs:element minOccurs="0" name="diasCompensados" type="xs:string" />
+      <xs:element minOccurs="0" name="tipoAfiliado" type="xs:string" />
+      <xs:element minOccurs="0" name="norma" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="Fuente">
+    <xs:restriction base="xs:string" />
+  </xs:simpleType>
+  <xs:simpleType name="StringMax10">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="10" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

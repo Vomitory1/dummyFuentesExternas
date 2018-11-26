@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Bancololombia - Gerencia Desarrollo Servicios de Integracion - 25/04/2016 - Generado por: ddiaz  -->
+<wsdl:definitions name="ConsultaFuentesPublicasExternas"
+	targetNamespace="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0" xmlns:tns="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0"
+	xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:mf="http://grupobancolombia.com/ents/SOI/MessageFormat/V2.1">
+	
+	<wsdl:types>
+		<xsd:schema targetNamespace="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0">
+			<xsd:include schemaLocation="ConsultaFuentesPublicasExternas_ConsultaFuentesPublicasExternas_V1_0_xsd" />
+
+			<xsd:import schemaLocation="ConsultaFuentesPublicasExternas_soicoreMessageFormatV2_1_xsd"
+				namespace="http://grupobancolombia.com/ents/SOI/MessageFormat/V2.1" />
+		</xsd:schema>
+	</wsdl:types>
+
+	<wsdl:message name="consultarFuentesExternasRequestMsg">
+		<wsdl:part element="tns:consultarFuentesExternas" name="parameters" />
+		<!--<wsdl:part element="mf:requestHeader" name="requestHeader" /> -->
+	</wsdl:message>
+
+	<wsdl:message name="consultarFuentesExternasResponseMsg">
+		<wsdl:part element="tns:consultarFuentesExternasResponse" name="result" />
+		<!--wsdl:part element="mf:responseHeader" name="responseHeader" /-->
+	</wsdl:message>
+	
+	<wsdl:message name="systemExceptionMsg">
+		<wsdl:part element="tns:systemException" name="parameters" />
+	</wsdl:message>
+
+
+
+	<wsdl:portType name="ConsultaFuentesPublicasExternas">
+
+
+		<!--por cada operación)-->
+		<wsdl:operation name="consultarFuentesExternas">
+		
+			<wsdl:input name="consultarFuentesExternasRequest"
+				message="tns:consultarFuentesExternasRequestMsg" />
+		
+			<wsdl:output name="consultarFuentesExternasResponse"
+				message="tns:consultarFuentesExternasResponseMsg" />
+			
+			<wsdl:fault name="systemException" message="tns:systemExceptionMsg" />
+				
+		</wsdl:operation>
+		
+		<!--por cada operación)-->
+
+	</wsdl:portType>
+
+
+</wsdl:definitions>

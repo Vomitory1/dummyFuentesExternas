@@ -1,0 +1,5 @@
+package com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.enlace.v1;
+
+public class ConsultarFuentesExternasResponse {
+
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:tns="http://grupobancolombia.com/ents/SOI/MessageFormat/V2.1" xmlns:bons1="http://grupobancolombia.com/ents/SOI/CoreExtensions/V2.1" elementFormDefault="unqualified" targetNamespace="http://grupobancolombia.com/ents/SOI/MessageFormat/V2.1" version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:import schemaLocation="ConsultaFuentesPublicasExternas_soicoreCoreExtensionV2_1_xsd" namespace="http://grupobancolombia.com/ents/SOI/CoreExtensions/V2.1" />
+  <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+  <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+  <xsd:element name="requestHeader" type="tns:RequestHeader" />
+  <xsd:element name="responseHeader" type="tns:ResponseHeader" />
+  <xsd:complexType name="Header" abstract="true">
+    <xsd:sequence>
+      <xsd:element minOccurs="1" name="systemId" type="xsd:string" />
+      <xsd:element minOccurs="1" name="messageId" type="xsd:string" />
+      <xsd:element minOccurs="0" name="timestamp" type="xsd:dateTime" />
+      <xsd:element minOccurs="0" name="messageContext" type="bons1:MessageContext" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RequestHeader">
+    <xsd:complexContent mixed="false">
+      <xsd:extension base="tns:Header">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" name="userId" type="bons1:UsernameToken" />
+          <xsd:element minOccurs="0" name="destination" type="bons1:Destination" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="classifications" type="bons1:Classifications" />
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:complexType name="ResponseHeader">
+    <xsd:complexContent mixed="false">
+      <xsd:extension base="tns:Header">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="responseStatus" type="bons1:ResponseStatus" />
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+</xsd:schema>

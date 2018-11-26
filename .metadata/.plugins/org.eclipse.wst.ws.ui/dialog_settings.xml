@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="1/org.eclipse.jst.ws.wsImpl.java">
+		<item value="/DummyFuentesExternas/WebContent/wsdl/ConsultaFuentesPublicasExternas.wsdl"/>
+		<item value="/EjemploNew/WebContent/WEB-INF/wsdl/ConsultaFuentesPublicasExternas.wsdl"/>
+		<item value="/EjemploNew/WebContent/WEB-INF/wsdl/GeneracionToken.wsdl"/>
+	</list>
+</section>

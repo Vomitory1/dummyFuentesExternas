@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;EjemploNew&apos;&#x0D;&#x0A;- Original project: &apos;EjemploNew&apos;&#x0D;&#x0A;- Original element: &apos;GeneracionToken.wsdl&apos;" description="Delete element" element1="WebContent/WEB-INF/wsdl/GeneracionToken.wsdl" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="1" stamp="1541523208240" subPackages="false" version="1.0"/>
+</session>

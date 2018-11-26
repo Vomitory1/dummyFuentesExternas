@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rational.test.lt.models.wscore.xsd:XSDReference xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rational.test.lt.models.wscore.xsd="http:///com/ibm/rational/test/lt/models/wscore/xsd.ecore" targetNamespace="http://schemas.xmlsoap.org/ws/2004/08/addressing" path="http://schemas.xmlsoap.org/ws/2004/08/addressing/" pathKind="HTTP"/>
