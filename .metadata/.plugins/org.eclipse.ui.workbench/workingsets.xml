@@ -12,7 +12,6 @@
 <workingSet editPageId="com.ibm.etools.j2ee.ui.EjbWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1541204838461_8" label="EJB Projects" name="EjbWorkingSetPage.name"/>
 <workingSet editPageId="com.ibm.etools.j2ee.ui.ConnectorWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1541204838469_9" label="Connector Projects" name="ConnectorWorkingSetPage.name"/>
 <workingSet editPageId="com.ibm.etools.j2ee.ui.WebWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1541204838478_10" label="Web Projects" name="NewWebWorkingSetPage.name">
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/WSAdministration" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/DummyFuentesExternas" type="4"/>
 </workingSet>
 <workingSet editPageId="com.ibm.etools.j2ee.ui.JPAWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1541204838488_11" label="JPA Projects" name="JPAWorkingSet.name"/>

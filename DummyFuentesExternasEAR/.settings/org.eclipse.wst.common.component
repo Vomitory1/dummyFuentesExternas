@@ -6,7 +6,7 @@
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <dependent-module archiveName="WSAdministration.war" deploy-path="/" handle="module:/resource/WSAdministration/WSAdministration">
-            <dependent-object>Module_1543265312002</dependent-object>
+            <dependent-object>Module_1543328101343</dependent-object>
             <dependency-type>uses</dependency-type>
         </dependent-module>
     </wb-module>

@@ -34,10 +34,10 @@
 <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlAccessType"/>
 <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlElementWrapper"/>
 <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlElement"/>
-<fullyQualifiedTypeName name="javax.faces.bean.ManagedBean"/>
-<fullyQualifiedTypeName name="javax.faces.application.FacesMessage"/>
-<fullyQualifiedTypeName name="javax.faces.context.FacesContext"/>
-<fullyQualifiedTypeName name="org.primefaces.model.UploadedFile"/>
-<fullyQualifiedTypeName name="org.primefaces.event.FileUploadEvent"/>
 <fullyQualifiedTypeName name="com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.DianRut"/>
+<fullyQualifiedTypeName name="javax.faces.bean.ManagedBean"/>
+<fullyQualifiedTypeName name="org.primefaces.model.UploadedFile"/>
+<fullyQualifiedTypeName name="javax.faces.application.FacesMessage"/>
+<fullyQualifiedTypeName name="org.primefaces.event.FileUploadEvent"/>
+<fullyQualifiedTypeName name="javax.faces.context.FacesContext"/>
 </qualifiedTypeNameHistroy>

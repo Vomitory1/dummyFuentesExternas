@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.jst.j2ee.commonarchivecore.looseconfig:LooseArchive xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.jst.j2ee.commonarchivecore.looseconfig="commonarchive.looseconfig.xmi" uri="D:\workspaces\dummyTest\DummyFuentesExternasEAR" binariesPath="D:\workspaces\dummyTest\DummyFuentesExternasEAR" resourcesPath="D:\workspaces\dummyTest\DummyFuentesExternasEAR" archiveType="EAR">
   <looseChildren uri="DummyFuentesExternas.war" binariesPath="D:\workspaces\dummyTest\DummyFuentesExternas\WebContent" resourcesPath="D:\workspaces\dummyTest\DummyFuentesExternas\WebContent" archiveType="WAR"/>
-  <looseChildren uri="WSAdministration.war" binariesPath="D:\workspaces\dummyTest\WSAdministration\WebContent" resourcesPath="D:\workspaces\dummyTest\WSAdministration\WebContent" archiveType="WAR"/>
 </org.eclipse.jst.j2ee.commonarchivecore.looseconfig:LooseArchive>
