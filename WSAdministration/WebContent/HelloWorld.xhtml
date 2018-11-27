@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:p="http://primefaces.org/ui">
+<h:head>
+    <title>Primefaces Hello World Example</title>
+</h:head>
+<h:body>
+    <h:form id="frm">
+        <p:outputLabel value="Enter your text:" for="myTxt"></p:outputLabel>
+        <p:watermark value="Enter value.." for="myTxt"></p:watermark>
+
+        <p:editor value="#{pc_helloWorld.bio}" id="myTxt"></p:editor>
+        <p:spacer width="20"></p:spacer>
+        <div style="text-align: center;">
+            <p:commandButton value="Submit" update=":frm:output" style=""></p:commandButton>
+        </div>
+        <p:spacer width="20"></p:spacer>
+        <p:outputLabel value="Output :"></p:outputLabel>
+        <p:outputLabel value="#{pc_helloWorld.bio}" id="output"></p:outputLabel>
+    </h:form>
+</h:body>
+</html>

@@ -39,4 +39,5 @@
 <fullyQualifiedTypeName name="javax.faces.context.FacesContext"/>
 <fullyQualifiedTypeName name="org.primefaces.model.UploadedFile"/>
 <fullyQualifiedTypeName name="org.primefaces.event.FileUploadEvent"/>
+<fullyQualifiedTypeName name="com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.DianRut"/>
 </qualifiedTypeNameHistroy>
