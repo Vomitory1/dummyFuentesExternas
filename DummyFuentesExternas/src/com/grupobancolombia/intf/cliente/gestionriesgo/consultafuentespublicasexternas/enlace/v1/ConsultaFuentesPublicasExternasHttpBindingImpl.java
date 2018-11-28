@@ -54,7 +54,7 @@ public class ConsultaFuentesPublicasExternasHttpBindingImpl {
 			fileCreater.mkdirs();
 			
 			
-			File file = new File("C:\\dummyFuentesExternas\\1040745452.xml");
+			File file = new File("C:\\dummyFuentesExternas\\"+identificacion.getNumeroDocumento()+".xml");
 			JAXBContext jaxbContext;
 			jaxbContext = JAXBContext.newInstance(ConsultarFuentesExternasResponse.class);
 			Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();

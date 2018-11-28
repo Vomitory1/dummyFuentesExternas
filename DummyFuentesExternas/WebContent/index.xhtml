@@ -9,13 +9,15 @@
 
 <h:head>
 </h:head>
+
+
 <h:body>
-	<h:form>  
-    <p:fileUpload fileUploadListener="#{fileUploadView.handleFileUpload}" mode="advanced" dragDropSupport="false"
-                  multiple="true" update="messages" sizeLimit="100000" fileLimit="3" allowTypes="/(\.|\/)(gif|jpe?g|png)$/" />
- 
-    <p:growl id="messages" showDetail="true" />           
-</h:form>
+
+	<h:form>
+		<p:fileUpload fileUploadListener="#{fileUploadView.handleFileUpload}"
+			allowTypes="/(\.|\/)(xml|xml\.p7m)$/" description="Select Images" />
+
+	</h:form>
 
 </h:body>
 </html>

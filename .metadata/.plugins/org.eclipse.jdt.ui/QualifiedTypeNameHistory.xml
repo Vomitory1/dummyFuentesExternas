@@ -3,14 +3,12 @@
 <fullyQualifiedTypeName name="com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.TramiteCedula"/>
 <fullyQualifiedTypeName name="javax.xml.parsers.DocumentBuilderFactory"/>
 <fullyQualifiedTypeName name="javax.xml.parsers.DocumentBuilder"/>
-<fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="javax.swing.text.Document"/>
 <fullyQualifiedTypeName name="org.w3c.dom.Document"/>
 <fullyQualifiedTypeName name="javax.xml.parsers.ParserConfigurationException"/>
 <fullyQualifiedTypeName name="com.ibm.ws.cache.config.ElementHandler"/>
 <fullyQualifiedTypeName name="javax.xml.parsers.SAXParser"/>
 <fullyQualifiedTypeName name="javax.xml.parsers.SAXParserFactory"/>
-<fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="org.xml.sax.SAXException"/>
 <fullyQualifiedTypeName name="com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Ubicacion"/>
 <fullyQualifiedTypeName name="javax.xml.datatype.XMLGregorianCalendar"/>
@@ -40,4 +38,9 @@
 <fullyQualifiedTypeName name="javax.faces.application.FacesMessage"/>
 <fullyQualifiedTypeName name="org.primefaces.event.FileUploadEvent"/>
 <fullyQualifiedTypeName name="javax.faces.context.FacesContext"/>
+<fullyQualifiedTypeName name="javax.faces.bean.SessionScoped"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
 </qualifiedTypeNameHistroy>
