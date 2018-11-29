@@ -19,6 +19,8 @@ public class FileUploadView {
 
 	private static final int BUFFER_SIZE = 10000;
 	private UploadedFile file;
+	
+	private String urlPath;
 
 	public UploadedFile getFile() {
 		return file;
@@ -69,6 +71,14 @@ public class FileUploadView {
 
 	public String getUrlBase() {
 		return "/dummyFuentesExternas";
+	}
+
+	public String getUrlPath() {
+		return urlPath;
+	}
+
+	public void setUrlPath(String urlPath) {
+		this.urlPath = urlPath;
 	}
 
 }

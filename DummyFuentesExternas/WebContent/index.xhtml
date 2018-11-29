@@ -1,21 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"
-	xmlns:h="http://java.sun.com/jsf/html"
-	xmlns:f="http://java.sun.com/jsf/core"
-	xmlns:ui="http://java.sun.com/jsf/facelets"
-	xmlns:p="http://primefaces.org/ui">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:p="http://primefaces.org/ui">
 
 <h:head>
+	<ul>
+		<li><a class="active">Home</a></li>
+
+	</ul>
+	<h3 style="margin-top: 0">Dummy Administration for mock Web Services - ConSufi</h3>
+	<title>Dummy Administration for mock Web Services - ConSufi</title>
+
+
+	<meta name="description" content="Contains a mock administration web services "></meta>
+	<meta name="keywords" content="FileUpload, FileDownload"></meta>
+	<meta name="author" content="John Fredy Castro Gonzalez, jocastro@bancolombia.com.co "></meta>
+
+
+	<style>
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+a
+
+
+
+
+
+
+
+
+:hover
+
+
+
+
+
+
+
+
+:not
+
+
+
+
+ 
+
+
+
+
+(
+.active
+
+
+
+
+ 
+
+
+
+
+)
+{
+background-color
+
+
+
+
+
+
+
+
+:
+
+
+
+
+ 
+
+
+
+
+#111
+
+
+
+
+
+
+
+
+;
+}
+.active {
+	background-color: #4CAF50;
+}
+</style>
 </h:head>
 
 
 <h:body>
 
-	<h:form>
-		<p:fileUpload fileUploadListener="#{fileUploadView.handleFileUpload}"
-			allowTypes="/(\.|\/)(xml|xml\.p7m)$/" description="Select Images" />
+
+
+
+	<h:form id="form">
+
+		<h:messages globalOnly="true" />
+
+		<p:tabView>
+			<p:tab title="File Uploader">
+				<h:panelGrid columns="2" cellpadding="10">
+					<p:fileUpload fileUploadListener="#{fileUploadView.handleFileUpload}" cancelLabel="Cancelar" multiple="true"
+						allowTypes="/(\.|\/)(xml|xml\.p7m)$/" description="Select Images" required="true" uploadLabel="Subir" label="Escoger Archivos" />
+
+
+				</h:panelGrid>
+			</p:tab>
+
+
+			<p:tab title="File Downloader">
+				<h:panelGrid columns="2" cellpadding="10">
+
+					<h:outputLabel for="urlPath" value="Ruta del archivo a descargar" />
+					<p:inputText id="urlPath" value="#{fileDownload.urlPathFile}" required="true" label="Ruta del archivo a descargar">
+					</p:inputText>
+
+					<h:commandLink value="Download" ajax="false" icon="pi pi-arrow-down" actionListener="#{fileDownload.prepDownload}">
+						<!-- 						<p:fileDownload value="#{fileDownload.file}" /> -->
+					</h:commandLink>
+
+				</h:panelGrid>
+			</p:tab>
+
+		</p:tabView>
 
 	</h:form>
 
