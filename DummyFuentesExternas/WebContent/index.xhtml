@@ -48,7 +48,11 @@ a
 
 
 
+
+
 :hover
+
+
 
 
 
@@ -62,7 +66,9 @@ a
 
 
 
+
  
+
 
 
 
@@ -73,7 +79,9 @@ a
 
 
 
+
  
+
 
 
 
@@ -89,7 +97,10 @@ background-color
 
 
 
+
+
 :
+
 
 
 
@@ -99,7 +110,10 @@ background-color
 
 
 
+
 #111
+
+
 
 
 
@@ -128,10 +142,16 @@ background-color
 
 		<p:tabView>
 			<p:tab title="File Uploader">
-				<h:panelGrid columns="2" cellpadding="10">
-					<p:fileUpload fileUploadListener="#{fileUploadView.handleFileUpload}" cancelLabel="Cancelar" multiple="true"
-						allowTypes="/(\.|\/)(xml|xml\.p7m)$/" description="Select Images" required="true" uploadLabel="Subir" label="Escoger Archivos" />
 
+				<h:outputLabel for="urlPath" value="Ruta del archivo a almacenar " />
+				<p:inputText id="urlPathUpload" value="#{fileUploadView.urlPath}" required="true">
+					<p:ajax event="blur" />
+				</p:inputText>
+
+				<h:panelGrid columns="2" cellpadding="10">
+					<p:fileUpload id="fileUoloader" fileUploadListener="#{fileUploadView.handleFileUpload}" cancelLabel="Cancelar" multiple="true"
+						allowTypes="/(\.|\/)(xml|xml\.p7m)$/" description="Select Images" required="true" uploadLabel="Subir" label="Escoger Archivos" process="@this" />
+					<p:message id="msgUpload" for="fileUoloader" display="text" />
 
 				</h:panelGrid>
 			</p:tab>
@@ -140,8 +160,8 @@ background-color
 			<p:tab title="File Downloader">
 				<h:panelGrid columns="2" cellpadding="10">
 
-					<h:outputLabel for="urlPath" value="Ruta del archivo a descargar" />
-					<p:inputText id="urlPath" value="#{fileDownload.urlPathFile}" required="true" label="Ruta del archivo a descargar">
+					<h:outputLabel for="urlPath" value="Ruta del archivo a descargar : /dummyFuentesExternas default" />
+					<p:inputText id="urlPath" value="#{fileDownload.urlPathFile}" required="true">
 					</p:inputText>
 
 					<h:commandLink value="Download" ajax="false" icon="pi pi-arrow-down" actionListener="#{fileDownload.prepDownload}">

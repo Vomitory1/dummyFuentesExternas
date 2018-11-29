@@ -19,7 +19,7 @@ public class FileUploadView {
 
 	private static final int BUFFER_SIZE = 10000;
 	private UploadedFile file;
-	
+
 	private String urlPath;
 
 	public UploadedFile getFile() {
@@ -38,10 +38,11 @@ public class FileUploadView {
 	}
 
 	public void handleFileUpload(FileUploadEvent event) {
-		new File(getUrlBase());
-		File result = new File(getUrlBase() + "/" + event.getFile().getFileName());
+		new File(getUrlPath()).mkdir();
 
 		try {
+			File result = new File(getUrlPath() + "/" + event.getFile().getFileName());
+			File.createTempFile(event.getFile().getFileName(), this.getFileExtension(result), new File(getUrlPath()));
 			FileOutputStream fileOutputStream = new FileOutputStream(result);
 
 			byte[] buffer = new byte[BUFFER_SIZE];
@@ -60,13 +61,22 @@ public class FileUploadView {
 			inputStream.close();
 
 			FacesMessage msg = new FacesMessage("Succesful", event.getFile().getFileName() + " is uploaded.");
-			FacesContext.getCurrentInstance().addMessage(null, msg);
+			FacesContext.getCurrentInstance().addMessage("form:fileUoloader", msg);
 
 		} catch (IOException e) {
 			e.printStackTrace();
 			FacesMessage error = new FacesMessage("The files were not uploaded!");
-			FacesContext.getCurrentInstance().addMessage(null, error);
+			FacesContext.getCurrentInstance().addMessage("form:fileUoloader", error);
 		}
+	}
+
+	private String getFileExtension(File file) {
+		String name = file.getName();
+		int lastIndexOf = name.lastIndexOf(".");
+		if (lastIndexOf == -1) {
+			return ""; // empty extension
+		}
+		return name.substring(lastIndexOf);
 	}
 
 	public String getUrlBase() {

@@ -6,6 +6,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 import javax.activation.MimetypesFileTypeMap;
+import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 import javax.faces.context.FacesContext;
@@ -55,7 +56,8 @@ public class FileDownloadView {
 			this.file = new DefaultStreamedContent(fileInputStream, getMineType(this.getUrlPathFile()), fileName);
 		} catch (Exception e) {
 			e.printStackTrace();
-			e.getMessage();
+			FacesMessage error = new FacesMessage("The files does not exist");
+			FacesContext.getCurrentInstance().addMessage(null, error);
 		}
 
 	}
