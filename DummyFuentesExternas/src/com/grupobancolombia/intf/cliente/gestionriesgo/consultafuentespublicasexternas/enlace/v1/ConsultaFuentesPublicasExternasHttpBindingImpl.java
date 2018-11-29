@@ -50,11 +50,11 @@ public class ConsultaFuentesPublicasExternasHttpBindingImpl {
 			Holder<RuntPlaca> runtPlaca, Holder<AfiliadosCompensados> afiliadosCompensados) throws SystemExceptionMsg {
 
 		try {
-			fileCreater = new File("/dummyFuentesExternas/1040745452.xml");
+			fileCreater = new File("/dummyFuentesExternas");
 			fileCreater.mkdirs();
 			
 			
-			File file = new File("C:\\dummyFuentesExternas\\1040745452.xml");
+			File file = new File("C:\\dummyFuentesExternas\\"+identificacion.getNumeroDocumento()+".xml");
 			JAXBContext jaxbContext;
 			jaxbContext = JAXBContext.newInstance(ConsultarFuentesExternasResponse.class);
 			Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
