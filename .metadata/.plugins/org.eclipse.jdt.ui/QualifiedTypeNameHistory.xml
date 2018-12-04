@@ -46,9 +46,9 @@
 <fullyQualifiedTypeName name="javax.activation.MimetypesFileTypeMap"/>
 <fullyQualifiedTypeName name="javax.faces.bean.SessionScoped"/>
 <fullyQualifiedTypeName name="javax.faces.bean.ViewScoped"/>
-<fullyQualifiedTypeName name="javax.faces.bean.RequestScoped"/>
 <fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
 <fullyQualifiedTypeName name="java.io.OutputStream"/>
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="javax.faces.bean.RequestScoped"/>
 </qualifiedTypeNameHistroy>

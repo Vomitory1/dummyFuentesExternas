@@ -12,7 +12,6 @@ import javax.faces.bean.SessionScoped;
 import javax.faces.context.FacesContext;
 import javax.servlet.http.HttpServletResponse;
 
-import org.primefaces.model.DefaultStreamedContent;
 import org.primefaces.model.StreamedContent;
 
 @SessionScoped
@@ -44,21 +43,17 @@ public class FileDownloadView {
 			int bytesRead;
 			while ((bytesRead = fileInputStream.read(bytesBuffer)) > 0) {
 				responseOutputStream.write(bytesBuffer, 0, bytesRead);
-			}
+			}		
 
+//			this.file = new DefaultStreamedContent(fileInputStream, getMineType(this.getUrlPathFile()), fileName);
 			responseOutputStream.flush();
-
+			facesContext.responseComplete();
 			fileInputStream.close();
 			responseOutputStream.close();
-
-			facesContext.responseComplete();
-
-			this.file = new DefaultStreamedContent(fileInputStream, getMineType(this.getUrlPathFile()), fileName);
 		} catch (Exception e) {
 			e.printStackTrace();
 			FacesMessage error = new FacesMessage("The files does not exist");
-			FacesContext.getCurrentInstance().addMessage(null,
-					new FacesMessage(FacesMessage.SEVERITY_ERROR, "Error", error + ": " + e.getMessage()));
+			FacesContext.getCurrentInstance().addMessage(null, error);
 		}
 
 	}

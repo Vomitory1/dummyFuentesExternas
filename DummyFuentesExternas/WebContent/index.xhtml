@@ -17,159 +17,6 @@
 	<meta name="keywords" content="FileUpload, FileDownload"></meta>
 	<meta name="author" content="John Fredy Castro Gonzalez, jocastro@bancolombia.com.co "></meta>
 
-
-	<style>
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333;
-}
-
-li {
-	float: left;
-}
-
-li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-
-a
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-:hover
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-:not
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-(
-.active
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-)
-{
-background-color
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-:
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-#111
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-;
-}
-.active {
-	background-color: #4CAF50;
-}
-</style>
 </h:head>
 
 
@@ -183,9 +30,9 @@ background-color
 		<h:messages globalOnly="true" />
 
 		<p:tabView>
-			<p:tab title="File Uploader">
+			<p:tab title="File Uploader" id="pngDownload">
 
-				<h:outputLabel for="urlPath" value="Ruta del archivo a almacenar " />
+				<h:outputLabel for="urlPathUpload" value="Ruta del archivo a almacenar " />
 				<p:inputText id="urlPathUpload" value="#{fileUploadView.urlPath}" required="true">
 					<p:ajax event="blur" />
 				</p:inputText>
@@ -200,14 +47,18 @@ background-color
 
 
 			<p:tab title="File Downloader">
-				<h:panelGrid columns="2" cellpadding="10">
+				<h:panelGrid columns="2" cellpadding="10" id="pngUpload">
 
-					<h:outputLabel for="urlPath" value="Ruta del archivo a descargar : /dummyFuentesExternas default" />
-					<p:inputText id="urlPath" value="#{fileDownloadView.urlPathFile}" required="true">
+					<h:outputLabel for="urlPathDownload" value="Ruta del archivo a descargar : /dummyFuentesExternas default" />
+					<p:inputText id="urlPathDownload" value="#{fileDownloadView.urlPathFile}" required="true">
 						<p:ajax event="blur" />
 					</p:inputText>
+					<p:message for="urlPathDownload" display="icon" />
 
-					<p:commandLink value="Download" ajax="false" process="@this, urlPath" icon="pi pi-arrow-down" actionListener="#{fileDownloadView.prepDownload}">
+					<p:commandLink value="Download" process="@this, urlPathDownload" icon="pi pi-arrow-down"
+						actionListener="#{fileDownloadView.prepDownload}">
+						
+<!-- 						<p:fileDownload value="#{fileDownloadView.file}" /> -->
 					</p:commandLink>
 
 				</h:panelGrid>
