@@ -42,7 +42,6 @@
 <fullyQualifiedTypeName name="org.primefaces.model.StreamedContent"/>
 <fullyQualifiedTypeName name="java.io.InputStream"/>
 <fullyQualifiedTypeName name="javax.faces.context.FacesContext"/>
-<fullyQualifiedTypeName name="org.primefaces.model.DefaultStreamedContent"/>
 <fullyQualifiedTypeName name="javax.activation.MimetypesFileTypeMap"/>
 <fullyQualifiedTypeName name="javax.faces.bean.SessionScoped"/>
 <fullyQualifiedTypeName name="javax.faces.bean.ViewScoped"/>
@@ -51,4 +50,5 @@
 <fullyQualifiedTypeName name="java.io.OutputStream"/>
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
 <fullyQualifiedTypeName name="javax.faces.bean.RequestScoped"/>
+<fullyQualifiedTypeName name="org.primefaces.model.DefaultStreamedContent"/>
 </qualifiedTypeNameHistroy>

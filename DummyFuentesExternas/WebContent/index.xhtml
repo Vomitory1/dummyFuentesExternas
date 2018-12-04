@@ -17,6 +17,7 @@
 	<meta name="keywords" content="FileUpload, FileDownload"></meta>
 	<meta name="author" content="John Fredy Castro Gonzalez, jocastro@bancolombia.com.co "></meta>
 
+
 </h:head>
 
 
@@ -33,7 +34,7 @@
 			<p:tab title="File Uploader" id="pngDownload">
 
 				<h:outputLabel for="urlPathUpload" value="Ruta del archivo a almacenar " />
-				<p:inputText id="urlPathUpload" value="#{fileUploadView.urlPath}" required="true">
+				<p:inputText id="urlPathUpload" value="#{fileUploadView.urlPath}">
 					<p:ajax event="blur" />
 				</p:inputText>
 
@@ -51,15 +52,13 @@
 
 					<h:outputLabel for="urlPathDownload" value="Ruta del archivo a descargar : /dummyFuentesExternas default" />
 					<p:inputText id="urlPathDownload" value="#{fileDownloadView.urlPathFile}" required="true">
-						<p:ajax event="blur" />
+						<p:ajax event="blur" process="@this" />
 					</p:inputText>
 					<p:message for="urlPathDownload" display="icon" />
 
-					<p:commandLink value="Download" process="@this, urlPathDownload" icon="pi pi-arrow-down"
-						actionListener="#{fileDownloadView.prepDownload}">
-						
-<!-- 						<p:fileDownload value="#{fileDownloadView.file}" /> -->
-					</p:commandLink>
+					<h:commandLink value="Download" icon="pi pi-arrow-down" actionListener="#{fileDownloadView.prepDownload}">
+					</h:commandLink>
+
 
 				</h:panelGrid>
 			</p:tab>

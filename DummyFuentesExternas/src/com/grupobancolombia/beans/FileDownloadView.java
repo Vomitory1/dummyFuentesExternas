@@ -6,15 +6,15 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 import javax.activation.MimetypesFileTypeMap;
-import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
-import javax.faces.bean.SessionScoped;
+import javax.faces.bean.RequestScoped;
 import javax.faces.context.FacesContext;
 import javax.servlet.http.HttpServletResponse;
 
+import org.primefaces.model.DefaultStreamedContent;
 import org.primefaces.model.StreamedContent;
 
-@SessionScoped
+@RequestScoped
 @ManagedBean(name = "fileDownloadView")
 
 public class FileDownloadView {
@@ -43,17 +43,23 @@ public class FileDownloadView {
 			int bytesRead;
 			while ((bytesRead = fileInputStream.read(bytesBuffer)) > 0) {
 				responseOutputStream.write(bytesBuffer, 0, bytesRead);
-			}		
+			}
 
-//			this.file = new DefaultStreamedContent(fileInputStream, getMineType(this.getUrlPathFile()), fileName);
 			responseOutputStream.flush();
-			facesContext.responseComplete();
+
 			fileInputStream.close();
 			responseOutputStream.close();
+
+			facesContext.responseComplete();
+
+			InputStream stream = this.getClass().getResourceAsStream(this.getUrlPathFile());
+			
+			 this.file = new DefaultStreamedContent(stream, "application/pdf",
+					 fileName);
+			
 		} catch (Exception e) {
 			e.printStackTrace();
-			FacesMessage error = new FacesMessage("The files does not exist");
-			FacesContext.getCurrentInstance().addMessage(null, error);
+			e.getMessage();
 		}
 
 	}
