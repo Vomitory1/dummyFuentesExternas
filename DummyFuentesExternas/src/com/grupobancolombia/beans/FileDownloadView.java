@@ -15,7 +15,7 @@ import org.primefaces.model.DefaultStreamedContent;
 import org.primefaces.model.StreamedContent;
 
 @RequestScoped
-@ManagedBean(name = "fileDownload")
+@ManagedBean(name = "fileDownloadView")
 
 public class FileDownloadView {
 	private StreamedContent file;
@@ -52,7 +52,11 @@ public class FileDownloadView {
 
 			facesContext.responseComplete();
 
-			this.file = new DefaultStreamedContent(fileInputStream, getMineType(this.getUrlPathFile()), fileName);
+			InputStream stream = this.getClass().getResourceAsStream(this.getUrlPathFile());
+			
+			 this.file = new DefaultStreamedContent(stream, "application/pdf",
+					 fileName);
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 			e.getMessage();

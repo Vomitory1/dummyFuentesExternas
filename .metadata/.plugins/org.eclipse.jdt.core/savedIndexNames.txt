@@ -48,6 +48,10 @@ INDEX VERSION 1.130+D:\workspaces\dummyTest\.metadata\.plugins\org.eclipse.jdt.c
 29165403.index
 1078508955.index
 1142959658.index
+<<<<<<< HEAD
+=======
+773462563.index
+>>>>>>> feature/FixMessages
 452032062.index
 3310779478.index
 455882953.index
