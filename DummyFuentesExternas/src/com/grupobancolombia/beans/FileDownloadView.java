@@ -8,15 +8,15 @@ import java.io.OutputStream;
 import javax.activation.MimetypesFileTypeMap;
 import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
-import javax.faces.bean.RequestScoped;
+import javax.faces.bean.SessionScoped;
 import javax.faces.context.FacesContext;
 import javax.servlet.http.HttpServletResponse;
 
 import org.primefaces.model.DefaultStreamedContent;
 import org.primefaces.model.StreamedContent;
 
-@RequestScoped
-@ManagedBean(name = "fileDownload")
+@SessionScoped
+@ManagedBean(name = "fileDownloadView")
 
 public class FileDownloadView {
 	private StreamedContent file;
@@ -57,7 +57,8 @@ public class FileDownloadView {
 		} catch (Exception e) {
 			e.printStackTrace();
 			FacesMessage error = new FacesMessage("The files does not exist");
-			FacesContext.getCurrentInstance().addMessage(null, error);
+			FacesContext.getCurrentInstance().addMessage(null,
+					new FacesMessage(FacesMessage.SEVERITY_ERROR, "Error", error + ": " + e.getMessage()));
 		}
 
 	}
