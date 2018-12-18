@@ -22,23 +22,53 @@ public class FileUploadView {
 
 	private String urlPath;
 
+	/**
+	 * permite crear la carpeta si no existe
+	 */
+	private void createDirectory() {
+		File theDir = new File(this.getUrlPath());
+		// if the directory does not exist, create it
+		if (!theDir.exists()) {
+			System.out.println("creating directory: " + theDir.getName());
+			boolean result = false;
+
+			try {
+
+				theDir.mkdirs();
+				result = true;
+			} catch (SecurityException se) {
+				// handle it
+			}
+			if (result) {
+				System.out.println("DIR created");
+			}
+		}
+
+	}
+
 	public UploadedFile getFile() {
 		return file;
 	}
 
-	public void setFile(UploadedFile file) {
-		this.file = file;
+	private String getFileExtension(File file) {
+		String name = file.getName();
+		int lastIndexOf = name.lastIndexOf(".");
+		if (lastIndexOf == -1) {
+			return ""; // empty extension
+		}
+		return name.substring(lastIndexOf);
 	}
 
-	public void upload() {
-		if (file != null) {
-			FacesMessage message = new FacesMessage("Succesful", file.getFileName() + " is uploaded.");
-			FacesContext.getCurrentInstance().addMessage(null, message);
-		}
+	public String getUrlBase() {
+		return "/dummyFuentesExternas";
+	}
+
+	public String getUrlPath() {
+		return urlPath;
 	}
 
 	public void handleFileUpload(FileUploadEvent event) {
-		new File(getUrlPath()).mkdir();
+		this.createDirectory();
 
 		try {
 			File result = new File(getUrlPath() + "/" + event.getFile().getFileName());
@@ -70,25 +100,19 @@ public class FileUploadView {
 		}
 	}
 
-	private String getFileExtension(File file) {
-		String name = file.getName();
-		int lastIndexOf = name.lastIndexOf(".");
-		if (lastIndexOf == -1) {
-			return ""; // empty extension
-		}
-		return name.substring(lastIndexOf);
-	}
-
-	public String getUrlBase() {
-		return "/dummyFuentesExternas";
-	}
-
-	public String getUrlPath() {
-		return urlPath;
+	public void setFile(UploadedFile file) {
+		this.file = file;
 	}
 
 	public void setUrlPath(String urlPath) {
 		this.urlPath = urlPath;
+	}
+
+	public void upload() {
+		if (file != null) {
+			FacesMessage message = new FacesMessage("Succesful", file.getFileName() + " is uploaded.");
+			FacesContext.getCurrentInstance().addMessage(null, message);
+		}
 	}
 
 }

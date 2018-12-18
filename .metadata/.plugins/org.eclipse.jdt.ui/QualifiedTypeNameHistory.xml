@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.TramiteCedula"/>
-<fullyQualifiedTypeName name="javax.xml.parsers.DocumentBuilderFactory"/>
 <fullyQualifiedTypeName name="javax.xml.parsers.DocumentBuilder"/>
 <fullyQualifiedTypeName name="javax.swing.text.Document"/>
 <fullyQualifiedTypeName name="org.w3c.dom.Document"/>
@@ -10,7 +8,6 @@
 <fullyQualifiedTypeName name="javax.xml.parsers.SAXParser"/>
 <fullyQualifiedTypeName name="javax.xml.parsers.SAXParserFactory"/>
 <fullyQualifiedTypeName name="org.xml.sax.SAXException"/>
-<fullyQualifiedTypeName name="com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Ubicacion"/>
 <fullyQualifiedTypeName name="javax.xml.datatype.XMLGregorianCalendar"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="java.text.DateFormat"/>
@@ -18,20 +15,14 @@
 <fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
 <fullyQualifiedTypeName name="javax.xml.datatype.DatatypeFactory"/>
 <fullyQualifiedTypeName name="javax.xml.bind.JAXBContext"/>
-<fullyQualifiedTypeName name="javax.xml.bind.Marshaller"/>
 <fullyQualifiedTypeName name="java.net.URL"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Salud"/>
 <fullyQualifiedTypeName name="com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.ConsultarFuentesExternasResponse"/>
 <fullyQualifiedTypeName name="com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Bdua"/>
 <fullyQualifiedTypeName name="com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Ruaf"/>
 <fullyQualifiedTypeName name="com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Asopagos"/>
-<fullyQualifiedTypeName name="com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.AfiliadosCompensados"/>
 <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlAccessorType"/>
 <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlAccessType"/>
-<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlElementWrapper"/>
-<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlElement"/>
 <fullyQualifiedTypeName name="com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.DianRut"/>
 <fullyQualifiedTypeName name="javax.faces.bean.ManagedBean"/>
 <fullyQualifiedTypeName name="org.primefaces.model.UploadedFile"/>
@@ -40,7 +31,6 @@
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
 <fullyQualifiedTypeName name="org.primefaces.model.StreamedContent"/>
-<fullyQualifiedTypeName name="java.io.InputStream"/>
 <fullyQualifiedTypeName name="javax.faces.context.FacesContext"/>
 <fullyQualifiedTypeName name="javax.activation.MimetypesFileTypeMap"/>
 <fullyQualifiedTypeName name="javax.faces.bean.SessionScoped"/>
@@ -48,7 +38,26 @@
 <fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
 <fullyQualifiedTypeName name="java.io.OutputStream"/>
-<fullyQualifiedTypeName name="java.io.FileInputStream"/>
 <fullyQualifiedTypeName name="javax.faces.bean.RequestScoped"/>
 <fullyQualifiedTypeName name="org.primefaces.model.DefaultStreamedContent"/>
+<fullyQualifiedTypeName name="com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.RuesCamaras"/>
+<fullyQualifiedTypeName name="javax.xml.bind.Marshaller"/>
+<fullyQualifiedTypeName name="javax.xml.bind.Unmarshaller"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.io.Reader"/>
+<fullyQualifiedTypeName name="org.xml.sax.InputSource"/>
+<fullyQualifiedTypeName name="com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Ubicacion"/>
+<fullyQualifiedTypeName name="com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Persona"/>
+<fullyQualifiedTypeName name="com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Afiliado"/>
+<fullyQualifiedTypeName name="com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Periodos"/>
+<fullyQualifiedTypeName name="com.grupobancolombia.beans.AfiliadosCompensados"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlElementWrapper"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlElement"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Resolucion"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlRootElement"/>
+<fullyQualifiedTypeName name="com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.AfiliadosCompensados"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

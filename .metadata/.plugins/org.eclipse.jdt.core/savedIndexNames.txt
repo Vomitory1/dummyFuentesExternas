@@ -1,10 +1,10 @@
 INDEX VERSION 1.130+D:\workspaces\dummyTest\.metadata\.plugins\org.eclipse.jdt.core
-1881690938.index
-1090856393.index
+3120492174.index
+1928724378.index
 1027286595.index
 1441251056.index
 370261551.index
-1558484205.index
+2179515414.index
 2280016487.index
 1324886271.index
 713358132.index
@@ -21,18 +21,18 @@ INDEX VERSION 1.130+D:\workspaces\dummyTest\.metadata\.plugins\org.eclipse.jdt.c
 2870276071.index
 155449680.index
 1532955481.index
+391819201.index
 3422727048.index
-4234232793.index
 4148349724.index
 3081687273.index
 3058481439.index
 102739007.index
-391819201.index
-3268872460.index
+4234232793.index
 1288393306.index
 3940633809.index
-1328827285.index
 3810766831.index
+1328827285.index
+3268872460.index
 998708363.index
 875276972.index
 1541394771.index
@@ -48,10 +48,7 @@ INDEX VERSION 1.130+D:\workspaces\dummyTest\.metadata\.plugins\org.eclipse.jdt.c
 29165403.index
 1078508955.index
 1142959658.index
-<<<<<<< HEAD
-=======
 773462563.index
->>>>>>> feature/FixMessages
 452032062.index
 3310779478.index
 455882953.index
@@ -115,7 +112,7 @@ INDEX VERSION 1.130+D:\workspaces\dummyTest\.metadata\.plugins\org.eclipse.jdt.c
 3629597342.index
 4053213633.index
 787535551.index
+1558484205.index
+1090856393.index
+1881690938.index
 623754186.index
-3120492174.index
-1928724378.index
-2179515414.index

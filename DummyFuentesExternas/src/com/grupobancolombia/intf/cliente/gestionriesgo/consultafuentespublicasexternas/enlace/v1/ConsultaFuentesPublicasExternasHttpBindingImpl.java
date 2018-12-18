@@ -1,12 +1,20 @@
 package com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.enlace.v1;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.Reader;
+import java.io.UnsupportedEncodingException;
 import java.util.List;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 import javax.xml.ws.Holder;
+
+import org.xml.sax.InputSource;
 
 import com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.AfiliadosCompensados;
 import com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Anec;
@@ -36,7 +44,7 @@ import com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasex
 
 @javax.jws.WebService(endpointInterface = "com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.enlace.v1.ConsultaFuentesPublicasExternas", targetNamespace = "http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/Enlace/V1.0", serviceName = "ConsultaFuentesPublicasExternas", portName = "ConsultaFuentesPublicasExternasHttpPort")
 public class ConsultaFuentesPublicasExternasHttpBindingImpl {
-	
+
 	private static File fileCreater;
 
 	public void consultarFuentesExternas(Identificacion identificacion, String placaVehiculo, List<String> fuente,
@@ -52,22 +60,57 @@ public class ConsultaFuentesPublicasExternasHttpBindingImpl {
 		try {
 			fileCreater = new File("/dummyFuentesExternas");
 			fileCreater.mkdirs();
-			
-			
-			File file = new File("C:\\dummyFuentesExternas\\"+identificacion.getNumeroDocumento()+".xml");
+
+			File file = new File("/dummyFuentesExternas/" + identificacion.getNumeroDocumento() + ".xml");
+
+			InputStream inputStream = new FileInputStream(file);
+			Reader reader = new InputStreamReader(inputStream, "ISO-8859-1");
+			InputSource is = new InputSource(reader);
+			is.setEncoding("ISO-8859-1");
+
 			JAXBContext jaxbContext;
 			jaxbContext = JAXBContext.newInstance(ConsultarFuentesExternasResponse.class);
 			Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
-			ConsultarFuentesExternasResponse cfep = (ConsultarFuentesExternasResponse) unmarshaller.unmarshal(file);
+			ConsultarFuentesExternasResponse cfep = (ConsultarFuentesExternasResponse) unmarshaller.unmarshal(reader);
 
 			ruaf.value = cfep.ruaf;
 			bdua.value = cfep.bdua;
-			afiliadosCompensados.value = cfep.afiliadosCompensados;
+			afiliadosCompensados.value = new AfiliadosCompensados();
+			setAfiliadosCompensados(afiliadosCompensados, cfep);
+
 			asopagos.value = cfep.asopagos;
+			ruesCamaras.value = cfep.ruesCamaras;
+			dianRut.value = cfep.dianRut;
 
 		} catch (JAXBException e1) {
-
 			e1.printStackTrace();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (UnsupportedEncodingException e) {
+			e.printStackTrace();
+		}
+	}
+
+	private void setAfiliadosCompensados(Holder<AfiliadosCompensados> afiliadosCompensados,
+			ConsultarFuentesExternasResponse cfep) {
+		if (cfep.afiliadosCompensados != null) {
+			afiliadosCompensados.value.setExitoso(cfep.afiliadosCompensados.getExitoso());
+			afiliadosCompensados.value.setNombrePersona(cfep.afiliadosCompensados.getNombrePersona());
+			if (!cfep.afiliadosCompensados.getReporteAfiliado().getResolucion2280().isEmpty()) {
+				afiliadosCompensados.value.getReporteAfiliado().getResolucion2280()
+						.addAll(cfep.afiliadosCompensados.getReporteAfiliado().getResolucion2280());
+			}
+			if (!cfep.afiliadosCompensados.getReporteAfiliado().getResolucion2309(). isEmpty()) {
+				afiliadosCompensados.value.getReporteAfiliado().getResolucion2309()
+						.addAll(cfep.afiliadosCompensados.getReporteAfiliado().getResolucion2309());
+			}
+			if (!cfep.afiliadosCompensados.getReporteAfiliado().getResolucion4023().isEmpty()) {
+				afiliadosCompensados.value.getReporteAfiliado().getResolucion4023()
+						.addAll(cfep.afiliadosCompensados.getReporteAfiliado().getResolucion4023());
+			}
+			afiliadosCompensados.value.setUbicacionFuente(cfep.afiliadosCompensados.getUbicacionFuente());
+			afiliadosCompensados.value.getPeriodosCompensados()
+					.addAll(cfep.afiliadosCompensados.getPeriodosCompensados());
 		}
 	}
 

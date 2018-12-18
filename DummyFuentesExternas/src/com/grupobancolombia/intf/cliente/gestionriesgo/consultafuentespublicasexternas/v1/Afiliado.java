@@ -4,12 +4,11 @@
 
 package com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlType;
 
 /**
@@ -38,18 +37,14 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "Afiliado", propOrder = { "resolucion2309", "resolucion2280", "resolucion4023" })
-public class Afiliado {
+public class Afiliado implements Serializable {
 
-	@XmlElementWrapper(name = "resolucion2309")
-	@XmlElement(name = "Resolucion")
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3679875834560961949L;
 	protected List<Resolucion> resolucion2309;
-	
-	@XmlElementWrapper(name = "resolucion2280")
-	@XmlElement(name = "Resolucion")
 	protected List<Resolucion> resolucion2280;
-	
-	@XmlElementWrapper(name = "resolucion4023")
-	@XmlElement(name = "Resolucion")
 	protected List<Resolucion> resolucion4023;
 
 	/**

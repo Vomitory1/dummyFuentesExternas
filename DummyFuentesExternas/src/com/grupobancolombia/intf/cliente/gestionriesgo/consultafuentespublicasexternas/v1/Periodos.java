@@ -50,6 +50,7 @@ public class Periodos {
 
     @XmlElement(name = "eps_eoc")
     protected String epsEoc;
+    @XmlElement(name = "periodosCompensados", type = String.class)
     protected String periodosCompensados;
     @XmlSchemaType(name = "date")
     protected XMLGregorianCalendar fechaAfiliacion;
