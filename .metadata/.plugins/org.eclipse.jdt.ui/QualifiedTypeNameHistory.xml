@@ -50,7 +50,6 @@
 <fullyQualifiedTypeName name="org.xml.sax.InputSource"/>
 <fullyQualifiedTypeName name="com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Ubicacion"/>
 <fullyQualifiedTypeName name="com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Persona"/>
-<fullyQualifiedTypeName name="com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Afiliado"/>
 <fullyQualifiedTypeName name="com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Periodos"/>
 <fullyQualifiedTypeName name="com.grupobancolombia.beans.AfiliadosCompensados"/>
 <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlElementWrapper"/>
@@ -60,4 +59,5 @@
 <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlRootElement"/>
 <fullyQualifiedTypeName name="com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.AfiliadosCompensados"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Afiliado"/>
 </qualifiedTypeNameHistroy>
