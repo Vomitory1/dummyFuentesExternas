@@ -16,6 +16,7 @@ import javax.xml.ws.Holder;
 
 import org.xml.sax.InputSource;
 
+import com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Afiliado;
 import com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.AfiliadosCompensados;
 import com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Anec;
 import com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Asopagos;
@@ -96,21 +97,29 @@ public class ConsultaFuentesPublicasExternasHttpBindingImpl {
 		if (cfep.afiliadosCompensados != null) {
 			afiliadosCompensados.value.setExitoso(cfep.afiliadosCompensados.getExitoso());
 			afiliadosCompensados.value.setNombrePersona(cfep.afiliadosCompensados.getNombrePersona());
+			
+			Afiliado afiliado = new Afiliado();
 			if (!cfep.afiliadosCompensados.getReporteAfiliado().getResolucion2280().isEmpty()) {
-				afiliadosCompensados.value.getReporteAfiliado().getResolucion2280()
+				afiliado.getResolucion2280().clear();
+				afiliado.getResolucion2280()
 						.addAll(cfep.afiliadosCompensados.getReporteAfiliado().getResolucion2280());
 			}
-			if (!cfep.afiliadosCompensados.getReporteAfiliado().getResolucion2309(). isEmpty()) {
-				afiliadosCompensados.value.getReporteAfiliado().getResolucion2309()
+			if (!cfep.afiliadosCompensados.getReporteAfiliado().getResolucion2309().isEmpty()) {
+				afiliado.getResolucion2309().clear();
+				afiliado.getResolucion2309()
 						.addAll(cfep.afiliadosCompensados.getReporteAfiliado().getResolucion2309());
 			}
 			if (!cfep.afiliadosCompensados.getReporteAfiliado().getResolucion4023().isEmpty()) {
-				afiliadosCompensados.value.getReporteAfiliado().getResolucion4023()
+				afiliado.getResolucion4023().clear();
+				afiliado.getResolucion4023()
 						.addAll(cfep.afiliadosCompensados.getReporteAfiliado().getResolucion4023());
 			}
+			afiliadosCompensados.value.setReporteAfiliado(afiliado);
+			if (!cfep.afiliadosCompensados.getPeriodosCompensados().isEmpty()) {
+				afiliadosCompensados.value.getPeriodosCompensados()
+						.addAll(cfep.afiliadosCompensados.getPeriodosCompensados());
+			}
 			afiliadosCompensados.value.setUbicacionFuente(cfep.afiliadosCompensados.getUbicacionFuente());
-			afiliadosCompensados.value.getPeriodosCompensados()
-					.addAll(cfep.afiliadosCompensados.getPeriodosCompensados());
 		}
 	}
 

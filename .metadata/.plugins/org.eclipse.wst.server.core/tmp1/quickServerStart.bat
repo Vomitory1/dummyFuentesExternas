@@ -1,5 +1,5 @@
 @REM D:\workspaces\dummyTest\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\quickServerStart.bat
-@REM Generated: Tue Dec 18 14:55:19 COT 2018
+@REM Generated: Wed Dec 19 08:33:30 COT 2018
 
 @setlocal
 @echo off
