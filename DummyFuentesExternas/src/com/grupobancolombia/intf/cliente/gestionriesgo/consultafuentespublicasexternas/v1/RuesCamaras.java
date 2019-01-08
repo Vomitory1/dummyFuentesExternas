@@ -6,10 +6,9 @@ package com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicase
 
 import java.util.ArrayList;
 import java.util.List;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlType;
 
 /**
@@ -40,9 +39,7 @@ import javax.xml.bind.annotation.XmlType;
 public class RuesCamaras {
 
 	protected String exitoso;
-	@XmlElementWrapper(name = "detalleCamara")
-	@XmlElement(name = "Camara")
-	protected List<Camara> detalleCamara;
+    protected List<Camara> detalleCamara;
 
 	/**
 	 * Gets the value of the exitoso property.

@@ -38,4 +38,5 @@
 <workingSet IMemento.internal.id="WebFragmentWorkingSetPage.name"/>
 <workingSet IMemento.internal.id="OthersWorkingSet.name"/>
 </workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1545941417826_16" label="Window Working Set" name="Aggregate for window 1545941417826"/>
 </workingSetManager>

@@ -21,6 +21,7 @@ import com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasex
 import com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Anec;
 import com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Asopagos;
 import com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Bdua;
+import com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Camara;
 import com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.ConsejoProfesional;
 import com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Contraloria;
 import com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1.Copnia;
@@ -65,9 +66,9 @@ public class ConsultaFuentesPublicasExternasHttpBindingImpl {
 			File file = new File("/dummyFuentesExternas/" + identificacion.getNumeroDocumento() + ".xml");
 
 			InputStream inputStream = new FileInputStream(file);
-			Reader reader = new InputStreamReader(inputStream, "ISO-8859-1");
+			Reader reader = new InputStreamReader(inputStream, "UTF-8");
 			InputSource is = new InputSource(reader);
-			is.setEncoding("ISO-8859-1");
+			is.setEncoding("UTF-8");
 
 			JAXBContext jaxbContext;
 			jaxbContext = JAXBContext.newInstance(ConsultarFuentesExternasResponse.class);
@@ -80,7 +81,7 @@ public class ConsultaFuentesPublicasExternasHttpBindingImpl {
 			setAfiliadosCompensados(afiliadosCompensados, cfep);
 
 			asopagos.value = cfep.asopagos;
-			ruesCamaras.value = cfep.ruesCamaras;
+			addRuesCamara(ruesCamaras, cfep);
 			dianRut.value = cfep.dianRut;
 
 		} catch (JAXBException e1) {
@@ -92,27 +93,60 @@ public class ConsultaFuentesPublicasExternasHttpBindingImpl {
 		}
 	}
 
+	/**
+	 * @param ruesCamaras
+	 * @param cfep
+	 */
+	private void addRuesCamara(Holder<RuesCamaras> ruesCamaras, ConsultarFuentesExternasResponse cfep) {
+		RuesCamaras rues = new RuesCamaras();
+		if (cfep.ruesCamaras.getExitoso() != null || cfep.ruesCamaras.getExitoso() != "")
+			rues.setExitoso(cfep.ruesCamaras.getExitoso());
+		if (!cfep.ruesCamaras.getDetalleCamara().isEmpty()) {
+			for (com.grupobancolombia.beans.Camara camera : cfep.ruesCamaras.getDetalleCamara()) {
+				Camara cam = new Camara();
+				cam.setUbicacionFuente(camera.getUbicacionFuente());
+				cam.setNombrePersona(camera.getNombrePersona());
+				cam.setCategoriaPersona(camera.getCategoriaPersona());
+				cam.setCamaraComercio(camera.getCamaraComercio());
+				cam.setRepresentanteLegal(camera.getRepresentanteLegal());
+				cam.setSiglaEstablecimiento(camera.getSiglaEstablecimiento());
+				cam.setNumeroMatricula(camera.getNumeroMatricula());
+				cam.setEstadoMatricula(camera.getEstadoMatricula());
+				cam.setAnnoUltimaRenovacion(camera.getAnnoUltimaRenovacion());
+				cam.setFechaMatricula(camera.getFechaMatricula());
+				cam.setFechaCancelacion(camera.getFechaCancelacion());
+				cam.setCategoriaMatricula(camera.getCategoriaMatricula());
+				cam.setTipoSociedad(camera.getTipoSociedad());
+				cam.setTipoOrganizacionEstablecimiento(camera.getTipoOrganizacionEstablecimiento());
+				cam.setNumEmpleados(camera.getNumEmpleados());
+				cam.setEsAfiliado(camera.getEsAfiliado());
+				cam.setRepresentanteLegal(camera.getRepresentanteLegal());
+				cam.getActividadEconomica().clear();
+				cam.getActividadEconomica().addAll(camera.getActividadEconomica());
+				rues.getDetalleCamara().add(cam);
+			}
+		}
+		ruesCamaras.value = rues;
+	}
+
 	private void setAfiliadosCompensados(Holder<AfiliadosCompensados> afiliadosCompensados,
 			ConsultarFuentesExternasResponse cfep) {
 		if (cfep.afiliadosCompensados != null) {
 			afiliadosCompensados.value.setExitoso(cfep.afiliadosCompensados.getExitoso());
 			afiliadosCompensados.value.setNombrePersona(cfep.afiliadosCompensados.getNombrePersona());
-			
+
 			Afiliado afiliado = new Afiliado();
 			if (!cfep.afiliadosCompensados.getReporteAfiliado().getResolucion2280().isEmpty()) {
 				afiliado.getResolucion2280().clear();
-				afiliado.getResolucion2280()
-						.addAll(cfep.afiliadosCompensados.getReporteAfiliado().getResolucion2280());
+				afiliado.getResolucion2280().addAll(cfep.afiliadosCompensados.getReporteAfiliado().getResolucion2280());
 			}
 			if (!cfep.afiliadosCompensados.getReporteAfiliado().getResolucion2309().isEmpty()) {
 				afiliado.getResolucion2309().clear();
-				afiliado.getResolucion2309()
-						.addAll(cfep.afiliadosCompensados.getReporteAfiliado().getResolucion2309());
+				afiliado.getResolucion2309().addAll(cfep.afiliadosCompensados.getReporteAfiliado().getResolucion2309());
 			}
 			if (!cfep.afiliadosCompensados.getReporteAfiliado().getResolucion4023().isEmpty()) {
 				afiliado.getResolucion4023().clear();
-				afiliado.getResolucion4023()
-						.addAll(cfep.afiliadosCompensados.getReporteAfiliado().getResolucion4023());
+				afiliado.getResolucion4023().addAll(cfep.afiliadosCompensados.getReporteAfiliado().getResolucion4023());
 			}
 			afiliadosCompensados.value.setReporteAfiliado(afiliado);
 			if (!cfep.afiliadosCompensados.getPeriodosCompensados().isEmpty()) {

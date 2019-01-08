@@ -1,6 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <com.ibm.rational.ttt.ustc.core.model:USTC xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rational.test.lt.models.wscore.datamodel.protocol.mq="http:///com/ibm/rational/test/lt/models/wscore/datamodel/protocol/mq.ecore" xmlns:com.ibm.rational.test.lt.models.wscore.message.content="http:///com/ibm/rational/test/lt/models/wscore/message/content.ecore" xmlns:com.ibm.rational.test.lt.models.wscore.message.content.mq="http:///com/ibm/rational/test/lt/models/wscore/message/mq/mq.ecore" xmlns:com.ibm.rational.test.lt.models.wscore.message.transformation="http:///com/ibm/rational/test/lt/models/wscore/message/transformation.ecore" xmlns:com.ibm.rational.test.lt.models.wscore.protocol.dotnet="http:///com/ibm/rational/test/lt/models/wscore/protocol/dotnet.ecore" xmlns:com.ibm.rational.test.lt.models.wscore.protocol.http="http:///com/ibm/rational/test/lt/models/wscore/protocol/http.ecore" xmlns:com.ibm.rational.test.lt.models.wscore.protocol.jms="http:///com/ibm/rational/test/lt/models/wscore/protocol/jms.ecore" xmlns:com.ibm.rational.test.lt.models.wscore.protocol.mqn="http:///com/ibm/rational/test/lt/models/wscore/protocol/mqn.ecore" xmlns:com.ibm.rational.test.lt.models.wscore.utils="http:///com/ibm/rational/test/lt/models/wscore/utils.ecore" xmlns:com.ibm.rational.test.lt.models.wscore.xml="http:///com/ibm/rational/test/lt/models/wscore/xml.ecore" xmlns:com.ibm.rational.ttt.ustc.core.model="http:///com/ibm/rational/ttt/ustc/core/model.ecore">
-  <callHistory/>
+  <callHistory>
+    <calls version="1542812923496" calledService="//@wsdlAliases.0/@services.0" date="2018-12-28T15:52:02.572-0500">
+      <request timeOut="30000">
+        <data xsi:type="com.ibm.rational.test.lt.models.wscore.message.content:XmlContent">
+          <containerProperties value="OS4w" name="VERSION"/>
+          <containerProperties value="UE9TVCAvaW50Zi9DbGllbnRlL0dlc3Rpb25SaWVzZ28vQ29uc3VsdGFGdWVudGVzUHVibGljYXNFeHRlcm5hcy9FbmxhY2UvVjEuMCBIVFRQLzEuMQ0KSG9zdDogZ3J1cG9iYW5jb2xvbWJpYS5jb206ODANCkNvbnRlbnQtVHlwZTogdGV4dC94bWw7IGNoYXJzZXQ9VVRGLTgNCkNvbnRlbnQtTGVuZ3RoOiA1MjENClVzZXItQWdlbnQ6IElCTSBXZWIgU2VydmljZXMgUlBUIEFnZW50DQpDYWNoZS1Db250cm9sOiBuby1jYWNoZQ0KUHJhZ21hOiBuby1jYWNoZQ0KQ29ubmVjdGlvbjogY2xvc2UNClNPQVBBY3Rpb246IGh0dHA6Ly9ncnVwb2JhbmNvbG9tYmlhLmNvbS9pbnRmL0NsaWVudGUvR2VzdGlvblJpZXNnby9Db25zdWx0YUZ1ZW50ZXNQdWJsaWNhc0V4dGVybmFzL1YxLjAvY29uc3VsdGFyRnVlbnRlc0V4dGVybmFzDQoNCjxzb2FwZW52OkVudmVsb3BlIHhtbG5zOnNvYXBlbnY9Imh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3NvYXAvZW52ZWxvcGUvIiB4bWxuczp4c2k9Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hLWluc3RhbmNlIiB4bWxuczp4c2Q9Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hIiB4bWxuczp0bnMxPSJodHRwOi8vZ3J1cG9iYW5jb2xvbWJpYS5jb20vaW50Zi9DbGllbnRlL0dlc3Rpb25SaWVzZ28vQ29uc3VsdGFGdWVudGVzUHVibGljYXNFeHRlcm5hcy9WMS4wIj48c29hcGVudjpCb2R5Pjx0bnMxOmNvbnN1bHRhckZ1ZW50ZXNFeHRlcm5hcz48aWRlbnRpZmljYWNpb24+PHRpcG9Eb2N1bWVudG8+c3RyPC90aXBvRG9jdW1lbnRvPjxudW1lcm9Eb2N1bWVudG8+NzE2NDU1OTM8L251bWVyb0RvY3VtZW50bz48L2lkZW50aWZpY2FjaW9uPjxmdWVudGU+c3RyPC9mdWVudGU+PC90bnMxOmNvbnN1bHRhckZ1ZW50ZXNFeHRlcm5hcz48L3NvYXBlbnY6Qm9keT48L3NvYXBlbnY6RW52ZWxvcGU+" name="HttpTransporter.PERSISTEDLOWLEVELHTTPVALUE"/>
+          <containerProperties value="ZmFsc2U=" name="HttpTransporter.HASBEENSECURED"/>
+          <containerProperties value="PHNvYXBlbnY6RW52ZWxvcGUgeG1sbnM6c29hcGVudj0iaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvc29hcC9lbnZlbG9wZS8iIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnRuczE9Imh0dHA6Ly9ncnVwb2JhbmNvbG9tYmlhLmNvbS9pbnRmL0NsaWVudGUvR2VzdGlvblJpZXNnby9Db25zdWx0YUZ1ZW50ZXNQdWJsaWNhc0V4dGVybmFzL1YxLjAiPjxzb2FwZW52OkJvZHk+PHRuczE6Y29uc3VsdGFyRnVlbnRlc0V4dGVybmFzPjxpZGVudGlmaWNhY2lvbj48dGlwb0RvY3VtZW50bz5zdHI8L3RpcG9Eb2N1bWVudG8+PG51bWVyb0RvY3VtZW50bz43MTY0NTU5MzwvbnVtZXJvRG9jdW1lbnRvPjwvaWRlbnRpZmljYWNpb24+PGZ1ZW50ZT5zdHI8L2Z1ZW50ZT48L3RuczE6Y29uc3VsdGFyRnVlbnRlc0V4dGVybmFzPjwvc29hcGVudjpCb2R5Pjwvc29hcGVudjpFbnZlbG9wZT4=" name="HttpTransporter.PERSISTEDXMLSTRINGVALUE"/>
+          <XmlElement name="Envelope" nameSpace="soapenv">
+            <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:XmlElement" name="Body" nameSpace="soapenv">
+              <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:XmlElement" name="consultarFuentesExternas" nameSpace="tns1">
+                <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:XmlElement" name="identificacion">
+                  <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:XmlElement" name="tipoDocumento">
+                    <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:TextNodeElement" name="Text" text="str"/>
+                  </childs>
+                  <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:XmlElement" name="numeroDocumento">
+                    <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:TextNodeElement" name="Text" text="71645593"/>
+                  </childs>
+                </childs>
+                <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:XmlElement" name="fuente">
+                  <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:TextNodeElement" name="Text" text="str"/>
+                </childs>
+              </childs>
+            </childs>
+            <xmlElementNameSpace value="http://schemas.xmlsoap.org/soap/envelope/" name="xmlns:soapenv"/>
+            <xmlElementNameSpace value="http://www.w3.org/2001/XMLSchema-instance" name="xmlns:xsi"/>
+            <xmlElementNameSpace value="http://www.w3.org/2001/XMLSchema" name="xmlns:xsd"/>
+            <xmlElementNameSpace value="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0" name="xmlns:tns1"/>
+          </XmlElement>
+        </data>
+        <data xsi:type="com.ibm.rational.test.lt.models.wscore.message.content:AttachmentContent">
+          <Attachments/>
+        </data>
+        <data xsi:type="com.ibm.rational.test.lt.models.wscore.message.content:MQNContent">
+          <MQNElement xsi:type="com.ibm.rational.test.lt.models.wscore.message.content.mq:MQNContentElt">
+            <items nameItem="MQMessageContent_Link">
+              <properties xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="MQMessageContent_InternalConstant_TextContentType" name="MQMessageContent_Link__ContentType" type="java.lang.String" selected="true"/>
+            </items>
+          </MQNElement>
+        </data>
+        <data xsi:type="com.ibm.rational.test.lt.models.wscore.message.content:PropertyContent"/>
+        <MessageTransformation xsi:type="com.ibm.rational.test.lt.models.wscore.message.transformation:SoapMessageTransformation" wsdlPortId="2001457638SEPARATOR526ebe17-79fe-4e70-86bf-ca317a38fe98">
+          <dataSent xsi:type="com.ibm.rational.test.lt.models.wscore.message.transformation:XmlTransformation"/>
+          <dataReceived xsi:type="com.ibm.rational.test.lt.models.wscore.message.transformation:XmlTransformation"/>
+        </MessageTransformation>
+        <Protocol xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.http:HttpProtocol" name="HTTP" selected="true" version="1.1">
+          <ProtocolConfigurationAlias xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.http:HttpCallConfigurationAlias" name="XdefaulthttpX">
+            <aliasName value="XdefaulthttpX"/>
+            <headeroptions value="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0/consultarFuentesExternas" name="SOAPAction"/>
+            <url value="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/Enlace/V1.0"/>
+            <cookieVersion/>
+            <restResource/>
+            <restParameterSeparator value="&amp;"/>
+          </ProtocolConfigurationAlias>
+        </Protocol>
+        <Protocol xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.jms:JMSProtocol" name="JMS">
+          <ProtocolConfigurationAlias xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.jms:JMSProtocolAlias" name="XdefaultjmsX">
+            <aliasName value="XdefaultjmsX"/>
+          </ProtocolConfigurationAlias>
+        </Protocol>
+        <Protocol xsi:type="com.ibm.rational.test.lt.models.wscore.datamodel.protocol.mq:MQProtocol" name="MQ">
+          <ProtocolConfigurationAlias xsi:type="com.ibm.rational.test.lt.models.wscore.datamodel.protocol.mq:MQProtocolConfigurationAlias" name="XdefaultmqX">
+            <aliasName value="XdefaultmqX"/>
+          </ProtocolConfigurationAlias>
+        </Protocol>
+        <Protocol xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.dotnet:DotNetProtocol" name="DOT-NET">
+          <ProtocolConfigurationAlias xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.dotnet:DotNetProtocolConfigurationAlias" name="XdefaultDotNetX">
+            <aliasName value="XdefaultDotNetX"/>
+          </ProtocolConfigurationAlias>
+        </Protocol>
+        <Protocol xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.mqn:MQNProtocol" name="MQN">
+          <ProtocolConfigurationAlias xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.mqn:MQNProtocolConfigurationAlias" name="XdefaultmqnativeX">
+            <aliasName value="XdefaultmqnativeX"/>
+            <CallQueueConf request_type="MQMT_REQUEST">
+              <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="_DEFAULT_WRITE_QUEUE" name="MsgQueue" type="java.lang.String" selected="true"/>
+              <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="MQMT_REQUEST" name="MQMD_MsgType" type="java.lang.String" selected="true"/>
+              <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="DEFAULT_READ_QUEUE" name="MsgAnswerQueue" type="java.lang.String" selected="true"/>
+              <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="" name="MsgAnswerQueueManager" type="java.lang.String" selected="true"/>
+              <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="false" name="MsgDynamicalAnswer" type="java.lang.Boolean" selected="true"/>
+              <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="MQPER_NOT_PERSISTENT" name="MQMD_Persistence" type="java.lang.String" selected="true"/>
+              <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="0" name="MQMD_Priority" type="java.lang.Integer" selected="true"/>
+              <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="273" name="MQMD_Encoding" type="java.lang.Integer" selected="true"/>
+              <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="-1" name="MQMD_Expiry" type="java.lang.Integer" selected="true"/>
+              <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="1208" name="MQMD_CharacterSet" type="java.lang.Integer" selected="true"/>
+              <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="0" name="MQMD_Report" type="java.lang.Long" selected="true"/>
+              <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="0" name="MQMD_Feedback" type="java.lang.Integer" selected="true"/>
+              <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="" name="MQMD_ApplicationIdData" type="java.lang.String" selected="true"/>
+              <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="" name="MQMD_ApplicationOriginData" type="java.lang.String" selected="true"/>
+              <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="" name="MQMD_AccountingToken" type="[Ljava.lang.Byte;" selected="true"/>
+              <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="" name="MQMD_UserId" type="java.lang.String" selected="true"/>
+              <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="" name="MQMD_MessageId" type="[Ljava.lang.Byte;" selected="true"/>
+              <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="" name="MQMD_CorrelationId" type="[Ljava.lang.Byte;" selected="true"/>
+              <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="" name="MQMD_GroupId" type="[Ljava.lang.Byte;" selected="true"/>
+              <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="0" name="MQMD_Segmentation" type="java.lang.Integer" selected="true"/>
+              <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="0" name="MQMD_Offset" type="java.lang.Integer" selected="true"/>
+              <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="1" name="MQMD_MessageSequenceNumber" type="java.lang.Integer" selected="true"/>
+            </CallQueueConf>
+          </ProtocolConfigurationAlias>
+        </Protocol>
+      </request>
+      <response generatedByThisTypeOfMessage="CREATED_FROM_WSDL_CALL">
+        <data xsi:type="com.ibm.rational.test.lt.models.wscore.message.content:AttachmentContent">
+          <Attachments/>
+        </data>
+        <data xsi:type="com.ibm.rational.test.lt.models.wscore.message.content:TextContent">
+          <containerProperties value="" name="HttpTransporter.PERSISTEDXMLSTRINGVALUE"/>
+          <containerProperties value="SFRUUC8xLjEgMzAyIEZvdW5kIDogTW92ZWQgVGVtcG9yYXJpbHkNCkxvY2F0aW9uOiBodHRwczovL2dydXBvYmFuY29sb21iaWEuY29tOjgwL2ludGYvQ2xpZW50ZS9HZXN0aW9uUmllc2dvL0NvbnN1bHRhRnVlbnRlc1B1YmxpY2FzRXh0ZXJuYXMvRW5sYWNlL1YxLjANCkNvbm5lY3Rpb246IGNsb3NlDQpDYWNoZS1Db250cm9sOiBuby1jYWNoZQ0KUHJhZ21hOiBuby1jYWNoZQ0KDQo=" name="HttpTransporter.PERSISTEDLOWLEVELHTTPVALUE"/>
+        </data>
+        <data xsi:type="com.ibm.rational.test.lt.models.wscore.message.content:PropertyContent">
+          <SimpleProperty value="https://grupobancolombia.com:80/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/Enlace/V1.0" name="Location"/>
+          <SimpleProperty value="close" name="Connection"/>
+          <SimpleProperty value="no-cache" name="Cache-Control"/>
+          <SimpleProperty value="no-cache" name="Pragma"/>
+          <SimpleProperty value="302" name="status"/>
+        </data>
+      </response>
+    </calls>
+  </callHistory>
   <store>
     <protocolConfigurations>
       <ProtocolConfigurationAliasStore aliasName="ConsultaFuentesPublicasExternasHttpPort">
@@ -69,16 +186,11 @@
         <keyStore/>
         <wsdl name="ConsultaFuentesPublicasExternas" key="ConsultaFuentesPublicasExternas">
           <SimpleProperty value="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/Enlace/V1.0" name="WSDLPROPERTY_TARGETNAMESPACE"/>
-          <SimpleProperty value="58c86c485350bc25f79fea4194e822bee51f2b3e58c86c485350bc25f79fea4194e822bee51f2b3ec7be4caa02fbeb1c1b17b61fa5a20bfc677d7d1d00ed457c3ce4fa91e1eb9a77655927eae6da396dac0169e8eaff602915264d0607a5a1c59410d1325c3e760c4c25b424e4826c2c71135c05d3728a14422ff7f849fa65cd586a0667dc850da61f98294b" name="WSDLPROPERTY_HASH"/>
-          <SimpleProperty value="1544129689313" name="WSDLPROPERTY_SYNCHROSTAMP"/>
-          <SimpleProperty value="0" name="WSDLPROPERTY_SYNCHRO"/>
-          <SimpleProperty value="1544129691645" name="WSDLPROPERTY_LASTSYNCHRO"/>
-          <SimpleProperty value="file:/D:/workspaces/dummyTest/.metadata/.plugins/org.eclipse.core.resources/.projects/DummyFuentesExternas/com.ibm.ast.ws.jaxws.emitter/TEMP5803634020045765811/ConsultaFuentesPublicasExternas.wsdl" name="WSDLPROPERTY_URL"/>
-          <SimpleProperty value="Generated by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI IBM 2.2.1-11/28/2011 08:28 AM(foreman)-." name="WSDLPROPERTY_PROVIDER"/>
-          <SimpleProperty value="oasis" name="WSDLPROPERTY_TECHNOLOGY"/>
-          <ResourceProxy portablePath="/GSC Store/1544129689185/ConsultaFuentesPublicasExternas.wsdl" timeStamp="1544129689313"/>
+          <SimpleProperty value="adb58e299db1f680dc17ceb011f7f5cfd91cafcdadb58e299db1f680dc17ceb011f7f5cfd91cafcd466b334a18e6db6f3cf4fd679a8a531bb389d05ec62349bebbb828ae56f7ec898186e151171f14c7e25112f4257fc6fa3a1dbed722ca9d6e61afba0eb5196d5cb4362301f51cf0fc5c4c40049856d8bf239b9c1319ed958b340cfd2222cd7aaa441799dc" name="WSDLPROPERTY_HASH"/>
+          <SimpleProperty value="1542812923496" name="WSDLPROPERTY_SYNCHROSTAMP"/>
+          <ResourceProxy portablePath="/DummyFuentesExternas/WebContent/wsdl/ConsultaFuentesPublicasExternas.wsdl" timeStamp="1542812923496"/>
           <WsdlInformationContainer versionContainer="9.0"/>
-          <WsdlBinding name="ConsultaFuentesPublicasExternasHttpPortBinding">
+          <WsdlBinding name="ConsultaFuentesPublicasExternasHttpBinding">
             <SimpleProperty value="SoapDocumentBinding" name="WSDLBINDINGPROPERTY_TYPE"/>
             <SimpleProperty value="http://schemas.xmlsoap.org/soap/http" name="WSDLBINDINGPROPERTY_TRANSPORT_TYPE"/>
             <SimpleProperty value="true" name="Soap11Binding"/>
@@ -86,8 +198,8 @@
             <SimpleProperty value="false" name="HttpBinding"/>
             <SimpleProperty value="{http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0}ConsultaFuentesPublicasExternas" name="WSDLBINDING_SERVICE_NAME"/>
             <WsdlOperation name="consultarFuentesExternas" key="consultarFuentesExternas">
-              <WsdlPort name="ConsultaFuentesPublicasExternasHttpPort" uniqueID="554910006SEPARATOR6775a1f3-2940-4759-90f0-cd3f55b4db9c">
-                <SimpleProperty value="REPLACE_WITH_ACTUAL_URL" name="WSDLPORTPROPERTY_HTTP_URL"/>
+              <WsdlPort name="ConsultaFuentesPublicasExternasHttpPort" uniqueID="2001457638SEPARATOR526ebe17-79fe-4e70-86bf-ca317a38fe98">
+                <SimpleProperty value="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/Enlace/V1.0" name="WSDLPORTPROPERTY_HTTP_URL"/>
                 <in>
                   <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
                 </in>
@@ -96,67 +208,15 @@
                 </out>
               </WsdlPort>
               <in>
-                <SimpleProperty value="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0/consultarFuentesExternas" name="WSADDRESSING_ACTIVATOR"/>
                 <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
                 <WsdlPart element="true" nameSpaceURI="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0" localPart="consultarFuentesExternas" partName="parameters"/>
               </in>
               <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
               <SimpleProperty value="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0/consultarFuentesExternas" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
               <out>
-                <SimpleProperty value="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0/ConsultaFuentesPublicasExternas/consultarFuentesExternasResponse" name="WSADDRESSING_ACTIVATOR"/>
                 <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
-                <SimpleProperty name="MESSAGENAME"/>
-                <WsdlPart element="true" nameSpaceURI="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0" localPart="consultarFuentesExternasResponse" partName="parameters"/>
-              </out>
-            </WsdlOperation>
-          </WsdlBinding>
-        </wsdl>
-      </WSDLInformationContainer>
-      <WSDLInformationContainer>
-        <securityOperationConfiguration>
-          <SecurityPortConfiguration aliasName="DEFAULTCONFIGURATION"/>
-        </securityOperationConfiguration>
-        <keyStore/>
-        <wsdl name="ConsultaFuentesPublicasExternas" key="ConsultaFuentesPublicasExternas">
-          <SimpleProperty value="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/Enlace/V1.0" name="WSDLPROPERTY_TARGETNAMESPACE"/>
-          <SimpleProperty value="58c86c485350bc25f79fea4194e822bee51f2b3e58c86c485350bc25f79fea4194e822bee51f2b3ec7be4caa02fbeb1c1b17b61fa5a20bfc677d7d1d00ed457c3ce4fa91e1eb9a77655927eae6da396dac0169e8eaff602915264d0607a5a1c59410d1325c3e760c4c25b424e4826c2c71135c05d3728a14422ff7f849fa65cd586a0667dc850da61f98294b" name="WSDLPROPERTY_HASH"/>
-          <SimpleProperty value="1544455573632" name="WSDLPROPERTY_SYNCHROSTAMP"/>
-          <SimpleProperty value="0" name="WSDLPROPERTY_SYNCHRO"/>
-          <SimpleProperty value="1544455602034" name="WSDLPROPERTY_LASTSYNCHRO"/>
-          <SimpleProperty value="file:/D:/workspaces/dummyTest/.metadata/.plugins/org.eclipse.core.resources/.projects/DummyFuentesExternas/com.ibm.ast.ws.jaxws.emitter/TEMP3179178603642778413/ConsultaFuentesPublicasExternas.wsdl" name="WSDLPROPERTY_URL"/>
-          <SimpleProperty value="Generated by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI IBM 2.2.1-11/28/2011 08:28 AM(foreman)-." name="WSDLPROPERTY_PROVIDER"/>
-          <SimpleProperty value="oasis" name="WSDLPROPERTY_TECHNOLOGY"/>
-          <ResourceProxy portablePath="/GSC Store/1544455573468/ConsultaFuentesPublicasExternas.wsdl" timeStamp="1544455573632"/>
-          <WsdlInformationContainer versionContainer="9.0"/>
-          <WsdlBinding name="ConsultaFuentesPublicasExternasHttpPortBinding">
-            <SimpleProperty value="SoapDocumentBinding" name="WSDLBINDINGPROPERTY_TYPE"/>
-            <SimpleProperty value="http://schemas.xmlsoap.org/soap/http" name="WSDLBINDINGPROPERTY_TRANSPORT_TYPE"/>
-            <SimpleProperty value="true" name="Soap11Binding"/>
-            <SimpleProperty value="false" name="Soap12Binding"/>
-            <SimpleProperty value="false" name="HttpBinding"/>
-            <SimpleProperty value="{http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0}ConsultaFuentesPublicasExternas" name="WSDLBINDING_SERVICE_NAME"/>
-            <WsdlOperation name="consultarFuentesExternas" key="consultarFuentesExternas">
-              <WsdlPort name="ConsultaFuentesPublicasExternasHttpPort" uniqueID="549150079SEPARATORbbdde7fe-60ec-4a5a-bd58-fefc03e66447">
-                <SimpleProperty value="REPLACE_WITH_ACTUAL_URL" name="WSDLPORTPROPERTY_HTTP_URL"/>
-                <in>
-                  <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
-                </in>
-                <out>
-                  <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
-                </out>
-              </WsdlPort>
-              <in>
-                <SimpleProperty value="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0/consultarFuentesExternas" name="WSADDRESSING_ACTIVATOR"/>
-                <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
-                <WsdlPart element="true" nameSpaceURI="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0" localPart="consultarFuentesExternas" partName="parameters"/>
-              </in>
-              <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
-              <SimpleProperty value="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0/consultarFuentesExternas" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
-              <out>
-                <SimpleProperty value="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0/ConsultaFuentesPublicasExternas/consultarFuentesExternasResponse" name="WSADDRESSING_ACTIVATOR"/>
-                <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
-                <SimpleProperty name="MESSAGENAME"/>
-                <WsdlPart element="true" nameSpaceURI="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0" localPart="consultarFuentesExternasResponse" partName="parameters"/>
+                <SimpleProperty value="consultarFuentesExternasResponse" name="MESSAGENAME"/>
+                <WsdlPart element="true" nameSpaceURI="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0" localPart="consultarFuentesExternasResponse" partName="result"/>
               </out>
             </WsdlOperation>
           </WsdlBinding>
@@ -168,36 +228,30 @@
       <references targetNamespace="http://www.w3.org/2005/08/addressing" path="http://www.w3.org/2006/03/addressing/ws-addr.xsd" pathKind="HTTP"/>
     </schemasStore>
   </store>
-  <wsdlAliases resourceProxyPath="/GSC Store/1544455573468/ConsultaFuentesPublicasExternas.wsdl" lastKnownTimestamp="1544455573632">
-    <services portUniqueId="549150079SEPARATORbbdde7fe-60ec-4a5a-bd58-fefc03e66447">
-      <calls version="1544455573632" calledService="//@wsdlAliases.0/@services.0">
+  <wsdlAliases resourceProxyPath="/DummyFuentesExternas/WebContent/wsdl/ConsultaFuentesPublicasExternas.wsdl" lastKnownTimestamp="1542812923496">
+    <services portUniqueId="2001457638SEPARATOR526ebe17-79fe-4e70-86bf-ca317a38fe98">
+      <calls version="1542812923496" calledService="//@wsdlAliases.0/@services.0">
         <request timeOut="30000">
           <data xsi:type="com.ibm.rational.test.lt.models.wscore.message.content:XmlContent">
             <containerProperties value="OS4w" name="VERSION"/>
+            <containerProperties value="UE9TVCAvaW50Zi9DbGllbnRlL0dlc3Rpb25SaWVzZ28vQ29uc3VsdGFGdWVudGVzUHVibGljYXNFeHRlcm5hcy9FbmxhY2UvVjEuMCBIVFRQLzEuMQ0KSG9zdDogZ3J1cG9iYW5jb2xvbWJpYS5jb206ODANCkNvbnRlbnQtVHlwZTogdGV4dC94bWw7IGNoYXJzZXQ9VVRGLTgNCkNvbnRlbnQtTGVuZ3RoOiA1MjENClVzZXItQWdlbnQ6IElCTSBXZWIgU2VydmljZXMgUlBUIEFnZW50DQpDYWNoZS1Db250cm9sOiBuby1jYWNoZQ0KUHJhZ21hOiBuby1jYWNoZQ0KQ29ubmVjdGlvbjogY2xvc2UNClNPQVBBY3Rpb246IGh0dHA6Ly9ncnVwb2JhbmNvbG9tYmlhLmNvbS9pbnRmL0NsaWVudGUvR2VzdGlvblJpZXNnby9Db25zdWx0YUZ1ZW50ZXNQdWJsaWNhc0V4dGVybmFzL1YxLjAvY29uc3VsdGFyRnVlbnRlc0V4dGVybmFzDQoNCjxzb2FwZW52OkVudmVsb3BlIHhtbG5zOnNvYXBlbnY9Imh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3NvYXAvZW52ZWxvcGUvIiB4bWxuczp4c2k9Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hLWluc3RhbmNlIiB4bWxuczp4c2Q9Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hIiB4bWxuczp0bnMxPSJodHRwOi8vZ3J1cG9iYW5jb2xvbWJpYS5jb20vaW50Zi9DbGllbnRlL0dlc3Rpb25SaWVzZ28vQ29uc3VsdGFGdWVudGVzUHVibGljYXNFeHRlcm5hcy9WMS4wIj48c29hcGVudjpCb2R5Pjx0bnMxOmNvbnN1bHRhckZ1ZW50ZXNFeHRlcm5hcz48aWRlbnRpZmljYWNpb24+PHRpcG9Eb2N1bWVudG8+c3RyPC90aXBvRG9jdW1lbnRvPjxudW1lcm9Eb2N1bWVudG8+NzE2NDU1OTM8L251bWVyb0RvY3VtZW50bz48L2lkZW50aWZpY2FjaW9uPjxmdWVudGU+c3RyPC9mdWVudGU+PC90bnMxOmNvbnN1bHRhckZ1ZW50ZXNFeHRlcm5hcz48L3NvYXBlbnY6Qm9keT48L3NvYXBlbnY6RW52ZWxvcGU+" name="HttpTransporter.PERSISTEDLOWLEVELHTTPVALUE"/>
+            <containerProperties value="ZmFsc2U=" name="HttpTransporter.HASBEENSECURED"/>
+            <containerProperties value="PHNvYXBlbnY6RW52ZWxvcGUgeG1sbnM6c29hcGVudj0iaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvc29hcC9lbnZlbG9wZS8iIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnRuczE9Imh0dHA6Ly9ncnVwb2JhbmNvbG9tYmlhLmNvbS9pbnRmL0NsaWVudGUvR2VzdGlvblJpZXNnby9Db25zdWx0YUZ1ZW50ZXNQdWJsaWNhc0V4dGVybmFzL1YxLjAiPjxzb2FwZW52OkJvZHk+PHRuczE6Y29uc3VsdGFyRnVlbnRlc0V4dGVybmFzPjxpZGVudGlmaWNhY2lvbj48dGlwb0RvY3VtZW50bz5zdHI8L3RpcG9Eb2N1bWVudG8+PG51bWVyb0RvY3VtZW50bz43MTY0NTU5MzwvbnVtZXJvRG9jdW1lbnRvPjwvaWRlbnRpZmljYWNpb24+PGZ1ZW50ZT5zdHI8L2Z1ZW50ZT48L3RuczE6Y29uc3VsdGFyRnVlbnRlc0V4dGVybmFzPjwvc29hcGVudjpCb2R5Pjwvc29hcGVudjpFbnZlbG9wZT4=" name="HttpTransporter.PERSISTEDXMLSTRINGVALUE"/>
             <XmlElement name="Envelope" nameSpace="soapenv">
-              <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:XmlElement" name="Header" nameSpace="soapenv">
-                <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:XmlElement" name="To" nameSpace="wsa">
-                  <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:TextNodeElement" name="Text" text="REPLACE_WITH_ACTUAL_URL"/>
-                  <xmlElementNameSpace value="http://www.w3.org/2005/08/addressing" name="xmlns:wsa"/>
-                </childs>
-                <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:XmlElement" name="Action" nameSpace="wsa">
-                  <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:TextNodeElement" name="Text" text="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0/consultarFuentesExternas"/>
-                  <xmlElementNameSpace value="http://www.w3.org/2005/08/addressing" name="xmlns:wsa"/>
-                </childs>
-                <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:XmlElement" name="MessageID" nameSpace="wsa">
-                  <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:TextNodeElement" name="Text" text="uuid:91253b73-8840-4082-b7d1-fa1290845297"/>
-                  <xmlElementNameSpace value="http://www.w3.org/2005/08/addressing" name="xmlns:wsa"/>
-                </childs>
-                <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:XmlElement" name="ReplyTo" nameSpace="wsa">
-                  <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:XmlElement" name="Address" nameSpace="wsa">
-                    <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:TextNodeElement" name="Text" text="http://www.w3.org/2005/08/addressing/anonymous"/>
-                    <xmlElementNameSpace value="http://www.w3.org/2005/08/addressing" name="xmlns:wsa"/>
-                  </childs>
-                  <xmlElementNameSpace value="http://www.w3.org/2005/08/addressing" name="xmlns:wsa"/>
-                </childs>
-              </childs>
               <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:XmlElement" name="Body" nameSpace="soapenv">
-                <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:XmlElement" name="consultarFuentesExternas" nameSpace="tns1"/>
+                <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:XmlElement" name="consultarFuentesExternas" nameSpace="tns1">
+                  <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:XmlElement" name="identificacion">
+                    <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:XmlElement" name="tipoDocumento">
+                      <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:TextNodeElement" name="Text" text="str"/>
+                    </childs>
+                    <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:XmlElement" name="numeroDocumento">
+                      <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:TextNodeElement" name="Text" text="71645593"/>
+                    </childs>
+                  </childs>
+                  <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:XmlElement" name="fuente">
+                    <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:TextNodeElement" name="Text" text="str"/>
+                  </childs>
+                </childs>
               </childs>
               <xmlElementNameSpace value="http://schemas.xmlsoap.org/soap/envelope/" name="xmlns:soapenv"/>
               <xmlElementNameSpace value="http://www.w3.org/2001/XMLSchema-instance" name="xmlns:xsi"/>
@@ -216,7 +270,7 @@
             </MQNElement>
           </data>
           <data xsi:type="com.ibm.rational.test.lt.models.wscore.message.content:PropertyContent"/>
-          <MessageTransformation xsi:type="com.ibm.rational.test.lt.models.wscore.message.transformation:SoapMessageTransformation" wsdlPortId="549150079SEPARATORbbdde7fe-60ec-4a5a-bd58-fefc03e66447">
+          <MessageTransformation xsi:type="com.ibm.rational.test.lt.models.wscore.message.transformation:SoapMessageTransformation" wsdlPortId="2001457638SEPARATOR526ebe17-79fe-4e70-86bf-ca317a38fe98">
             <dataSent xsi:type="com.ibm.rational.test.lt.models.wscore.message.transformation:XmlTransformation"/>
             <dataReceived xsi:type="com.ibm.rational.test.lt.models.wscore.message.transformation:XmlTransformation"/>
           </MessageTransformation>
@@ -224,7 +278,7 @@
             <ProtocolConfigurationAlias xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.http:HttpCallConfigurationAlias" name="XdefaulthttpX">
               <aliasName value="XdefaulthttpX"/>
               <headeroptions value="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0/consultarFuentesExternas" name="SOAPAction"/>
-              <url value="REPLACE_WITH_ACTUAL_URL"/>
+              <url value="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/Enlace/V1.0"/>
               <cookieVersion/>
               <restResource/>
               <restParameterSeparator value="&amp;"/>
@@ -241,11 +295,8 @@
             </ProtocolConfigurationAlias>
           </Protocol>
           <Protocol xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.dotnet:DotNetProtocol" name="DOT-NET">
-            <ProtocolConfigurationAlias xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.dotnet:DotNetProtocolConfigurationAlias" name="ConsultaFuentesPublicasExternasHttpPort">
-              <aliasName value="ConsultaFuentesPublicasExternasHttpPort"/>
-              <SimpleProperty value="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0/consultarFuentesExternas" name="Action"/>
-              <SimpleProperty value="&quot;http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0/consultarFuentesExternas&quot;" name="SOAPAction"/>
-              <SimpleProperty value="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0/ConsultaFuentesPublicasExternas/consultarFuentesExternasResponse" name="Return-Action"/>
+            <ProtocolConfigurationAlias xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.dotnet:DotNetProtocolConfigurationAlias" name="XdefaultDotNetX">
+              <aliasName value="XdefaultDotNetX"/>
             </ProtocolConfigurationAlias>
           </Protocol>
           <Protocol xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.mqn:MQNProtocol" name="MQN">
@@ -278,6 +329,138 @@
             </ProtocolConfigurationAlias>
           </Protocol>
         </request>
+        <response generatedByThisTypeOfMessage="CREATED_FROM_WSDL_CALL">
+          <data xsi:type="com.ibm.rational.test.lt.models.wscore.message.content:AttachmentContent">
+            <Attachments/>
+          </data>
+          <data xsi:type="com.ibm.rational.test.lt.models.wscore.message.content:TextContent">
+            <containerProperties value="" name="HttpTransporter.PERSISTEDXMLSTRINGVALUE"/>
+            <containerProperties value="SFRUUC8xLjEgMzAyIEZvdW5kIDogTW92ZWQgVGVtcG9yYXJpbHkNCkxvY2F0aW9uOiBodHRwczovL2dydXBvYmFuY29sb21iaWEuY29tOjgwL2ludGYvQ2xpZW50ZS9HZXN0aW9uUmllc2dvL0NvbnN1bHRhRnVlbnRlc1B1YmxpY2FzRXh0ZXJuYXMvRW5sYWNlL1YxLjANCkNvbm5lY3Rpb246IGNsb3NlDQpDYWNoZS1Db250cm9sOiBuby1jYWNoZQ0KUHJhZ21hOiBuby1jYWNoZQ0KDQo=" name="HttpTransporter.PERSISTEDLOWLEVELHTTPVALUE"/>
+          </data>
+          <data xsi:type="com.ibm.rational.test.lt.models.wscore.message.content:PropertyContent">
+            <SimpleProperty value="https://grupobancolombia.com:80/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/Enlace/V1.0" name="Location"/>
+            <SimpleProperty value="close" name="Connection"/>
+            <SimpleProperty value="no-cache" name="Cache-Control"/>
+            <SimpleProperty value="no-cache" name="Pragma"/>
+            <SimpleProperty value="302" name="status"/>
+          </data>
+        </response>
+      </calls>
+      <calls version="1542812923496" calledService="//@wsdlAliases.0/@services.0">
+        <request timeOut="30000">
+          <data xsi:type="com.ibm.rational.test.lt.models.wscore.message.content:XmlContent">
+            <containerProperties value="OS4w" name="VERSION"/>
+            <containerProperties value="UE9TVCAvaW50Zi9DbGllbnRlL0dlc3Rpb25SaWVzZ28vQ29uc3VsdGFGdWVudGVzUHVibGljYXNFeHRlcm5hcy9FbmxhY2UvVjEuMCBIVFRQLzEuMQ0KSG9zdDogZ3J1cG9iYW5jb2xvbWJpYS5jb206ODANCkNvbnRlbnQtVHlwZTogdGV4dC94bWw7IGNoYXJzZXQ9VVRGLTgNCkNvbnRlbnQtTGVuZ3RoOiA1MjENClVzZXItQWdlbnQ6IElCTSBXZWIgU2VydmljZXMgUlBUIEFnZW50DQpDYWNoZS1Db250cm9sOiBuby1jYWNoZQ0KUHJhZ21hOiBuby1jYWNoZQ0KQ29ubmVjdGlvbjogY2xvc2UNClNPQVBBY3Rpb246IGh0dHA6Ly9ncnVwb2JhbmNvbG9tYmlhLmNvbS9pbnRmL0NsaWVudGUvR2VzdGlvblJpZXNnby9Db25zdWx0YUZ1ZW50ZXNQdWJsaWNhc0V4dGVybmFzL1YxLjAvY29uc3VsdGFyRnVlbnRlc0V4dGVybmFzDQoNCjxzb2FwZW52OkVudmVsb3BlIHhtbG5zOnNvYXBlbnY9Imh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3NvYXAvZW52ZWxvcGUvIiB4bWxuczp4c2k9Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hLWluc3RhbmNlIiB4bWxuczp4c2Q9Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hIiB4bWxuczp0bnMxPSJodHRwOi8vZ3J1cG9iYW5jb2xvbWJpYS5jb20vaW50Zi9DbGllbnRlL0dlc3Rpb25SaWVzZ28vQ29uc3VsdGFGdWVudGVzUHVibGljYXNFeHRlcm5hcy9WMS4wIj48c29hcGVudjpCb2R5Pjx0bnMxOmNvbnN1bHRhckZ1ZW50ZXNFeHRlcm5hcz48aWRlbnRpZmljYWNpb24+PHRpcG9Eb2N1bWVudG8+c3RyPC90aXBvRG9jdW1lbnRvPjxudW1lcm9Eb2N1bWVudG8+NzE2NDU1OTM8L251bWVyb0RvY3VtZW50bz48L2lkZW50aWZpY2FjaW9uPjxmdWVudGU+c3RyPC9mdWVudGU+PC90bnMxOmNvbnN1bHRhckZ1ZW50ZXNFeHRlcm5hcz48L3NvYXBlbnY6Qm9keT48L3NvYXBlbnY6RW52ZWxvcGU+" name="HttpTransporter.PERSISTEDLOWLEVELHTTPVALUE"/>
+            <containerProperties value="ZmFsc2U=" name="HttpTransporter.HASBEENSECURED"/>
+            <containerProperties value="PHNvYXBlbnY6RW52ZWxvcGUgeG1sbnM6c29hcGVudj0iaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvc29hcC9lbnZlbG9wZS8iIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnRuczE9Imh0dHA6Ly9ncnVwb2JhbmNvbG9tYmlhLmNvbS9pbnRmL0NsaWVudGUvR2VzdGlvblJpZXNnby9Db25zdWx0YUZ1ZW50ZXNQdWJsaWNhc0V4dGVybmFzL1YxLjAiPjxzb2FwZW52OkJvZHk+PHRuczE6Y29uc3VsdGFyRnVlbnRlc0V4dGVybmFzPjxpZGVudGlmaWNhY2lvbj48dGlwb0RvY3VtZW50bz5zdHI8L3RpcG9Eb2N1bWVudG8+PG51bWVyb0RvY3VtZW50bz43MTY0NTU5MzwvbnVtZXJvRG9jdW1lbnRvPjwvaWRlbnRpZmljYWNpb24+PGZ1ZW50ZT5zdHI8L2Z1ZW50ZT48L3RuczE6Y29uc3VsdGFyRnVlbnRlc0V4dGVybmFzPjwvc29hcGVudjpCb2R5Pjwvc29hcGVudjpFbnZlbG9wZT4=" name="HttpTransporter.PERSISTEDXMLSTRINGVALUE"/>
+            <XmlElement name="Envelope" nameSpace="soapenv">
+              <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:XmlElement" name="Body" nameSpace="soapenv">
+                <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:XmlElement" name="consultarFuentesExternas" nameSpace="tns1">
+                  <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:XmlElement" name="identificacion">
+                    <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:XmlElement" name="tipoDocumento">
+                      <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:TextNodeElement" name="Text" text="str"/>
+                    </childs>
+                    <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:XmlElement" name="numeroDocumento">
+                      <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:TextNodeElement" name="Text" text="71645593"/>
+                    </childs>
+                  </childs>
+                  <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:XmlElement" name="fuente">
+                    <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:TextNodeElement" name="Text" text="str"/>
+                  </childs>
+                </childs>
+              </childs>
+              <xmlElementNameSpace value="http://schemas.xmlsoap.org/soap/envelope/" name="xmlns:soapenv"/>
+              <xmlElementNameSpace value="http://www.w3.org/2001/XMLSchema-instance" name="xmlns:xsi"/>
+              <xmlElementNameSpace value="http://www.w3.org/2001/XMLSchema" name="xmlns:xsd"/>
+              <xmlElementNameSpace value="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0" name="xmlns:tns1"/>
+            </XmlElement>
+          </data>
+          <data xsi:type="com.ibm.rational.test.lt.models.wscore.message.content:AttachmentContent">
+            <Attachments/>
+          </data>
+          <data xsi:type="com.ibm.rational.test.lt.models.wscore.message.content:MQNContent">
+            <MQNElement xsi:type="com.ibm.rational.test.lt.models.wscore.message.content.mq:MQNContentElt">
+              <items nameItem="MQMessageContent_Link">
+                <properties xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="MQMessageContent_InternalConstant_TextContentType" name="MQMessageContent_Link__ContentType" type="java.lang.String" selected="true"/>
+              </items>
+            </MQNElement>
+          </data>
+          <data xsi:type="com.ibm.rational.test.lt.models.wscore.message.content:PropertyContent"/>
+          <MessageTransformation xsi:type="com.ibm.rational.test.lt.models.wscore.message.transformation:SoapMessageTransformation" wsdlPortId="2001457638SEPARATOR526ebe17-79fe-4e70-86bf-ca317a38fe98">
+            <dataSent xsi:type="com.ibm.rational.test.lt.models.wscore.message.transformation:XmlTransformation"/>
+            <dataReceived xsi:type="com.ibm.rational.test.lt.models.wscore.message.transformation:XmlTransformation"/>
+          </MessageTransformation>
+          <Protocol xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.http:HttpProtocol" name="HTTP" selected="true" version="1.1">
+            <ProtocolConfigurationAlias xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.http:HttpCallConfigurationAlias" name="XdefaulthttpX">
+              <aliasName value="XdefaulthttpX"/>
+              <headeroptions value="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0/consultarFuentesExternas" name="SOAPAction"/>
+              <url value="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/Enlace/V1.0"/>
+              <cookieVersion/>
+              <restResource/>
+              <restParameterSeparator value="&amp;"/>
+            </ProtocolConfigurationAlias>
+          </Protocol>
+          <Protocol xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.jms:JMSProtocol" name="JMS">
+            <ProtocolConfigurationAlias xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.jms:JMSProtocolAlias" name="XdefaultjmsX">
+              <aliasName value="XdefaultjmsX"/>
+            </ProtocolConfigurationAlias>
+          </Protocol>
+          <Protocol xsi:type="com.ibm.rational.test.lt.models.wscore.datamodel.protocol.mq:MQProtocol" name="MQ">
+            <ProtocolConfigurationAlias xsi:type="com.ibm.rational.test.lt.models.wscore.datamodel.protocol.mq:MQProtocolConfigurationAlias" name="XdefaultmqX">
+              <aliasName value="XdefaultmqX"/>
+            </ProtocolConfigurationAlias>
+          </Protocol>
+          <Protocol xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.dotnet:DotNetProtocol" name="DOT-NET">
+            <ProtocolConfigurationAlias xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.dotnet:DotNetProtocolConfigurationAlias" name="XdefaultDotNetX">
+              <aliasName value="XdefaultDotNetX"/>
+            </ProtocolConfigurationAlias>
+          </Protocol>
+          <Protocol xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.mqn:MQNProtocol" name="MQN">
+            <ProtocolConfigurationAlias xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.mqn:MQNProtocolConfigurationAlias" name="XdefaultmqnativeX">
+              <aliasName value="XdefaultmqnativeX"/>
+              <CallQueueConf request_type="MQMT_REQUEST">
+                <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="_DEFAULT_WRITE_QUEUE" name="MsgQueue" type="java.lang.String" selected="true"/>
+                <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="MQMT_REQUEST" name="MQMD_MsgType" type="java.lang.String" selected="true"/>
+                <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="DEFAULT_READ_QUEUE" name="MsgAnswerQueue" type="java.lang.String" selected="true"/>
+                <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="" name="MsgAnswerQueueManager" type="java.lang.String" selected="true"/>
+                <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="false" name="MsgDynamicalAnswer" type="java.lang.Boolean" selected="true"/>
+                <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="MQPER_NOT_PERSISTENT" name="MQMD_Persistence" type="java.lang.String" selected="true"/>
+                <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="0" name="MQMD_Priority" type="java.lang.Integer" selected="true"/>
+                <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="273" name="MQMD_Encoding" type="java.lang.Integer" selected="true"/>
+                <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="-1" name="MQMD_Expiry" type="java.lang.Integer" selected="true"/>
+                <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="1208" name="MQMD_CharacterSet" type="java.lang.Integer" selected="true"/>
+                <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="0" name="MQMD_Report" type="java.lang.Long" selected="true"/>
+                <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="0" name="MQMD_Feedback" type="java.lang.Integer" selected="true"/>
+                <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="" name="MQMD_ApplicationIdData" type="java.lang.String" selected="true"/>
+                <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="" name="MQMD_ApplicationOriginData" type="java.lang.String" selected="true"/>
+                <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="" name="MQMD_AccountingToken" type="[Ljava.lang.Byte;" selected="true"/>
+                <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="" name="MQMD_UserId" type="java.lang.String" selected="true"/>
+                <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="" name="MQMD_MessageId" type="[Ljava.lang.Byte;" selected="true"/>
+                <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="" name="MQMD_CorrelationId" type="[Ljava.lang.Byte;" selected="true"/>
+                <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="" name="MQMD_GroupId" type="[Ljava.lang.Byte;" selected="true"/>
+                <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="0" name="MQMD_Segmentation" type="java.lang.Integer" selected="true"/>
+                <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="0" name="MQMD_Offset" type="java.lang.Integer" selected="true"/>
+                <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="1" name="MQMD_MessageSequenceNumber" type="java.lang.Integer" selected="true"/>
+              </CallQueueConf>
+            </ProtocolConfigurationAlias>
+          </Protocol>
+        </request>
+        <response generatedByThisTypeOfMessage="CREATED_FROM_WSDL_CALL">
+          <data xsi:type="com.ibm.rational.test.lt.models.wscore.message.content:AttachmentContent">
+            <Attachments/>
+          </data>
+          <data xsi:type="com.ibm.rational.test.lt.models.wscore.message.content:TextContent">
+            <containerProperties value="" name="HttpTransporter.PERSISTEDXMLSTRINGVALUE"/>
+            <containerProperties value="SFRUUC8xLjEgMzAyIEZvdW5kIDogTW92ZWQgVGVtcG9yYXJpbHkNCkxvY2F0aW9uOiBodHRwczovL2dydXBvYmFuY29sb21iaWEuY29tOjgwL2ludGYvQ2xpZW50ZS9HZXN0aW9uUmllc2dvL0NvbnN1bHRhRnVlbnRlc1B1YmxpY2FzRXh0ZXJuYXMvRW5sYWNlL1YxLjANCkNvbm5lY3Rpb246IGNsb3NlDQpDYWNoZS1Db250cm9sOiBuby1jYWNoZQ0KUHJhZ21hOiBuby1jYWNoZQ0KDQo=" name="HttpTransporter.PERSISTEDLOWLEVELHTTPVALUE"/>
+          </data>
+          <data xsi:type="com.ibm.rational.test.lt.models.wscore.message.content:PropertyContent">
+            <SimpleProperty value="https://grupobancolombia.com:80/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/Enlace/V1.0" name="Location"/>
+            <SimpleProperty value="close" name="Connection"/>
+            <SimpleProperty value="no-cache" name="Cache-Control"/>
+            <SimpleProperty value="no-cache" name="Pragma"/>
+            <SimpleProperty value="302" name="status"/>
+          </data>
+        </response>
       </calls>
     </services>
   </wsdlAliases>

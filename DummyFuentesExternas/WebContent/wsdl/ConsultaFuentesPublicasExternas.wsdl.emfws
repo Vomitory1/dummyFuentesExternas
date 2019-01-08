@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rational.test.lt.models.wscore.configuration:WSDLInformationContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rational.test.lt.models.wscore.configuration="http:///com/ibm/rational/test/lt/models/wscore/configuration.ecore">
+  <securityOperationConfiguration>
+    <SecurityPortConfiguration aliasName="DEFAULTCONFIGURATION"/>
+  </securityOperationConfiguration>
+  <keyStore/>
+  <wsdl name="ConsultaFuentesPublicasExternas" key="ConsultaFuentesPublicasExternas">
+    <SimpleProperty value="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/Enlace/V1.0" name="WSDLPROPERTY_TARGETNAMESPACE"/>
+    <SimpleProperty value="adb58e299db1f680dc17ceb011f7f5cfd91cafcdadb58e299db1f680dc17ceb011f7f5cfd91cafcd466b334a18e6db6f3cf4fd679a8a531bb389d05ec62349bebbb828ae56f7ec898186e151171f14c7e25112f4257fc6fa3a1dbed722ca9d6e61afba0eb5196d5cb4362301f51cf0fc5c4c40049856d8bf239b9c1319ed958b340cfd2222cd7aaa441799dc" name="WSDLPROPERTY_HASH"/>
+    <SimpleProperty value="1542812923496" name="WSDLPROPERTY_SYNCHROSTAMP"/>
+    <ResourceProxy portablePath="/DummyFuentesExternas/WebContent/wsdl/ConsultaFuentesPublicasExternas.wsdl" timeStamp="1542812923496"/>
+    <WsdlInformationContainer versionContainer="9.0"/>
+    <WsdlBinding name="ConsultaFuentesPublicasExternasHttpBinding">
+      <SimpleProperty value="SoapDocumentBinding" name="WSDLBINDINGPROPERTY_TYPE"/>
+      <SimpleProperty value="http://schemas.xmlsoap.org/soap/http" name="WSDLBINDINGPROPERTY_TRANSPORT_TYPE"/>
+      <SimpleProperty value="true" name="Soap11Binding"/>
+      <SimpleProperty value="false" name="Soap12Binding"/>
+      <SimpleProperty value="false" name="HttpBinding"/>
+      <SimpleProperty value="{http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0}ConsultaFuentesPublicasExternas" name="WSDLBINDING_SERVICE_NAME"/>
+      <WsdlOperation name="consultarFuentesExternas" key="consultarFuentesExternas">
+        <WsdlPort name="ConsultaFuentesPublicasExternasHttpPort" uniqueID="2001457638SEPARATOR526ebe17-79fe-4e70-86bf-ca317a38fe98">
+          <SimpleProperty value="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/Enlace/V1.0" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0" localPart="consultarFuentesExternas" partName="parameters"/>
+        </in>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0/consultarFuentesExternas" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty value="consultarFuentesExternasResponse" name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://grupobancolombia.com/intf/Cliente/GestionRiesgo/ConsultaFuentesPublicasExternas/V1.0" localPart="consultarFuentesExternasResponse" partName="result"/>
+        </out>
+      </WsdlOperation>
+    </WsdlBinding>
+  </wsdl>
+</com.ibm.rational.test.lt.models.wscore.configuration:WSDLInformationContainer>
