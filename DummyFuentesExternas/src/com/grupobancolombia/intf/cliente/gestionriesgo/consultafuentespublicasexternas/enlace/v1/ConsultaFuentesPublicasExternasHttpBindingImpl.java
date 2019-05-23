@@ -79,11 +79,17 @@ public class ConsultaFuentesPublicasExternasHttpBindingImpl {
 			bdua.value = cfep.bdua;
 			afiliadosCompensados.value = new AfiliadosCompensados();
 			setAfiliadosCompensados(afiliadosCompensados, cfep);
-
+			nombreCompleto.value = cfep.nombreCompleto;
+			
+			copnia.value = cfep.copnia;
 			asopagos.value = cfep.asopagos;
 			addRuesCamara(ruesCamaras, cfep);
 			dianRut.value = cfep.dianRut;
-
+			runt.value = cfep.runt;
+			runtPlaca.value = cfep.runtPlaca;
+			procuraduria.value =cfep.procuraduria;
+			consejoProfesional.value = cfep.consejoProfesional;
+			
 		} catch (JAXBException e1) {
 			e1.printStackTrace();
 		} catch (FileNotFoundException e) {
@@ -99,34 +105,36 @@ public class ConsultaFuentesPublicasExternasHttpBindingImpl {
 	 */
 	private void addRuesCamara(Holder<RuesCamaras> ruesCamaras, ConsultarFuentesExternasResponse cfep) {
 		RuesCamaras rues = new RuesCamaras();
-		if (cfep.ruesCamaras.getExitoso() != null || cfep.ruesCamaras.getExitoso() != "")
-			rues.setExitoso(cfep.ruesCamaras.getExitoso());
-		if (!cfep.ruesCamaras.getDetalleCamara().isEmpty()) {
-			for (com.grupobancolombia.beans.Camara camera : cfep.ruesCamaras.getDetalleCamara()) {
-				Camara cam = new Camara();
-				cam.setUbicacionFuente(camera.getUbicacionFuente());
-				cam.setNombrePersona(camera.getNombrePersona());
-				cam.setCategoriaPersona(camera.getCategoriaPersona());
-				cam.setCamaraComercio(camera.getCamaraComercio());
-				cam.setRepresentanteLegal(camera.getRepresentanteLegal());
-				cam.setSiglaEstablecimiento(camera.getSiglaEstablecimiento());
-				cam.setNumeroMatricula(camera.getNumeroMatricula());
-				cam.setEstadoMatricula(camera.getEstadoMatricula());
-				cam.setAnnoUltimaRenovacion(camera.getAnnoUltimaRenovacion());
-				cam.setFechaMatricula(camera.getFechaMatricula());
-				cam.setFechaCancelacion(camera.getFechaCancelacion());
-				cam.setCategoriaMatricula(camera.getCategoriaMatricula());
-				cam.setTipoSociedad(camera.getTipoSociedad());
-				cam.setTipoOrganizacionEstablecimiento(camera.getTipoOrganizacionEstablecimiento());
-				cam.setNumEmpleados(camera.getNumEmpleados());
-				cam.setEsAfiliado(camera.getEsAfiliado());
-				cam.setRepresentanteLegal(camera.getRepresentanteLegal());
-				cam.getActividadEconomica().clear();
-				cam.getActividadEconomica().addAll(camera.getActividadEconomica());
-				rues.getDetalleCamara().add(cam);
+		if (cfep.ruesCamaras != null) {
+			if (cfep.ruesCamaras.getExitoso() != null || cfep.ruesCamaras.getExitoso() != "")
+				rues.setExitoso(cfep.ruesCamaras.getExitoso());
+			if (!cfep.ruesCamaras.getDetalleCamara().isEmpty()) {
+				for (com.grupobancolombia.beans.Camara camera : cfep.ruesCamaras.getDetalleCamara()) {
+					Camara cam = new Camara();
+					cam.setUbicacionFuente(camera.getUbicacionFuente());
+					cam.setNombrePersona(camera.getNombrePersona());
+					cam.setCategoriaPersona(camera.getCategoriaPersona());
+					cam.setCamaraComercio(camera.getCamaraComercio());
+					cam.setRepresentanteLegal(camera.getRepresentanteLegal());
+					cam.setSiglaEstablecimiento(camera.getSiglaEstablecimiento());
+					cam.setNumeroMatricula(camera.getNumeroMatricula());
+					cam.setEstadoMatricula(camera.getEstadoMatricula());
+					cam.setAnnoUltimaRenovacion(camera.getAnnoUltimaRenovacion());
+					cam.setFechaMatricula(camera.getFechaMatricula());
+					cam.setFechaCancelacion(camera.getFechaCancelacion());
+					cam.setCategoriaMatricula(camera.getCategoriaMatricula());
+					cam.setTipoSociedad(camera.getTipoSociedad());
+					cam.setTipoOrganizacionEstablecimiento(camera.getTipoOrganizacionEstablecimiento());
+					cam.setNumEmpleados(camera.getNumEmpleados());
+					cam.setEsAfiliado(camera.getEsAfiliado());
+					cam.setRepresentanteLegal(camera.getRepresentanteLegal());
+					cam.getActividadEconomica().clear();
+					cam.getActividadEconomica().addAll(camera.getActividadEconomica());
+					rues.getDetalleCamara().add(cam);
+				}
 			}
+			ruesCamaras.value = rues;
 		}
-		ruesCamaras.value = rues;
 	}
 
 	private void setAfiliadosCompensados(Holder<AfiliadosCompensados> afiliadosCompensados,
