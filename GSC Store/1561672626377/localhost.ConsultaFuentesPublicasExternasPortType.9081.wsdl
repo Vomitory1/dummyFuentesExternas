@@ -18,12 +18,12 @@
     <part name="fault" element="tns:systemException">
     </part>
   </message>
-  <message name="consultarFuentesExternasResponse">
-    <part name="parameters" element="tns:consultarFuentesExternasResponse">
-    </part>
-  </message>
   <message name="consultarFuentesExternas">
     <part name="parameters" element="tns:consultarFuentesExternas">
+    </part>
+  </message>
+  <message name="consultarFuentesExternasResponse">
+    <part name="parameters" element="tns:consultarFuentesExternasResponse">
     </part>
   </message>
   <portType name="ConsultaFuentesPublicasExternas">

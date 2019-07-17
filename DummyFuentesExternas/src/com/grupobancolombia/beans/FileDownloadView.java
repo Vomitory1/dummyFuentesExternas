@@ -21,10 +21,9 @@ public class FileDownloadView {
 	private StreamedContent file;
 	private String urlPathFile;
 
-	public void prepDownload() {
+	public void prepDownload(String name, String path) {
 		try {
-			String fileName = this.getUrlPathFile().substring(this.getUrlPathFile().lastIndexOf('/') + 1,
-					this.getUrlPathFile().length());
+			urlPathFile = path ;
 			File file = new File(this.getUrlPathFile());
 
 			FacesContext facesContext = FacesContext.getCurrentInstance();
@@ -33,7 +32,7 @@ public class FileDownloadView {
 
 			response.reset();
 			response.setHeader("Content-Type", getMineType(this.getUrlPathFile()));
-			response.setHeader("Content-Disposition", "attachment;filename=" + fileName);
+			response.setHeader("Content-Disposition", "attachment;filename=" + name);
 
 			OutputStream responseOutputStream = response.getOutputStream();
 
@@ -55,7 +54,7 @@ public class FileDownloadView {
 			InputStream stream = this.getClass().getResourceAsStream(this.getUrlPathFile());
 			
 			 this.file = new DefaultStreamedContent(stream, "application/pdf",
-					 fileName);
+					 name);
 			
 		} catch (Exception e) {
 			e.printStackTrace();

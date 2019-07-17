@@ -23,7 +23,14 @@
 
 <h:body>
 
-
+	<script type="text/javascript">
+		function showStatus() {
+			 statusDialog.show();
+		}
+		function hideStatus() {
+ 			statusDialog.hide();
+		}
+</script>
 
 
 	<h:form id="form">
@@ -32,6 +39,9 @@
 
 		<p:tabView>
 			<p:tab title="File Uploader" id="pngDownload">
+
+
+
 
 				<h:outputLabel for="urlPathUpload" value="Ruta del archivo a almacenar " />
 				<p:inputText id="urlPathUpload" value="#{fileUploadView.urlPath}">
@@ -50,17 +60,40 @@
 			<p:tab title="File Downloader">
 				<h:panelGrid columns="2" cellpadding="10" id="pngUpload">
 
-					<h:outputLabel for="urlPathDownload" value="Ruta del archivo a descargar : /dummyFuentesExternas default" />
-					<p:inputText id="urlPathDownload" value="#{fileDownloadView.urlPathFile}" required="true">
-						<p:ajax event="blur" process="@this" />
-					</p:inputText>
-					<p:message for="urlPathDownload" display="icon" />
 
-					<h:commandLink value="Download" icon="pi pi-arrow-down" actionListener="#{fileDownloadView.prepDownload}">
-					</h:commandLink>
-
-
+					<p:outputLabel for="pathFile" value="Editable: " />
+					<p:selectOneMenu id="pathFile" value="#{selectOneMenuView.path}" effect="fold" editable="false">
+						<p:ajax listener="#{dtBasicView.onPathChange(selectOneMenuView.path)}" update="fileTable" />
+						<f:selectItem itemLabel="Select One" itemValue="" />
+						<f:selectItems value="#{selectOneMenuView.paths}" />
+					</p:selectOneMenu>
 				</h:panelGrid>
+				<br></br>
+
+
+
+				<p:dataTable id="fileTable" var="file" value="#{dtBasicView.listFileDetail}" style="width:1600px; overflow: auto;">
+					<p:column headerText="File Name"  style="min-width:100px; max-width:300px;">
+						<h:outputText value="#{file.name}" />
+					</p:column>
+
+					<p:column headerText="Path/Url"  style="min-width:100px; max-width:300px;">
+						<h:outputText value="#{file.path}" />
+					</p:column>
+
+					<p:column headerText="size"  style="min-width:100px; max-width:300px;">
+						<h:outputText value="#{file.size}" />
+					</p:column>
+
+
+					<p:column headerText="Download">
+						<p:commandButton value="Download" ajax="false" onclick="PrimeFaces.monitorDownload(start, stop);" icon="pi pi-arrow-down">
+							<p:fileDownload value="#{fileDownloadView.prepDownload(file.name, file.path)}" />
+						</p:commandButton>
+					</p:column>
+
+				</p:dataTable>
+
 			</p:tab>
 
 		</p:tabView>
