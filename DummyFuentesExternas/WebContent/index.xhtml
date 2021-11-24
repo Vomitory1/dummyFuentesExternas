@@ -68,7 +68,7 @@
 				<h:panelGrid columns="2" cellpadding="10" id="pngUpload">
 					<p:outputLabel for="pathFileLoad" value="Editable: " />
 					<p:selectOneMenu id="pathFileLoad" value="#{selectOneMenuView.path}" effect="fold" editable="false">
-						<p:ajax listener="#{fileUploadView.onPathChange(selectOneMenuView.path)}" update="fileTable, tabDownload"  />
+						<p:ajax listener="#{fileUploadView.onPathChange(selectOneMenuView.path)}" update="tabDownload"  />
 						<f:selectItem itemLabel="Select One" itemValue="" />
 						<f:selectItems value="#{selectOneMenuView.paths}" />
 
@@ -141,12 +141,12 @@
 			<p:tab title="File Jar" id="tabJar">
 				
 		
-			<h:panelGrid columns="2" cellpadding="10" id="pngJar">
-					<p:outputLabel for="pathJar" value="Select web service " />
-					<p:inputText id="pathJar" value="#{selectOneMenuView.path}" onblur="#{fileUploadView.onPathChange(selectOneMenuView.path)}" >
+<!-- 			<h:panelGrid columns="2" cellpadding="10" id="pngJar"> -->
+<!-- 					<p:outputLabel for="pathJar" value="Select web service " /> -->
+<!-- 					<p:inputText id="pathJar" value="#{selectOneMenuView.path}" onblur="#{fileUploadView.onPathChange(selectOneMenuView.path)}" > -->
 						
-					</p:inputText>
-				</h:panelGrid>
+<!-- 					</p:inputText> -->
+<!-- 				</h:panelGrid> -->
 				<br></br>
 				
 
