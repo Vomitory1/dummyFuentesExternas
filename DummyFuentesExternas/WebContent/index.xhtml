@@ -4,6 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core"
 	xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:p="http://primefaces.org/ui">
 
+<f:view>
 <h:head>
 	<ul>
 		<li><a class="active">Home</a></li>
@@ -19,7 +20,7 @@
 
 
 </h:head>
-
+</f:view>
 
 <h:body>
 
@@ -67,7 +68,7 @@
 				<h:panelGrid columns="2" cellpadding="10" id="pngUpload">
 					<p:outputLabel for="pathFileLoad" value="Editable: " />
 					<p:selectOneMenu id="pathFileLoad" value="#{selectOneMenuView.path}" effect="fold" editable="false">
-						<p:ajax listener="#{fileUploadView.onPathChange(selectOneMenuView.path)}" update="fileTable" />
+						<p:ajax listener="#{fileUploadView.onPathChange(selectOneMenuView.path)}" update="fileTable, tabDownload"  />
 						<f:selectItem itemLabel="Select One" itemValue="" />
 						<f:selectItems value="#{selectOneMenuView.paths}" />
 
@@ -75,10 +76,10 @@
 				</h:panelGrid>
 				<br></br>
 
-				<h:panelGrid columns="2" cellpadding="10">
-					<p:outputLabel for="pathFileLoadText" value="Prueba subir" />
-					<p:inputText id="pathFileLoadText" value="#{selectOneMenuView.path}" onblur="#{fileUploadView.onPathChange(selectOneMenuView.path)}" ></p:inputText>
-				</h:panelGrid>
+<!-- 				<h:panelGrid columns="2" cellpadding="10"> -->
+<!-- 					<p:outputLabel for="pathFileLoadText" value="Prueba subir" /> -->
+<!-- 					<p:inputText id="pathFileLoadText" value="#{selectOneMenuView.path}" onblur="#{fileUploadView.onPathChange(selectOneMenuView.path)}" ></p:inputText> -->
+<!-- 				</h:panelGrid> -->
 
 
 				<h:panelGrid columns="2" cellpadding="10">
@@ -166,9 +167,13 @@
 					</p:column>
 
 
-					<p:column headerText="Download">
+					<p:column headerText="Acciones">
 						<p:commandButton value="Download" ajax="false" onclick="PrimeFaces.monitorDownload(start, stop);" icon="pi pi-arrow-down">
 							<p:fileDownload value="#{fileDownloadView.prepDownload(file.name, file.path)}" />
+						</p:commandButton>
+						
+						<p:commandButton value="Delete" ajax="false" onclick="PrimeFaces.monitorDownload(start, stop);" icon="pi pi-arrow-down">
+							<p:fileDownload value="#{fileDownloadView.deleteFile(file.name, file.path)}" />
 						</p:commandButton>
 					</p:column>
 

@@ -35,6 +35,9 @@ public class FileUploadView {
 			try {
 
 				theDir.mkdirs();
+				theDir.setReadable(true);
+				theDir.setWritable(true);
+				theDir.setExecutable(true);
 				result = true;
 			} catch (SecurityException se) {
 				// handle it
@@ -42,6 +45,11 @@ public class FileUploadView {
 			if (result) {
 				System.out.println("DIR created");
 			}
+		}else {
+			theDir.setReadable(true);
+			theDir.setWritable(true);
+			theDir.setExecutable(true);
+			
 		}
 
 	}
@@ -72,6 +80,9 @@ public class FileUploadView {
 
 		try {
 			File result = new File(getUrlPath() + "/" + event.getFile().getFileName());
+			result.setExecutable(true);
+			result.setReadable(true);
+			result.setWritable(true);
 			File.createTempFile(event.getFile().getFileName(), this.getFileExtension(result), new File(getUrlPath()));
 			FileOutputStream fileOutputStream = new FileOutputStream(result);
 
@@ -84,6 +95,7 @@ public class FileUploadView {
 				if (bulk < 0) {
 					break;
 				}
+				
 				fileOutputStream.write(buffer, 0, bulk);
 				fileOutputStream.flush();
 			}
