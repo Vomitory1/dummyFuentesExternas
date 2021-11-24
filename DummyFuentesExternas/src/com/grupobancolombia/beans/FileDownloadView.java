@@ -4,20 +4,25 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.io.Serializable;
 
 import javax.activation.MimetypesFileTypeMap;
 import javax.faces.bean.ManagedBean;
-import javax.faces.bean.RequestScoped;
+import javax.faces.bean.ViewScoped;
 import javax.faces.context.FacesContext;
 import javax.servlet.http.HttpServletResponse;
 
 import org.primefaces.model.DefaultStreamedContent;
 import org.primefaces.model.StreamedContent;
 
-@RequestScoped
+@ViewScoped
 @ManagedBean(name = "fileDownloadView")
 
-public class FileDownloadView {
+public class FileDownloadView implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private StreamedContent file;
 	private String urlPathFile;
 
@@ -56,6 +61,19 @@ public class FileDownloadView {
 			 this.file = new DefaultStreamedContent(stream, "application/pdf",
 					 name);
 			
+		} catch (Exception e) {
+			e.printStackTrace();
+			e.getMessage();
+		}
+
+	}
+	
+	public void deleteFile(String name, String path) {
+		try {
+			urlPathFile = path ;
+			File file = new File(this.getUrlPathFile());
+			if(file.exists())
+				file.delete();
 		} catch (Exception e) {
 			e.printStackTrace();
 			e.getMessage();

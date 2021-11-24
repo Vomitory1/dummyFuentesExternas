@@ -2,12 +2,14 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="prepDownload" key="selection"/>
+		<item value="pathFileLoadText" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="pathFileLoadText"/>
+			<item value="prueba"/>
 			<item value="prepDownload"/>
 			<item value="fileUploadView"/>
 			<item value="xmlGre"/>
@@ -21,8 +23,6 @@
 			<item value="wel"/>
 			<item value="well"/>
 			<item value="ConsultarFuentesExternasResponse"/>
-			<item value="nombrePersona"/>
-			<item value="asopa"/>
 		</list>
 		<list key="replacehistory">
 		</list>

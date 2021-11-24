@@ -35,6 +35,8 @@ public class SelectOneMenuView {
 		paths.put("CUNCI", "/dummyCUN/XMLResponse/CunCI");
 		paths.put("Fuentes Externas", "/dummyFuentesExternas");
 		paths.put("Recuperar DatosClientes", "/dummyDatosCliente");
+		paths.put("Soi Data", "/dummySoiData");
+		paths.put("G del Banco", "/dummyGDelbanco");
 
 	}
 

@@ -25,12 +25,36 @@
 
 	<script type="text/javascript">
 		function showStatus() {
-			 statusDialog.show();
+			statusDialog.show();
 		}
 		function hideStatus() {
- 			statusDialog.hide();
+			statusDialog.hide();
 		}
-</script>
+	</script>
+
+	<style type="text/css">
+.ui-datatable .ui-datatable-header {
+	text-align: right !important;
+}
+
+.ui-button-text-only .ui-button-text {
+	padding: 0.3em 0.4em;
+}
+
+.ui-selectcheckboxmenu-panel .ui-selectcheckboxmenu-header .ui-chkbox {
+	visibility: hidden;
+}
+
+.ui-filter-column .ui-column-customfilter .custom-filter {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.year-spinner input {
+	width: 100%;
+	box-sizing: border-box;
+}
+</style>
 
 
 	<h:form id="form">
@@ -38,50 +62,106 @@
 		<h:messages globalOnly="true" />
 
 		<p:tabView>
-			<p:tab title="File Uploader" id="pngDownload">
+			<p:tab title="File Uploader">
 
+				<h:panelGrid columns="2" cellpadding="10" id="pngUpload">
+					<p:outputLabel for="pathFileLoad" value="Editable: " />
+					<p:selectOneMenu id="pathFileLoad" value="#{selectOneMenuView.path}" effect="fold" editable="false">
+						<p:ajax listener="#{fileUploadView.onPathChange(selectOneMenuView.path)}" update="fileTable" />
+						<f:selectItem itemLabel="Select One" itemValue="" />
+						<f:selectItems value="#{selectOneMenuView.paths}" />
 
+					</p:selectOneMenu>
+				</h:panelGrid>
+				<br></br>
 
+				<h:panelGrid columns="2" cellpadding="10">
+					<p:outputLabel for="pathFileLoadText" value="Prueba subir" />
+					<p:inputText id="pathFileLoadText" value="#{selectOneMenuView.path}" onblur="#{fileUploadView.onPathChange(selectOneMenuView.path)}" ></p:inputText>
+				</h:panelGrid>
 
-				<h:outputLabel for="urlPathUpload" value="Ruta del archivo a almacenar " />
-				<p:inputText id="urlPathUpload" value="#{fileUploadView.urlPath}">
-					<p:ajax event="blur" />
-				</p:inputText>
 
 				<h:panelGrid columns="2" cellpadding="10">
 					<p:fileUpload id="fileUoloader" fileUploadListener="#{fileUploadView.handleFileUpload}" cancelLabel="Cancelar" multiple="true"
-						allowTypes="/(\.|\/)(xml|xml\.p7m)$/" description="Select Images" required="true" uploadLabel="Subir" label="Escoger Archivos" process="@this" />
+						allowTypes="/(\.|\/)(db|jar|json|xml|xml\.p7m)$/ " description="Select Images" required="true" uploadLabel="Subir" label="Escoger Archivos"
+						process="@this" />
 					<p:message id="msgUpload" for="fileUoloader" display="text" />
 
 				</h:panelGrid>
 			</p:tab>
 
 
-			<p:tab title="File Downloader">
-				<h:panelGrid columns="2" cellpadding="10" id="pngUpload">
-
-
-					<p:outputLabel for="pathFile" value="Editable: " />
+			<p:tab title="File Downloader" id="tabDownload">
+				<h:panelGrid columns="2" cellpadding="10" id="pngDownload">
+					<p:outputLabel for="pathFile" value="Select web service " />
 					<p:selectOneMenu id="pathFile" value="#{selectOneMenuView.path}" effect="fold" editable="false">
-						<p:ajax listener="#{dtBasicView.onPathChange(selectOneMenuView.path)}" update="fileTable" />
+						<p:ajax listener="#{dtBasicView.onPathChange(selectOneMenuView.path)}" update="tabDownload , pngDownload ,  fileTable" />
 						<f:selectItem itemLabel="Select One" itemValue="" />
 						<f:selectItems value="#{selectOneMenuView.paths}" />
 					</p:selectOneMenu>
 				</h:panelGrid>
 				<br></br>
+				
+			
 
 
+				<p:dataTable id="fileTable" var="file" value="#{dtBasicView.listFileDetail}" style="width:1150px; overflow: scroll;" rows="10" paginator="true"
+					paginatorTemplate="{CurrentPageReport} {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"
+					rowsPerPageTemplate="5,10,15" filteredValue="#{dtBasicView.listFileDetailFiltered}">
 
-				<p:dataTable id="fileTable" var="file" value="#{dtBasicView.listFileDetail}" style="width:1600px; overflow: auto;">
-					<p:column headerText="File Name"  style="min-width:100px; max-width:300px;">
+					<p:column filterBy="#{file.name}" headerText="File Name" style="min-width:100px; max-width:300px;" filterMatchMode="contains">
 						<h:outputText value="#{file.name}" />
 					</p:column>
 
-					<p:column headerText="Path/Url"  style="min-width:100px; max-width:300px;">
+					<p:column headerText="Path/Url" style="min-width:100px; max-width:400px; overflow: scroll;">
 						<h:outputText value="#{file.path}" />
 					</p:column>
 
-					<p:column headerText="size"  style="min-width:100px; max-width:300px;">
+					<p:column headerText="size" style="min-width:100px; max-width:300px;">
+						<h:outputText value="#{file.size}" />
+					</p:column>
+
+
+					<p:column headerText="Download">
+						<p:commandButton value="Download" ajax="false" onclick="PrimeFaces.monitorDownload(start, stop);" icon="pi pi-arrow-down">
+							<p:fileDownload value="#{fileDownloadView.prepDownload(file.name, file.path)}" />
+						</p:commandButton>
+							<p:commandButton value="X" ajax="false" onclick="PrimeFaces.monitorDownload(start, stop);" icon="pi pi-arrow-down">
+							<p:fileDownload value="#{fileDownloadView.deleteFile(file.name, file.path)}" />
+						</p:commandButton>
+					</p:column>
+
+				</p:dataTable>
+
+			</p:tab>
+			
+			
+			
+			<p:tab title="File Jar" id="tabJar">
+				
+		
+			<h:panelGrid columns="2" cellpadding="10" id="pngJar">
+					<p:outputLabel for="pathJar" value="Select web service " />
+					<p:inputText id="pathJar" value="#{selectOneMenuView.path}" onblur="#{fileUploadView.onPathChange(selectOneMenuView.path)}" >
+						
+					</p:inputText>
+				</h:panelGrid>
+				<br></br>
+				
+
+				<p:dataTable id="jarTable" var="file" value="#{dtBasicView.listFileDetail}" style="width:1600px; overflow: auto;" rows="10" paginator="true"
+					paginatorTemplate="{CurrentPageReport} {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"
+					rowsPerPageTemplate="5,10,15" filteredValue="#{dtBasicView.listFileDetailFiltered}">
+
+					<p:column filterBy="#{file.name}" headerText="File Name" style="min-width:100px; max-width:300px;" filterMatchMode="contains">
+						<h:outputText value="#{file.name}" />
+					</p:column>
+
+					<p:column headerText="Path/Url" style="min-width:100px; max-width:300px;">
+						<h:outputText value="#{file.path}" />
+					</p:column>
+
+					<p:column headerText="size" style="min-width:100px; max-width:300px;">
 						<h:outputText value="#{file.size}" />
 					</p:column>
 
@@ -93,7 +173,7 @@
 					</p:column>
 
 				</p:dataTable>
-
+						
 			</p:tab>
 
 		</p:tabView>

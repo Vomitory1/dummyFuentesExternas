@@ -6,10 +6,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 import javax.faces.bean.ManagedBean;
-import javax.faces.bean.ViewScoped;
+import javax.faces.bean.SessionScoped;
 
 @ManagedBean(name = "dtBasicView")
-@ViewScoped
+@SessionScoped
 public class BasicView implements Serializable {
 
 	/**
@@ -21,6 +21,7 @@ public class BasicView implements Serializable {
 	 */
 
 	private List<FileDetail> listFileDetail;
+	private List<FileDetail> listFileDetailFiltered;
 
 	public void setListFileDetail(List<FileDetail> listFileDetail) {
 		this.listFileDetail = listFileDetail;
@@ -38,41 +39,49 @@ public class BasicView implements Serializable {
 		if (path != null && !path.equals("")) {
 			File folder = new File(path);
 			File[] listOfFiles = folder.listFiles();
+			
 
 			List<FileDetail> listFileDetailL = new ArrayList<FileDetail>();
 			for (File file : listOfFiles) {
 				if (folder.isDirectory()) {
-					
-					if(file.length() == 0) {
+
+					if (file.length() == 0) {
 						file.delete();
 						continue;
-					}else {
-					
-					FileDetail detail = new FileDetail();
-					detail.setName(file.getName());
-					detail.setPath(file.getPath());
-					detail.setSize(getfileSizeKiloBytess(file));
-					listFileDetailL.add(detail);
+					} else {
+
+						FileDetail detail = new FileDetail();
+						detail.setName(file.getName());
+						detail.setPath(file.getPath());
+						detail.setSize(getfileSizeKiloBytess(file));
+						listFileDetailL.add(detail);
 					}
 				}
 			}
 			if (!listFileDetailL.isEmpty()) {
 				this.setListFileDetail(listFileDetailL);
+				this.listFileDetailFiltered = listFileDetailL;
 			}
 		}
 	}
-	
-	
-	private static String getfileSizeMegaBytes( File file) {
-		return (double) file.length() / (1024 * 1024) + " mb ";
+
+//	private static String getfileSizeMegaBytes(File file) {
+//		return (double) file.length() / (1024 * 1024) + " mb ";
+//	}
+
+	private static String getfileSizeKiloBytess(File file) {
+		return (double) file.length() / (1024) + " kb ";
 	}
 
-	
-	private static String getfileSizeKiloBytess( File file) {
-		return (double) file.length() / ( 1024) + " kb ";
+//	private static String getfileSizeBytes(File file) {
+//		return (double) file.length() + " bytes ";
+//	}
+
+	public List<FileDetail> getListFileDetailFiltered() {
+		return listFileDetailFiltered;
 	}
-	
-	private static String getfileSizeBytes( File file) {
-		return (double) file.length()  + " bytes ";
+
+	public void setListFileDetailFiltered(List<FileDetail> listFileDetailFiltered) {
+		this.listFileDetailFiltered = listFileDetailFiltered;
 	}
 }

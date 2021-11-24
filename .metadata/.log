@@ -1,4 +1,4 @@
-!SESSION 2019-07-15 10:45:01.012 -----------------------------------------------
+!SESSION 2021-11-24 10:47:46.394 -----------------------------------------------
 eclipse.buildId=3.9.3.201803200915-RELEASE-e47
 java.version=1.8.0_171
 java.vendor=Oracle Corporation
@@ -7,9 +7,9 @@ Framework arguments:  -product org.springsource.sts.ide
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide
 
 This is a continuation of log file D:\workspaces\dummyTest\.metadata\.bak_0.log
-Created Time: 2019-07-15 10:46:22.065
+Created Time: 2021-11-24 10:49:20.252
 
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.067
+!ENTRY oracle.eclipse.tools.common.services 4 4 2021-11-24 10:49:20.269
 !MESSAGE Project facet oracle.adf.web has not been defined.
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -27,7 +27,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.071
+!ENTRY oracle.eclipse.tools.common.services 4 2 2021-11-24 10:49:20.347
 !MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -45,7 +45,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.073
+!ENTRY oracle.eclipse.tools.common.services 4 4 2021-11-24 10:49:20.348
 !MESSAGE Project facet oracle.adf.web has not been defined.
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -63,7 +63,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.076
+!ENTRY oracle.eclipse.tools.common.services 4 2 2021-11-24 10:49:20.352
 !MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -81,7 +81,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.078
+!ENTRY oracle.eclipse.tools.common.services 4 4 2021-11-24 10:49:20.354
 !MESSAGE Project facet oracle.adf.web has not been defined.
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -99,7 +99,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.138
+!ENTRY oracle.eclipse.tools.common.services 4 2 2021-11-24 10:49:20.357
 !MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -117,7 +117,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.140
+!ENTRY oracle.eclipse.tools.common.services 4 4 2021-11-24 10:49:20.358
 !MESSAGE Project facet oracle.adf.web has not been defined.
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -135,7 +135,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.145
+!ENTRY oracle.eclipse.tools.common.services 4 2 2021-11-24 10:49:20.368
 !MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -153,7 +153,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.147
+!ENTRY oracle.eclipse.tools.common.services 4 4 2021-11-24 10:49:20.369
 !MESSAGE Project facet oracle.adf.web has not been defined.
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -171,7 +171,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.150
+!ENTRY oracle.eclipse.tools.common.services 4 2 2021-11-24 10:49:20.371
 !MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -189,7 +189,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.152
+!ENTRY oracle.eclipse.tools.common.services 4 4 2021-11-24 10:49:20.373
 !MESSAGE Project facet oracle.adf.web has not been defined.
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -207,7 +207,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.161
+!ENTRY oracle.eclipse.tools.common.services 4 2 2021-11-24 10:49:20.376
 !MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -225,7 +225,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.163
+!ENTRY oracle.eclipse.tools.common.services 4 4 2021-11-24 10:49:20.377
 !MESSAGE Project facet oracle.adf.web has not been defined.
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -243,7 +243,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.168
+!ENTRY oracle.eclipse.tools.common.services 4 2 2021-11-24 10:49:20.379
 !MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -261,7 +261,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.170
+!ENTRY oracle.eclipse.tools.common.services 4 4 2021-11-24 10:49:20.381
 !MESSAGE Project facet oracle.adf.web has not been defined.
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -279,7 +279,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.174
+!ENTRY oracle.eclipse.tools.common.services 4 2 2021-11-24 10:49:20.383
 !MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -297,7 +297,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.176
+!ENTRY oracle.eclipse.tools.common.services 4 4 2021-11-24 10:49:20.385
 !MESSAGE Project facet oracle.adf.web has not been defined.
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -315,7 +315,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.181
+!ENTRY oracle.eclipse.tools.common.services 4 2 2021-11-24 10:49:20.388
 !MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -333,7 +333,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.185
+!ENTRY oracle.eclipse.tools.common.services 4 4 2021-11-24 10:49:20.389
 !MESSAGE Project facet oracle.adf.web has not been defined.
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -351,7 +351,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.189
+!ENTRY oracle.eclipse.tools.common.services 4 2 2021-11-24 10:49:20.393
 !MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -369,7 +369,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.191
+!ENTRY oracle.eclipse.tools.common.services 4 4 2021-11-24 10:49:20.395
 !MESSAGE Project facet oracle.adf.web has not been defined.
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -387,7 +387,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.194
+!ENTRY oracle.eclipse.tools.common.services 4 2 2021-11-24 10:49:20.397
 !MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -405,7 +405,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.198
+!ENTRY oracle.eclipse.tools.common.services 4 4 2021-11-24 10:49:20.398
 !MESSAGE Project facet oracle.adf.web has not been defined.
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -423,7 +423,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.234
+!ENTRY oracle.eclipse.tools.common.services 4 2 2021-11-24 10:49:20.401
 !MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -441,7 +441,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.236
+!ENTRY oracle.eclipse.tools.common.services 4 4 2021-11-24 10:49:20.402
 !MESSAGE Project facet oracle.adf.web has not been defined.
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -459,7 +459,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.239
+!ENTRY oracle.eclipse.tools.common.services 4 2 2021-11-24 10:49:20.405
 !MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -477,7 +477,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.242
+!ENTRY oracle.eclipse.tools.common.services 4 4 2021-11-24 10:49:20.407
 !MESSAGE Project facet oracle.adf.web has not been defined.
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -495,7 +495,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.248
+!ENTRY oracle.eclipse.tools.common.services 4 2 2021-11-24 10:49:20.409
 !MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -513,7 +513,7 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.251
+!ENTRY oracle.eclipse.tools.common.services 4 4 2021-11-24 10:49:20.410
 !MESSAGE Project facet oracle.adf.web has not been defined.
 !STACK 0
 java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
@@ -531,998 +531,15 @@ java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been de
 	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.278
-!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2021-11-24 10:50:13.000
+!MESSAGE Connection to https://spring.io/blog.atom failed on Connection reset. Retry attempt 0 started
 !STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.282
-!MESSAGE Project facet oracle.adf.web has not been defined.
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.287
-!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.289
-!MESSAGE Project facet oracle.adf.web has not been defined.
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.292
-!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.297
-!MESSAGE Project facet oracle.adf.web has not been defined.
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.307
-!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.309
-!MESSAGE Project facet oracle.adf.web has not been defined.
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.315
-!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.320
-!MESSAGE Project facet oracle.adf.web has not been defined.
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.325
-!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.334
-!MESSAGE Project facet oracle.adf.web has not been defined.
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.337
-!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.339
-!MESSAGE Project facet oracle.adf.web has not been defined.
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.347
-!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.349
-!MESSAGE Project facet oracle.adf.web has not been defined.
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.353
-!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.355
-!MESSAGE Project facet oracle.adf.web has not been defined.
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.362
-!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.364
-!MESSAGE Project facet oracle.adf.web has not been defined.
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.377
-!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.381
-!MESSAGE Project facet oracle.adf.web has not been defined.
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.385
-!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.387
-!MESSAGE Project facet oracle.adf.web has not been defined.
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.390
-!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.392
-!MESSAGE Project facet oracle.adf.web has not been defined.
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.397
-!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.399
-!MESSAGE Project facet oracle.adf.web has not been defined.
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.408
-!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.410
-!MESSAGE Project facet oracle.adf.web has not been defined.
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.414
-!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.416
-!MESSAGE Project facet oracle.adf.web has not been defined.
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.419
-!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.420
-!MESSAGE Project facet oracle.adf.web has not been defined.
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.424
-!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.426
-!MESSAGE Project facet oracle.adf.web has not been defined.
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.430
-!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.432
-!MESSAGE Project facet oracle.adf.web has not been defined.
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.435
-!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.440
-!MESSAGE Project facet oracle.adf.web has not been defined.
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.444
-!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.446
-!MESSAGE Project facet oracle.adf.web has not been defined.
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.450
-!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.452
-!MESSAGE Project facet oracle.adf.web has not been defined.
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.456
-!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.458
-!MESSAGE Project facet oracle.adf.web has not been defined.
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.462
-!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.464
-!MESSAGE Project facet oracle.adf.web has not been defined.
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 2 2019-07-15 10:46:22.468
-!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY oracle.eclipse.tools.common.services 4 4 2019-07-15 10:46:22.469
-!MESSAGE Project facet oracle.adf.web has not been defined.
-!STACK 0
-java.lang.IllegalArgumentException: Project facet oracle.adf.web has not been defined.
-	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectFrameworkImpl.getProjectFacet(FacetedProjectFrameworkImpl.java:234)
-	at org.eclipse.wst.common.project.facet.core.ProjectFacetsManager.getProjectFacet(ProjectFacetsManager.java:75)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.isCollectionCandidate(AnnotatedObjectsCollectionParticipant.java:120)
-	at oracle.eclipse.tools.webtier.jsf.dependency.collection.AnnotatedObjectsCollectionParticipant.collect(AnnotatedObjectsCollectionParticipant.java:68)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
-	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
-	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY com.ibm.ws.jaxrs.core 4 0 2019-07-15 10:46:23.071
-!MESSAGE package-info [in package-info.java [in com.grupobancolombia.ents.soi.coreextensions.v2 [in src [in DummyFuentesExternas]]]] does not exist
-!STACK 1
-Java Model Exception: Java Model Status [package-info [in package-info.java [in com.grupobancolombia.ents.soi.coreextensions.v2 [in src [in DummyFuentesExternas]]]] does not exist]
-	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
-	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:594)
-	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
-	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
-	at org.eclipse.jdt.internal.core.SourceType.isInterface(SourceType.java:608)
-	at com.ibm.ws.jaxrs.finder.AbstractSourceFinder.resourceChanged(AbstractSourceFinder.java:299)
-	at com.ibm.ccl.ws.internal.finder.core.notifier.impl.NotifyResourceChangedJob.run(NotifyResourceChangedJob.java:66)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-!SUBENTRY 1 org.eclipse.jdt.core 4 969 2019-07-15 10:46:23.072
-!MESSAGE package-info [in package-info.java [in com.grupobancolombia.ents.soi.coreextensions.v2 [in src [in DummyFuentesExternas]]]] does not exist
-
-!ENTRY com.ibm.ws.jaxrs.core 4 0 2019-07-15 10:46:23.470
-!MESSAGE package-info [in package-info.java [in com.grupobancolombia.ents.soi.messageformat.v2 [in src [in DummyFuentesExternas]]]] does not exist
-!STACK 1
-Java Model Exception: Java Model Status [package-info [in package-info.java [in com.grupobancolombia.ents.soi.messageformat.v2 [in src [in DummyFuentesExternas]]]] does not exist]
-	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
-	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:594)
-	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
-	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
-	at org.eclipse.jdt.internal.core.SourceType.isInterface(SourceType.java:608)
-	at com.ibm.ws.jaxrs.finder.AbstractSourceFinder.resourceChanged(AbstractSourceFinder.java:299)
-	at com.ibm.ccl.ws.internal.finder.core.notifier.impl.NotifyResourceChangedJob.run(NotifyResourceChangedJob.java:66)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-!SUBENTRY 1 org.eclipse.jdt.core 4 969 2019-07-15 10:46:23.471
-!MESSAGE package-info [in package-info.java [in com.grupobancolombia.ents.soi.messageformat.v2 [in src [in DummyFuentesExternas]]]] does not exist
-
-!ENTRY com.ibm.ws.jaxrs.core 4 0 2019-07-15 10:46:24.344
-!MESSAGE package-info [in package-info.java [in com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1 [in src [in DummyFuentesExternas]]]] does not exist
-!STACK 1
-Java Model Exception: Java Model Status [package-info [in package-info.java [in com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1 [in src [in DummyFuentesExternas]]]] does not exist]
-	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
-	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:594)
-	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
-	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
-	at org.eclipse.jdt.internal.core.SourceType.isInterface(SourceType.java:608)
-	at com.ibm.ws.jaxrs.finder.AbstractSourceFinder.resourceChanged(AbstractSourceFinder.java:299)
-	at com.ibm.ccl.ws.internal.finder.core.notifier.impl.NotifyResourceChangedJob.run(NotifyResourceChangedJob.java:66)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-!SUBENTRY 1 org.eclipse.jdt.core 4 969 2019-07-15 10:46:24.345
-!MESSAGE package-info [in package-info.java [in com.grupobancolombia.intf.cliente.gestionriesgo.consultafuentespublicasexternas.v1 [in src [in DummyFuentesExternas]]]] does not exist
-
-!ENTRY org.eclipse.core.resources 4 568 2019-07-15 10:51:13.068
-!MESSAGE Could not write metadata for '/.gscStore'.
-!STACK 0
-java.io.FileNotFoundException: D:\workspaces\dummyTest\.metadata\.plugins\org.eclipse.core.resources\.projects\.gscStore\.markers.snap (El sistema no puede encontrar la ruta especificada)
-	at java.io.FileOutputStream.open0(Native Method)
-	at java.io.FileOutputStream.open(FileOutputStream.java:270)
-	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
-	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
-	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
-	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
-	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
-	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
-	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
-	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
-	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY org.eclipse.core.resources 4 568 2019-07-15 10:57:00.656
-!MESSAGE Could not write metadata for '/.gscStore'.
-!STACK 0
-java.io.FileNotFoundException: D:\workspaces\dummyTest\.metadata\.plugins\org.eclipse.core.resources\.projects\.gscStore\.markers.snap (El sistema no puede encontrar la ruta especificada)
-	at java.io.FileOutputStream.open0(Native Method)
-	at java.io.FileOutputStream.open(FileOutputStream.java:270)
-	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
-	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
-	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
-	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
-	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
-	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
-	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
-	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
-	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-07-15 11:09:30.675
-!MESSAGE Connection to http://www.pramati.com/downloads/eclipse/updates/p2.index failed on sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target. Retry attempt 0 started
-!STACK 0
-javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
-	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1964)
-	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:328)
-	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:322)
-	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1614)
-	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216)
-	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1052)
-	at sun.security.ssl.Handshaker.process_record(Handshaker.java:987)
-	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072)
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:983)
 	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
 	at sun.security.ssl.SSLSocketImpl.writeRecord(SSLSocketImpl.java:757)
 	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:123)
@@ -1542,584 +559,3 @@ javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: 
 	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
 	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:397)
-	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:302)
-	at sun.security.validator.Validator.validate(Validator.java:260)
-	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:324)
-	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:229)
-	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
-	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1596)
-	... 23 more
-Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141)
-	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:126)
-	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:280)
-	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:392)
-	... 29 more
-
-!ENTRY org.eclipse.equinox.p2.repository 2 0 2019-07-15 11:09:31.978
-!MESSAGE Server returned lastModified <= 0 for http://www.pramati.com/downloads/eclipse/updates/content.jar
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2019-07-15 11:09:32.085
-!MESSAGE Unable to read repository at http://www.pramati.com/downloads/eclipse/updates/.
-!STACK 0
-java.io.IOException: http://www.pramati.com/downloads/eclipse/updates/ is not a valid repository location.
-	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:102)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
-	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
-
-!ENTRY org.eclipse.equinox.p2.repository 2 0 2019-07-15 11:09:57.215
-!MESSAGE Server returned lastModified <= 0 for http://download.eclipse.org/oomph/uss/updates/latest/compositeContent.jar
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2019-07-15 11:09:57.431
-!MESSAGE Unable to read repository at http://download.eclipse.org/oomph/uss/updates/latest.
-!STACK 0
-java.io.IOException: http://download.eclipse.org/oomph/uss/updates/latest is not a valid repository location.
-	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:112)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
-	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
-	at sun.reflect.GeneratedMethodAccessor66.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
-
-!ENTRY org.eclipse.equinox.p2.repository 2 0 2019-07-15 11:09:57.533
-!MESSAGE Server returned lastModified <= 0 for http://download.springsource.com/release/TOOLS/update/e4.7/compositeContent.jar
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2019-07-15 11:09:57.755
-!MESSAGE Unable to read repository at http://download.springsource.com/release/TOOLS/update/e4.7.
-!STACK 0
-java.io.IOException: http://download.springsource.com/release/TOOLS/update/e4.7 is not a valid repository location.
-	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:112)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
-	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
-	at sun.reflect.GeneratedMethodAccessor66.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
-
-!ENTRY org.eclipse.equinox.p2.repository 2 0 2019-07-15 11:09:57.904
-!MESSAGE Server returned lastModified <= 0 for http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/libertyAdapter/oxygen/content.jar
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2019-07-15 11:09:58.139
-!MESSAGE Unable to read repository at http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/libertyAdapter/oxygen/.
-!STACK 0
-java.io.IOException: http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/libertyAdapter/oxygen/ is not a valid repository location.
-	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:102)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
-	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
-	at sun.reflect.GeneratedMethodAccessor66.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
-
-!ENTRY org.eclipse.equinox.p2.repository 2 0 2019-07-15 11:09:58.790
-!MESSAGE Server returned lastModified <= 0 for http://download.jboss.org/jbosstools/updates/webtools/oxygen/compositeContent.jar
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2019-07-15 11:09:59.017
-!MESSAGE Unable to read repository at http://download.jboss.org/jbosstools/updates/webtools/oxygen/.
-!STACK 0
-java.io.IOException: http://download.jboss.org/jbosstools/updates/webtools/oxygen/ is not a valid repository location.
-	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:112)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
-	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
-	at sun.reflect.GeneratedMethodAccessor66.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
-
-!ENTRY org.eclipse.equinox.p2.repository 2 0 2019-07-15 11:10:02.827
-!MESSAGE Server returned lastModified <= 0 for http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/bluemixAdapter/oxygen/compositeContent.jar
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2019-07-15 11:10:03.023
-!MESSAGE Unable to read repository at http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/bluemixAdapter/oxygen/.
-!STACK 0
-java.io.IOException: http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/bluemixAdapter/oxygen/ is not a valid repository location.
-	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:112)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
-	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
-	at sun.reflect.GeneratedMethodAccessor66.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-07-15 11:10:03.128
-!MESSAGE No repository found at jar:file:/D:/Users/jocastro/Downloads/buildship-master.zip!/.
-
-!ENTRY org.eclipse.equinox.p2.repository 2 0 2019-07-15 11:10:03.834
-!MESSAGE Server returned lastModified <= 0 for http://download.eclipse.org/recommenders/updates/stable/content.xml.xz
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2019-07-15 11:10:04.042
-!MESSAGE Unable to read repository at http://download.eclipse.org/recommenders/updates/stable/.
-!STACK 0
-org.tukaani.xz.XZFormatException: Input is not in the XZ format
-	at org.tukaani.xz.common.DecoderUtil.decodeStreamHeader(Unknown Source)
-	at org.tukaani.xz.SingleXZInputStream.initialize(Unknown Source)
-	at org.tukaani.xz.SingleXZInputStream.initialize(Unknown Source)
-	at org.tukaani.xz.SingleXZInputStream.<init>(Unknown Source)
-	at org.tukaani.xz.XZInputStream.<init>(Unknown Source)
-	at org.tukaani.xz.XZInputStream.<init>(Unknown Source)
-	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:80)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
-	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
-	at sun.reflect.GeneratedMethodAccessor66.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
-
-!ENTRY org.eclipse.equinox.p2.repository 2 0 2019-07-15 11:10:04.372
-!MESSAGE Server returned lastModified <= 0 for http://fabioz.github.com/startexplorer/update/content.jar
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2019-07-15 11:10:04.564
-!MESSAGE Unable to read repository at http://fabioz.github.com/startexplorer/update/.
-!STACK 0
-java.io.IOException: http://fabioz.github.com/startexplorer/update/ is not a valid repository location.
-	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:102)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
-	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
-	at sun.reflect.GeneratedMethodAccessor66.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
-
-!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2019-07-15 11:10:27.226
-!MESSAGE HTTP Server 'Gateway Timeout': http://www.nodeclipse.org/updates/compositeContent.xml
-!STACK 1
-org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 504.
-	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:293)
-	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2019-07-15 11:10:27.227
-!MESSAGE HttpComponents connection error response code 504.
-
-!ENTRY org.eclipse.equinox.p2.repository 2 0 2019-07-15 11:10:28.007
-!MESSAGE Server returned lastModified <= 0 for http://download.springsource.com/release/TOOLS/sts4-language-servers/compositeContent.jar
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2019-07-15 11:10:28.289
-!MESSAGE Unable to read repository at http://download.springsource.com/release/TOOLS/sts4-language-servers.
-!STACK 0
-java.io.IOException: http://download.springsource.com/release/TOOLS/sts4-language-servers is not a valid repository location.
-	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:112)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
-	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
-	at sun.reflect.GeneratedMethodAccessor66.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-07-15 11:10:28.350
-!MESSAGE No repository found at jar:file:/D:/Users/jocastro/Downloads/egradle-master.zip!/.
-
-!ENTRY org.eclipse.equinox.p2.repository 2 0 2019-07-15 11:10:28.546
-!MESSAGE Server returned lastModified <= 0 for http://download.eclipse.org/jetty/updates/jetty-wtp/compositeContent.jar
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2019-07-15 11:10:28.797
-!MESSAGE Unable to read repository at http://download.eclipse.org/jetty/updates/jetty-wtp/.
-!STACK 0
-java.io.IOException: http://download.eclipse.org/jetty/updates/jetty-wtp/ is not a valid repository location.
-	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:112)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
-	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
-	at sun.reflect.GeneratedMethodAccessor66.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
-
-!ENTRY org.eclipse.equinox.p2.repository 2 0 2019-07-15 11:10:28.873
-!MESSAGE Server returned lastModified <= 0 for http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/wdt/oxygen_comp/compositeContent.jar
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2019-07-15 11:10:29.071
-!MESSAGE Unable to read repository at http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/wdt/oxygen_comp/.
-!STACK 0
-java.io.IOException: http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/wdt/oxygen_comp/ is not a valid repository location.
-	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:112)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
-	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
-	at sun.reflect.GeneratedMethodAccessor66.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
-
-!ENTRY org.eclipse.equinox.p2.repository 2 0 2019-07-15 11:10:29.340
-!MESSAGE Server returned lastModified <= 0 for http://download.eclipse.org/e4/snapshots/org.eclipse.e4.ui/content.xml.xz
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2019-07-15 11:10:29.531
-!MESSAGE Unable to read repository at http://download.eclipse.org/e4/snapshots/org.eclipse.e4.ui.
-!STACK 0
-org.tukaani.xz.XZFormatException: Input is not in the XZ format
-	at org.tukaani.xz.common.DecoderUtil.decodeStreamHeader(Unknown Source)
-	at org.tukaani.xz.SingleXZInputStream.initialize(Unknown Source)
-	at org.tukaani.xz.SingleXZInputStream.initialize(Unknown Source)
-	at org.tukaani.xz.SingleXZInputStream.<init>(Unknown Source)
-	at org.tukaani.xz.XZInputStream.<init>(Unknown Source)
-	at org.tukaani.xz.XZInputStream.<init>(Unknown Source)
-	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:80)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
-	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
-	at sun.reflect.GeneratedMethodAccessor66.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
-
-!ENTRY org.eclipse.equinox.p2.repository 2 0 2019-07-15 11:10:29.594
-!MESSAGE Server returned lastModified <= 0 for http://download.eclipse.org/usssdk/updates/compositeContent.jar
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2019-07-15 11:10:29.773
-!MESSAGE Unable to read repository at http://download.eclipse.org/usssdk/updates.
-!STACK 0
-java.io.IOException: http://download.eclipse.org/usssdk/updates is not a valid repository location.
-	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:112)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
-	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
-	at sun.reflect.GeneratedMethodAccessor66.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
-
-!ENTRY org.eclipse.equinox.p2.repository 2 0 2019-07-15 11:10:31.047
-!MESSAGE Server returned lastModified <= 0 for http://www.apache.org/dist/geronimo/eclipse/updates/content.jar
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2019-07-15 11:10:31.309
-!MESSAGE Unable to read repository at http://www.apache.org/dist/geronimo/eclipse/updates/.
-!STACK 0
-java.io.IOException: http://www.apache.org/dist/geronimo/eclipse/updates/ is not a valid repository location.
-	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:102)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
-	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
-	at sun.reflect.GeneratedMethodAccessor66.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
-
-!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2019-07-15 11:10:31.799
-!MESSAGE Unable to read repository at https://nodeclipse.github.io/updates/compositeContent.xml.
-!STACK 0
-javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
-	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1964)
-	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:328)
-	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:322)
-	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1614)
-	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216)
-	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1052)
-	at sun.security.ssl.Handshaker.process_record(Handshaker.java:987)
-	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072)
-	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
-	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413)
-	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397)
-	at org.apache.http.conn.ssl.SSLSocketFactory.createLayeredSocket(SSLSocketFactory.java:573)
-	at org.apache.http.conn.ssl.SSLSocketFactory.createLayeredSocket(SSLSocketFactory.java:447)
-	at org.apache.http.impl.conn.DefaultClientConnectionOperator.updateSecureConnection(DefaultClientConnectionOperator.java:219)
-	at org.apache.http.impl.conn.ManagedClientConnectionImpl.layerProtocol(ManagedClientConnectionImpl.java:421)
-	at org.apache.http.impl.client.DefaultRequestDirector.establishRoute(DefaultRequestDirector.java:815)
-	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:616)
-	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
-	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
-	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
-	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:397)
-	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:302)
-	at sun.security.validator.Validator.validate(Validator.java:260)
-	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:324)
-	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:229)
-	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
-	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1596)
-	... 19 more
-Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141)
-	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:126)
-	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:280)
-	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:392)
-	... 25 more
-
-!ENTRY org.eclipse.equinox.p2.repository 2 0 2019-07-15 11:10:31.866
-!MESSAGE Server returned lastModified <= 0 for http://download.eclipse.org/releases/oxygen/compositeContent.jar
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2019-07-15 11:10:32.063
-!MESSAGE Unable to read repository at http://download.eclipse.org/releases/oxygen.
-!STACK 0
-java.io.IOException: http://download.eclipse.org/releases/oxygen is not a valid repository location.
-	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:112)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
-	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
-	at sun.reflect.GeneratedMethodAccessor66.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
-
-!ENTRY org.eclipse.equinox.p2.repository 2 0 2019-07-15 11:10:32.157
-!MESSAGE Server returned lastModified <= 0 for http://quick-junit.sourceforge.jp/updates/current/content.jar
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2019-07-15 11:10:32.337
-!MESSAGE Unable to read repository at http://quick-junit.sourceforge.jp/updates/current/.
-!STACK 0
-java.io.IOException: http://quick-junit.sourceforge.jp/updates/current/ is not a valid repository location.
-	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:102)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
-	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
-	at sun.reflect.GeneratedMethodAccessor66.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
-
-!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-07-15 11:10:33.689
-!MESSAGE Connection to http://www.junitloop.org/update/p2.index failed on sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target. Retry attempt 0 started
-!STACK 0
-javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
-	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1964)
-	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:328)
-	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:322)
-	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1614)
-	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216)
-	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1052)
-	at sun.security.ssl.Handshaker.process_record(Handshaker.java:987)
-	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072)
-	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
-	at sun.security.ssl.SSLSocketImpl.writeRecord(SSLSocketImpl.java:757)
-	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:123)
-	at org.apache.http.impl.io.AbstractSessionOutputBuffer.flushBuffer(AbstractSessionOutputBuffer.java:157)
-	at org.apache.http.impl.io.AbstractSessionOutputBuffer.flush(AbstractSessionOutputBuffer.java:164)
-	at org.apache.http.impl.AbstractHttpClientConnection.doFlush(AbstractHttpClientConnection.java:270)
-	at org.apache.http.impl.AbstractHttpClientConnection.flush(AbstractHttpClientConnection.java:275)
-	at org.apache.http.impl.conn.AbstractClientConnAdapter.flush(AbstractClientConnAdapter.java:207)
-	at org.apache.http.protocol.HttpRequestExecutor.doSendRequest(HttpRequestExecutor.java:241)
-	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
-	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:686)
-	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:488)
-	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
-	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
-	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
-	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
-	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:397)
-	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:302)
-	at sun.security.validator.Validator.validate(Validator.java:260)
-	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:324)
-	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:229)
-	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
-	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1596)
-	... 23 more
-Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141)
-	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:126)
-	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:280)
-	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:392)
-	... 29 more
-
-!ENTRY org.eclipse.equinox.p2.repository 2 0 2019-07-15 11:10:34.843
-!MESSAGE Server returned lastModified <= 0 for http://www.junitloop.org/update/content.jar
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2019-07-15 11:10:35.044
-!MESSAGE Unable to read repository at http://www.junitloop.org/update.
-!STACK 0
-java.io.IOException: http://www.junitloop.org/update is not a valid repository location.
-	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:102)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
-	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
-	at sun.reflect.GeneratedMethodAccessor66.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
-
-!ENTRY org.eclipse.equinox.p2.repository 2 0 2019-07-15 11:10:43.754
-!MESSAGE Server returned lastModified <= 0 for http://www.caucho.com/eclipse/content.jar
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2019-07-15 11:10:43.934
-!MESSAGE Unable to read repository at http://www.caucho.com/eclipse/.
-!STACK 0
-java.io.IOException: http://www.caucho.com/eclipse/ is not a valid repository location.
-	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:102)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
-	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
-	at sun.reflect.GeneratedMethodAccessor66.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
-
-!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2019-07-15 11:11:06.821
-!MESSAGE HTTP Server 'Gateway Timeout': http://www.nodeclipse.org/updates/gradle-ide-pack/compositeContent.xml
-!STACK 1
-org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 504.
-	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:293)
-	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2019-07-15 11:11:06.822
-!MESSAGE HttpComponents connection error response code 504.
-
-!ENTRY org.eclipse.ui.ide 4 4 2019-07-15 11:25:53.627
-!MESSAGE Problems saving workspace
-
-!ENTRY org.eclipse.ui.ide 4 1 2019-07-15 11:25:53.631
-!MESSAGE Problems occurred while trying to save the state of the workbench.
-!SUBENTRY 1 org.eclipse.core.resources 4 568 2019-07-15 11:25:53.631
-!MESSAGE Could not write metadata for '/.gscStore'.
-!STACK 0
-java.io.FileNotFoundException: D:\workspaces\dummyTest\.metadata\.plugins\org.eclipse.core.resources\.projects\.gscStore\.markers (El sistema no puede encontrar la ruta especificada)
-	at java.io.FileOutputStream.open0(Native Method)
-	at java.io.FileOutputStream.open(FileOutputStream.java:270)
-	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
-	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
-	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
-	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1657)
-	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1739)
-	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1199)
-	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2283)
-	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:526)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)

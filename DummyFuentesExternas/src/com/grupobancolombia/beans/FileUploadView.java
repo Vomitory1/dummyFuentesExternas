@@ -114,5 +114,12 @@ public class FileUploadView {
 			FacesContext.getCurrentInstance().addMessage(null, message);
 		}
 	}
+	
+	
+	public void onPathChange(String path) {
+		if (path != null && !path.equals("")) {
+			this.urlPath = path;
+		}
+	}
 
 }
