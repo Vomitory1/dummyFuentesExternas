@@ -16,6 +16,8 @@
 ### Eclipse ###
 
 .metadata
+.metadata/*
+.plugins
 bin/
 tmp/
 *.tmp
